@@ -5,12 +5,8 @@ Este repositorio contiene una colección de materiales teóricos y prácticos pa
 ## 📚 Contenido del repositorio
 
 ### **Teoría**
-1. Introducción a Pandas
-   - ¿Qué es Pandas?
-   - Instalación y configuración.
-2. Estructuras de datos principales:
-   - **Series**: Definición y operaciones básicas.
-   - **DataFrame**: Creación, manipulación y propiedades.
+1.   **Series**: Definición y operaciones básicas.
+2.   **DataFrame**: Creación, manipulación y propiedades.
 3. Operaciones comunes:
    - Indexación y selección de datos.
    - Filtrado y limpieza de datos.
