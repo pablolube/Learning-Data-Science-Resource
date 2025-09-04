@@ -1,0 +1,1001 @@
+ID_Producto,Producto,Categoria,Ventas,Cantidad Vendida,Precio Unitario,Fecha de Venta,Fecha de Envio,Cliente,Ciudad,MetodoPAgo
+1,Guantes,Ropa,3840,60,64,23/09/2023,01/10/2023,Ricardo,Sevilla,Efectivo
+2,Chaqueta,Accesorios,2714,59,46,14/03/2023,23/03/2023,Maria,Valencia,Efectivo
+3,Mochila,Bolsos,2145,33,65,18/12/2023,22/12/2023,Maria,Barcelona,Efectivo
+4,Sombrero,Bolsos,3724,19,196,17/02/2023,26/02/2023,Ricardo,Valencia,Tarjeta de Credito
+5,Guantes,Accesorios,3108,28,111,22/11/2023,26/11/2023,Carlos,Barcelona,Tarjeta de Credito
+6,Socks,Bolsos,5304,52,102,21/08/2023,30/08/2023,Juan,Sevilla,Efectivo
+7,Zapatos,Bolsos,4018,49,82,10/04/2023,17/04/2023,Marta,Valencia,Tarjeta de Credito
+8,Guantes,Bolsos,2516,37,68,28/02/2023,02/03/2023,Luis,Valencia,Tarjeta de Credito
+9,Mochila,Bolsos,286,26,11,15/09/2023,24/09/2023,Laura,Madrid,Tarjeta de Credito
+10,Sombrero,Bolsos,11187,99,113,06/03/2023,10/03/2023,Sofia,Sevilla,Tarjeta de Credito
+11,Chaqueta,Ropa,19306,98,197,24/03/2023,01/04/2023,Laura,Barcelona,Tarjeta de Credito
+12,Mochila,Bolsos,5940,99,60,03/06/2023,10/06/2023,Sofia,Valencia,Tarjeta de Credito
+13,Mochila,Ropa,1560,40,39,23/09/2023,30/09/2023,Carlos,Valencia,Tarjeta de Credito
+14,Zapatos,Bolsos,1600,80,20,05/11/2023,13/11/2023,Sofia,Barcelona,Efectivo
+15,Bufanda,Accesorios,4446,38,117,20/03/2023,21/03/2023,Maria,Sevilla,Tarjeta de Credito
+16,Sombrero,Calzado,6545,77,85,11/11/2023,16/11/2023,Marta,Madrid,Tarjeta de Credito
+17,Pantalón,Ropa,15312,87,176,30/05/2023,01/06/2023,Marta,Madrid,Tarjeta de Credito
+18,Mochila,Bolsos,5346,54,99,17/02/2023,19/02/2023,Maria,Valencia,Tarjeta de Credito
+19,Bufanda,Accesorios,2904,22,132,05/09/2023,06/09/2023,Ana,Barcelona,Tarjeta de Credito
+20,Pantalón,Calzado,3200,16,200,05/10/2023,10/10/2023,Carlos,Valencia,Tarjeta de Credito
+21,Sombrero,Ropa,5544,28,198,22/12/2023,24/12/2023,Ana,Barcelona,Tarjeta de Credito
+22,Camiseta,Calzado,4690,35,134,08/04/2023,12/04/2023,Ana,Madrid,Tarjeta de Credito
+23,Socks,Accesorios,11460,60,191,25/01/2023,28/01/2023,Laura,Sevilla,Efectivo
+24,Bufanda,Ropa,5895,45,131,11/10/2023,14/10/2023,Ricardo,Barcelona,Tarjeta de Credito
+25,Bota,Calzado,4738,46,103,28/10/2023,30/10/2023,Laura,Madrid,Tarjeta de Credito
+26,Camiseta,Bolsos,8064,72,112,09/03/2023,15/03/2023,Ricardo,Valencia,Tarjeta de Credito
+27,Socks,Ropa,10725,55,195,07/01/2023,09/01/2023,Luis,Barcelona,Tarjeta de Credito
+28,Zapatos,Calzado,16598,86,193,01/11/2023,09/11/2023,Sofia,Sevilla,Efectivo
+29,Guantes,Accesorios,14535,85,171,17/05/2023,25/05/2023,Ricardo,Valencia,Efectivo
+30,Chaqueta,Accesorios,1040,26,40,13/06/2023,18/06/2023,Maria,Valencia,Efectivo
+31,Bota,Ropa,5185,85,61,24/03/2023,31/03/2023,Laura,Madrid,Efectivo
+32,Zapatos,Calzado,2450,25,98,18/05/2023,22/05/2023,Carlos,Barcelona,Efectivo
+33,Sombrero,Ropa,5525,65,85,14/03/2023,15/03/2023,Sofia,Valencia,Efectivo
+34,Zapatos,Ropa,828,6,138,25/08/2023,27/08/2023,Luis,Sevilla,Efectivo
+35,Guantes,Calzado,4416,23,192,15/02/2023,19/02/2023,Ricardo,Barcelona,Efectivo
+36,Sombrero,Calzado,1984,64,31,16/04/2023,17/04/2023,Luis,Sevilla,Efectivo
+37,Bota,Bolsos,4263,87,49,15/10/2023,23/10/2023,Carlos,Valencia,Efectivo
+38,Guantes,Calzado,4730,43,110,19/09/2023,28/09/2023,Ana,Sevilla,Efectivo
+39,Pantalón,Accesorios,2760,23,120,25/06/2023,29/06/2023,Marta,Madrid,Efectivo
+40,Chaqueta,Ropa,13248,96,138,15/06/2023,18/06/2023,Carlos,Sevilla,Efectivo
+41,Bota,Ropa,2220,30,74,25/05/2023,27/05/2023,Pedro,Barcelona,Efectivo
+42,Pantalón,Accesorios,15400,77,200,26/11/2023,01/12/2023,Carlos,Sevilla,Efectivo
+43,Socks,Calzado,3438,18,191,10/10/2023,13/10/2023,Luis,Sevilla,Efectivo
+44,Bota,Accesorios,15573,87,179,23/02/2023,02/03/2023,Maria,Madrid,Tarjeta de Credito
+45,Socks,Accesorios,12482,79,158,27/06/2023,03/07/2023,Laura,Sevilla,Efectivo
+46,Sombrero,Bolsos,8536,97,88,01/09/2023,02/09/2023,Maria,Sevilla,Tarjeta de Credito
+47,Pantalón,Accesorios,651,21,31,07/12/2023,15/12/2023,Luis,Valencia,Efectivo
+48,Chaqueta,Ropa,9975,57,175,07/05/2023,09/05/2023,Laura,Valencia,Efectivo
+49,Guantes,Accesorios,2484,23,108,28/09/2023,03/10/2023,Pedro,Barcelona,Tarjeta de Credito
+50,Mochila,Ropa,1547,91,17,12/05/2023,21/05/2023,Marta,Valencia,Efectivo
+51,Zapatos,Ropa,8955,45,199,03/04/2023,11/04/2023,Sofia,Valencia,Tarjeta de Credito
+52,Camiseta,Ropa,8096,44,184,14/03/2023,16/03/2023,Luis,Valencia,Tarjeta de Credito
+53,Chaqueta,Calzado,2132,82,26,05/09/2023,14/09/2023,Ricardo,Valencia,Tarjeta de Credito
+54,Pantalón,Bolsos,2288,88,26,14/12/2023,19/12/2023,Luis,Madrid,Efectivo
+55,Mochila,Ropa,4653,47,99,30/09/2023,06/10/2023,Luis,Valencia,Efectivo
+56,Chaqueta,Ropa,6000,40,150,12/02/2023,15/02/2023,Laura,Madrid,Efectivo
+57,Pantalón,Calzado,7854,51,154,10/02/2023,13/02/2023,Juan,Madrid,Tarjeta de Credito
+58,Bufanda,Ropa,7350,42,175,19/06/2023,27/06/2023,Carlos,Valencia,Tarjeta de Credito
+59,Bufanda,Accesorios,630,7,90,31/07/2023,02/08/2023,Juan,Sevilla,Efectivo
+60,Socks,Accesorios,4350,50,87,17/06/2023,19/06/2023,Pedro,Madrid,Efectivo
+61,Chaqueta,Bolsos,8736,48,182,08/02/2023,13/02/2023,Ricardo,Sevilla,Efectivo
+62,Bufanda,Ropa,1260,84,15,02/09/2023,08/09/2023,Marta,Sevilla,Efectivo
+63,Pantalón,Calzado,15652,91,172,31/05/2023,02/06/2023,Ana,Valencia,Efectivo
+64,Socks,Accesorios,714,6,119,21/04/2023,26/04/2023,Pedro,Barcelona,Tarjeta de Credito
+65,Pantalón,Calzado,2093,91,23,16/02/2023,23/02/2023,Ana,Valencia,Tarjeta de Credito
+66,Socks,Calzado,729,9,81,04/03/2023,12/03/2023,Ana,Barcelona,Tarjeta de Credito
+67,Chaqueta,Accesorios,11286,57,198,13/08/2023,20/08/2023,Marta,Barcelona,Efectivo
+68,Mochila,Calzado,4712,31,152,10/03/2023,18/03/2023,Maria,Valencia,Tarjeta de Credito
+69,Guantes,Accesorios,1323,21,63,26/10/2023,04/11/2023,Juan,Valencia,Tarjeta de Credito
+70,Bota,Calzado,3240,90,36,17/10/2023,22/10/2023,Luis,Barcelona,Tarjeta de Credito
+71,Mochila,Accesorios,880,40,22,23/10/2023,28/10/2023,Sofia,Valencia,Tarjeta de Credito
+72,Sombrero,Ropa,7560,45,168,22/07/2023,26/07/2023,Ana,Barcelona,Tarjeta de Credito
+73,Pantalón,Bolsos,13244,77,172,02/03/2023,11/03/2023,Ricardo,Sevilla,Efectivo
+74,Sombrero,Accesorios,3381,49,69,14/11/2023,19/11/2023,Pedro,Valencia,Tarjeta de Credito
+75,Mochila,Accesorios,1305,87,15,10/11/2023,12/11/2023,Maria,Sevilla,Efectivo
+76,Socks,Bolsos,1340,20,67,10/06/2023,18/06/2023,Ana,Madrid,Efectivo
+77,Bota,Accesorios,5336,92,58,27/11/2023,04/12/2023,Maria,Sevilla,Efectivo
+78,Bota,Accesorios,2720,17,160,16/01/2023,24/01/2023,Maria,Sevilla,Efectivo
+79,Camiseta,Calzado,4788,28,171,04/12/2023,07/12/2023,Ana,Barcelona,Efectivo
+80,Bota,Bolsos,1435,41,35,04/04/2023,08/04/2023,Laura,Sevilla,Tarjeta de Credito
+81,Guantes,Ropa,3696,66,56,31/10/2023,05/11/2023,Carlos,Valencia,Tarjeta de Credito
+82,Bota,Accesorios,350,25,14,18/05/2023,24/05/2023,Ricardo,Barcelona,Efectivo
+83,Mochila,Bolsos,1682,58,29,04/12/2023,05/12/2023,Luis,Madrid,Efectivo
+84,Camiseta,Calzado,5863,41,143,07/02/2023,11/02/2023,Luis,Valencia,Efectivo
+85,Mochila,Ropa,408,6,68,07/05/2023,12/05/2023,Ricardo,Madrid,Tarjeta de Credito
+86,Mochila,Bolsos,11625,75,155,02/10/2023,09/10/2023,Laura,Sevilla,Efectivo
+87,Zapatos,Ropa,5358,38,141,13/06/2023,18/06/2023,Luis,Valencia,Tarjeta de Credito
+88,Camiseta,Ropa,156,6,26,15/11/2023,16/11/2023,Maria,Valencia,Efectivo
+89,Mochila,Ropa,1035,45,23,18/03/2023,25/03/2023,Marta,Madrid,Tarjeta de Credito
+90,Zapatos,Accesorios,1650,75,22,23/06/2023,01/07/2023,Pedro,Valencia,Efectivo
+91,Zapatos,Accesorios,2016,14,144,24/12/2023,31/12/2023,Juan,Valencia,Tarjeta de Credito
+92,Camiseta,Calzado,9042,66,137,17/11/2023,21/11/2023,Luis,Valencia,Efectivo
+93,Sombrero,Calzado,2120,40,53,01/04/2023,09/04/2023,Ricardo,Sevilla,Tarjeta de Credito
+94,Socks,Bolsos,384,3,128,26/08/2023,31/08/2023,Marta,Madrid,Tarjeta de Credito
+95,Guantes,Calzado,15048,99,152,21/09/2023,30/09/2023,Ana,Valencia,Tarjeta de Credito
+96,Socks,Ropa,2716,97,28,28/06/2023,03/07/2023,Carlos,Barcelona,Tarjeta de Credito
+97,Bota,Ropa,1728,24,72,28/07/2023,29/07/2023,Ricardo,Barcelona,Tarjeta de Credito
+98,Guantes,Accesorios,3268,19,172,14/03/2023,23/03/2023,Maria,Barcelona,Tarjeta de Credito
+99,Bota,Ropa,1620,18,90,17/04/2023,22/04/2023,Carlos,Barcelona,Tarjeta de Credito
+100,Mochila,Bolsos,11008,64,172,11/12/2023,17/12/2023,Pedro,Sevilla,Efectivo
+101,Pantalón,Ropa,13728,88,156,22/10/2023,26/10/2023,Pedro,Valencia,Efectivo
+102,Camiseta,Ropa,5495,35,157,11/10/2023,17/10/2023,Laura,Madrid,Efectivo
+103,Guantes,Bolsos,6758,62,109,19/12/2023,27/12/2023,Sofia,Valencia,Efectivo
+104,Guantes,Calzado,172,1,172,01/07/2023,04/07/2023,Laura,Sevilla,Efectivo
+105,Mochila,Calzado,16900,100,169,06/02/2023,11/02/2023,Marta,Barcelona,Tarjeta de Credito
+106,Sombrero,Bolsos,3275,25,131,17/05/2023,19/05/2023,Carlos,Sevilla,Tarjeta de Credito
+107,Zapatos,Accesorios,8325,45,185,04/12/2023,06/12/2023,Sofia,Valencia,Tarjeta de Credito
+108,Mochila,Ropa,2597,49,53,25/02/2023,04/03/2023,Ana,Madrid,Tarjeta de Credito
+109,Bufanda,Bolsos,11074,98,113,06/07/2023,12/07/2023,Maria,Sevilla,Tarjeta de Credito
+110,Zapatos,Ropa,14329,89,161,07/12/2023,11/12/2023,Carlos,Madrid,Efectivo
+111,Camiseta,Accesorios,1120,16,70,15/09/2023,20/09/2023,Laura,Sevilla,Efectivo
+112,Zapatos,Ropa,13132,98,134,27/02/2023,28/02/2023,Juan,Madrid,Efectivo
+113,Sombrero,Bolsos,14322,93,154,29/12/2023,05/01/2024,Sofia,Madrid,Efectivo
+114,Zapatos,Ropa,1520,19,80,03/05/2023,11/05/2023,Sofia,Barcelona,Tarjeta de Credito
+115,Camiseta,Calzado,2668,23,116,07/07/2023,16/07/2023,Maria,Madrid,Tarjeta de Credito
+116,Sombrero,Accesorios,4897,83,59,18/08/2023,26/08/2023,Luis,Barcelona,Tarjeta de Credito
+117,Socks,Accesorios,1850,25,74,17/06/2023,22/06/2023,Pedro,Valencia,Efectivo
+118,Guantes,Accesorios,1728,16,108,24/04/2023,27/04/2023,Pedro,Valencia,Tarjeta de Credito
+119,Guantes,Bolsos,2214,54,41,09/09/2023,18/09/2023,Juan,Barcelona,Efectivo
+120,Bota,Accesorios,12629,73,173,17/04/2023,23/04/2023,Marta,Barcelona,Tarjeta de Credito
+121,Socks,Calzado,150,1,150,06/02/2023,11/02/2023,Marta,Sevilla,Tarjeta de Credito
+122,Socks,Bolsos,2814,42,67,01/12/2023,04/12/2023,Ana,Sevilla,Efectivo
+123,Zapatos,Calzado,2603,19,137,02/04/2023,08/04/2023,Carlos,Sevilla,Tarjeta de Credito
+124,Guantes,Ropa,14647,97,151,18/01/2023,21/01/2023,Ricardo,Valencia,Tarjeta de Credito
+125,Camiseta,Ropa,5916,34,174,20/12/2023,26/12/2023,Luis,Sevilla,Efectivo
+126,Chaqueta,Ropa,9680,80,121,04/03/2023,08/03/2023,Laura,Madrid,Tarjeta de Credito
+127,Chaqueta,Ropa,4235,55,77,30/05/2023,01/06/2023,Ricardo,Madrid,Efectivo
+128,Sombrero,Calzado,882,18,49,19/05/2023,27/05/2023,Ricardo,Sevilla,Tarjeta de Credito
+129,Guantes,Bolsos,6664,34,196,05/07/2023,09/07/2023,Sofia,Madrid,Tarjeta de Credito
+130,Guantes,Bolsos,13617,89,153,04/07/2023,13/07/2023,Juan,Valencia,Tarjeta de Credito
+131,Chaqueta,Accesorios,8955,45,199,24/07/2023,31/07/2023,Pedro,Madrid,Tarjeta de Credito
+132,Guantes,Calzado,846,6,141,17/09/2023,19/09/2023,Ana,Valencia,Tarjeta de Credito
+133,Zapatos,Ropa,3822,21,182,02/08/2023,06/08/2023,Marta,Barcelona,Tarjeta de Credito
+134,Bufanda,Calzado,6930,70,99,13/09/2023,18/09/2023,Juan,Barcelona,Tarjeta de Credito
+135,Pantalón,Accesorios,3552,96,37,15/05/2023,18/05/2023,Sofia,Barcelona,Tarjeta de Credito
+136,Socks,Accesorios,5040,48,105,02/03/2023,11/03/2023,Laura,Barcelona,Efectivo
+137,Bota,Calzado,1560,39,40,29/12/2023,03/01/2024,Ana,Madrid,Efectivo
+138,Sombrero,Calzado,372,31,12,06/11/2023,08/11/2023,Sofia,Sevilla,Tarjeta de Credito
+139,Bufanda,Calzado,1450,10,145,29/03/2023,01/04/2023,Pedro,Madrid,Tarjeta de Credito
+140,Chaqueta,Bolsos,990,30,33,20/11/2023,29/11/2023,Pedro,Valencia,Efectivo
+141,Socks,Ropa,432,18,24,26/07/2023,02/08/2023,Pedro,Madrid,Tarjeta de Credito
+142,Guantes,Calzado,10800,60,180,09/05/2023,11/05/2023,Juan,Madrid,Tarjeta de Credito
+143,Bota,Calzado,14784,88,168,07/11/2023,16/11/2023,Juan,Valencia,Efectivo
+144,Guantes,Calzado,3942,73,54,03/01/2023,07/01/2023,Marta,Barcelona,Tarjeta de Credito
+145,Camiseta,Accesorios,1615,95,17,30/08/2023,08/09/2023,Marta,Barcelona,Tarjeta de Credito
+146,Camiseta,Accesorios,1200,15,80,01/05/2023,03/05/2023,Laura,Barcelona,Efectivo
+147,Bota,Bolsos,468,4,117,12/04/2023,16/04/2023,Ana,Sevilla,Tarjeta de Credito
+148,Bota,Ropa,7812,63,124,07/02/2023,12/02/2023,Maria,Valencia,Tarjeta de Credito
+149,Chaqueta,Bolsos,4480,40,112,07/12/2023,09/12/2023,Maria,Valencia,Efectivo
+150,Bota,Ropa,1206,9,134,13/05/2023,14/05/2023,Sofia,Madrid,Tarjeta de Credito
+151,Zapatos,Accesorios,594,9,66,21/07/2023,28/07/2023,Pedro,Sevilla,Efectivo
+152,Guantes,Accesorios,1014,26,39,14/12/2023,15/12/2023,Ana,Barcelona,Tarjeta de Credito
+153,Bufanda,Accesorios,620,4,155,21/01/2023,29/01/2023,Ricardo,Sevilla,Tarjeta de Credito
+154,Mochila,Bolsos,9963,81,123,30/08/2023,02/09/2023,Juan,Valencia,Efectivo
+155,Bota,Calzado,2016,16,126,19/04/2023,25/04/2023,Carlos,Valencia,Efectivo
+156,Sombrero,Calzado,2640,15,176,30/10/2023,06/11/2023,Luis,Madrid,Tarjeta de Credito
+157,Camiseta,Accesorios,6831,99,69,25/03/2023,26/03/2023,Laura,Madrid,Efectivo
+158,Zapatos,Calzado,5564,52,107,24/03/2023,30/03/2023,Pedro,Valencia,Efectivo
+159,Socks,Calzado,12420,69,180,18/10/2023,25/10/2023,Pedro,Barcelona,Tarjeta de Credito
+160,Mochila,Bolsos,675,5,135,10/03/2023,16/03/2023,Pedro,Barcelona,Tarjeta de Credito
+161,Bufanda,Ropa,3640,20,182,09/05/2023,13/05/2023,Juan,Sevilla,Tarjeta de Credito
+162,Mochila,Accesorios,12640,79,160,15/07/2023,16/07/2023,Juan,Valencia,Efectivo
+163,Bota,Accesorios,1854,18,103,20/05/2023,29/05/2023,Luis,Valencia,Efectivo
+164,Chaqueta,Bolsos,286,2,143,10/10/2023,14/10/2023,Ricardo,Barcelona,Efectivo
+165,Camiseta,Bolsos,17949,93,193,08/11/2023,15/11/2023,Ana,Barcelona,Efectivo
+166,Camiseta,Calzado,1703,13,131,22/08/2023,29/08/2023,Pedro,Valencia,Tarjeta de Credito
+167,Socks,Accesorios,468,4,117,23/01/2023,25/01/2023,Maria,Madrid,Efectivo
+168,Chaqueta,Ropa,546,42,13,02/06/2023,03/06/2023,Marta,Valencia,Tarjeta de Credito
+169,Guantes,Bolsos,7548,74,102,04/10/2023,12/10/2023,Maria,Valencia,Efectivo
+170,Pantalón,Ropa,9760,61,160,02/03/2023,10/03/2023,Sofia,Barcelona,Tarjeta de Credito
+171,Zapatos,Ropa,1425,95,15,15/11/2023,22/11/2023,Maria,Barcelona,Tarjeta de Credito
+172,Camiseta,Accesorios,328,8,41,21/02/2023,01/03/2023,Sofia,Madrid,Tarjeta de Credito
+173,Sombrero,Accesorios,7705,67,115,10/12/2023,13/12/2023,Carlos,Madrid,Efectivo
+174,Camiseta,Bolsos,9765,63,155,02/06/2023,04/06/2023,Marta,Sevilla,Tarjeta de Credito
+175,Mochila,Accesorios,216,9,24,25/08/2023,01/09/2023,Maria,Valencia,Tarjeta de Credito
+176,Camiseta,Accesorios,16638,94,177,07/11/2023,15/11/2023,Carlos,Barcelona,Efectivo
+177,Camiseta,Accesorios,1441,11,131,29/10/2023,30/10/2023,Laura,Madrid,Tarjeta de Credito
+178,Pantalón,Ropa,10395,99,105,01/02/2023,10/02/2023,Ana,Sevilla,Efectivo
+179,Pantalón,Bolsos,630,42,15,24/02/2023,28/02/2023,Carlos,Sevilla,Efectivo
+180,Bufanda,Calzado,1573,13,121,18/12/2023,22/12/2023,Ana,Barcelona,Tarjeta de Credito
+181,Guantes,Ropa,4644,36,129,05/02/2023,08/02/2023,Maria,Barcelona,Tarjeta de Credito
+182,Sombrero,Accesorios,1716,13,132,20/04/2023,26/04/2023,Ricardo,Sevilla,Efectivo
+183,Camiseta,Ropa,2400,12,200,26/06/2023,27/06/2023,Carlos,Madrid,Tarjeta de Credito
+184,Camiseta,Accesorios,2812,37,76,28/12/2023,03/01/2024,Marta,Sevilla,Efectivo
+185,Zapatos,Accesorios,8510,74,115,10/11/2023,12/11/2023,Maria,Valencia,Efectivo
+186,Pantalón,Ropa,10804,73,148,22/10/2023,31/10/2023,Pedro,Valencia,Efectivo
+187,Sombrero,Bolsos,2704,52,52,02/12/2023,04/12/2023,Juan,Barcelona,Tarjeta de Credito
+188,Socks,Accesorios,10934,71,154,07/04/2023,14/04/2023,Carlos,Madrid,Efectivo
+189,Bufanda,Bolsos,210,2,105,01/08/2023,02/08/2023,Marta,Madrid,Tarjeta de Credito
+190,Guantes,Calzado,7896,56,141,13/11/2023,20/11/2023,Laura,Valencia,Tarjeta de Credito
+191,Chaqueta,Accesorios,12000,60,200,17/05/2023,22/05/2023,Pedro,Sevilla,Tarjeta de Credito
+192,Guantes,Bolsos,2070,23,90,06/01/2023,14/01/2023,Laura,Barcelona,Tarjeta de Credito
+193,Mochila,Bolsos,2000,40,50,19/04/2023,23/04/2023,Maria,Sevilla,Efectivo
+194,Camiseta,Calzado,9088,64,142,04/02/2023,11/02/2023,Juan,Sevilla,Tarjeta de Credito
+195,Bufanda,Bolsos,14365,85,169,08/02/2023,14/02/2023,Carlos,Sevilla,Efectivo
+196,Mochila,Bolsos,1012,23,44,30/05/2023,04/06/2023,Carlos,Madrid,Efectivo
+197,Sombrero,Calzado,899,29,31,28/04/2023,02/05/2023,Ricardo,Valencia,Tarjeta de Credito
+198,Chaqueta,Accesorios,12402,78,159,18/09/2023,25/09/2023,Ricardo,Madrid,Efectivo
+199,Pantalón,Bolsos,10890,90,121,28/03/2023,02/04/2023,Maria,Valencia,Efectivo
+200,Bufanda,Bolsos,1020,51,20,17/03/2023,22/03/2023,Maria,Barcelona,Tarjeta de Credito
+201,Bufanda,Bolsos,828,69,12,09/11/2023,10/11/2023,Juan,Barcelona,Efectivo
+202,Camiseta,Ropa,13870,95,146,02/08/2023,04/08/2023,Ricardo,Sevilla,Efectivo
+203,Bota,Calzado,6141,89,69,12/10/2023,17/10/2023,Marta,Valencia,Efectivo
+204,Bufanda,Ropa,2635,31,85,27/08/2023,30/08/2023,Marta,Valencia,Efectivo
+205,Zapatos,Calzado,4800,50,96,14/06/2023,16/06/2023,Juan,Valencia,Tarjeta de Credito
+206,Chaqueta,Accesorios,460,20,23,28/03/2023,01/04/2023,Marta,Sevilla,Efectivo
+207,Chaqueta,Accesorios,1485,55,27,21/05/2023,25/05/2023,Sofia,Sevilla,Efectivo
+208,Zapatos,Bolsos,9882,81,122,09/06/2023,13/06/2023,Ana,Barcelona,Efectivo
+209,Socks,Calzado,164,2,82,15/02/2023,19/02/2023,Juan,Madrid,Efectivo
+210,Zapatos,Accesorios,800,25,32,22/04/2023,25/04/2023,Juan,Valencia,Tarjeta de Credito
+211,Zapatos,Calzado,1196,13,92,14/02/2023,21/02/2023,Luis,Valencia,Efectivo
+212,Chaqueta,Accesorios,12328,92,134,04/09/2023,13/09/2023,Pedro,Madrid,Tarjeta de Credito
+213,Guantes,Ropa,12880,70,184,14/04/2023,19/04/2023,Pedro,Valencia,Efectivo
+214,Chaqueta,Accesorios,5226,67,78,26/03/2023,30/03/2023,Sofia,Sevilla,Tarjeta de Credito
+215,Bota,Ropa,3248,58,56,14/05/2023,16/05/2023,Ricardo,Sevilla,Tarjeta de Credito
+216,Camiseta,Accesorios,12375,99,125,18/04/2023,20/04/2023,Maria,Valencia,Tarjeta de Credito
+217,Mochila,Bolsos,3198,82,39,18/01/2023,23/01/2023,Maria,Sevilla,Tarjeta de Credito
+218,Guantes,Ropa,2550,75,34,04/04/2023,11/04/2023,Laura,Sevilla,Tarjeta de Credito
+219,Pantalón,Accesorios,13860,84,165,30/05/2023,08/06/2023,Sofia,Valencia,Efectivo
+220,Mochila,Bolsos,7744,64,121,03/09/2023,10/09/2023,Juan,Barcelona,Efectivo
+221,Camiseta,Ropa,2346,69,34,16/10/2023,21/10/2023,Sofia,Madrid,Efectivo
+222,Bota,Bolsos,6889,83,83,28/07/2023,03/08/2023,Sofia,Sevilla,Tarjeta de Credito
+223,Bota,Calzado,5762,86,67,06/05/2023,09/05/2023,Sofia,Barcelona,Efectivo
+224,Pantalón,Calzado,6077,59,103,23/08/2023,28/08/2023,Pedro,Sevilla,Tarjeta de Credito
+225,Guantes,Ropa,7680,60,128,02/05/2023,10/05/2023,Sofia,Sevilla,Tarjeta de Credito
+226,Socks,Accesorios,11288,83,136,18/05/2023,19/05/2023,Ana,Madrid,Efectivo
+227,Zapatos,Ropa,11036,62,178,25/04/2023,26/04/2023,Maria,Sevilla,Efectivo
+228,Guantes,Bolsos,544,16,34,11/06/2023,18/06/2023,Laura,Madrid,Tarjeta de Credito
+229,Socks,Accesorios,7656,88,87,20/07/2023,25/07/2023,Ana,Madrid,Tarjeta de Credito
+230,Bota,Calzado,7344,68,108,22/08/2023,27/08/2023,Laura,Madrid,Efectivo
+231,Chaqueta,Accesorios,1875,15,125,28/01/2023,29/01/2023,Luis,Barcelona,Efectivo
+232,Camiseta,Calzado,5073,89,57,11/01/2023,20/01/2023,Laura,Valencia,Efectivo
+233,Pantalón,Accesorios,1045,55,19,25/07/2023,26/07/2023,Maria,Barcelona,Efectivo
+234,Camiseta,Accesorios,3780,35,108,16/06/2023,21/06/2023,Maria,Valencia,Tarjeta de Credito
+235,Sombrero,Accesorios,1100,55,20,04/09/2023,13/09/2023,Sofia,Valencia,Efectivo
+236,Sombrero,Bolsos,1316,14,94,16/02/2023,20/02/2023,Carlos,Madrid,Efectivo
+237,Guantes,Bolsos,7742,49,158,03/09/2023,11/09/2023,Luis,Sevilla,Efectivo
+238,Bota,Ropa,15106,83,182,07/05/2023,13/05/2023,Juan,Madrid,Tarjeta de Credito
+239,Bota,Ropa,14400,100,144,27/05/2023,30/05/2023,Marta,Sevilla,Tarjeta de Credito
+240,Zapatos,Calzado,945,7,135,28/04/2023,02/05/2023,Laura,Valencia,Tarjeta de Credito
+241,Zapatos,Bolsos,2190,30,73,01/06/2023,03/06/2023,Carlos,Madrid,Tarjeta de Credito
+242,Zapatos,Calzado,913,83,11,13/03/2023,14/03/2023,Sofia,Sevilla,Efectivo
+243,Chaqueta,Ropa,4165,49,85,29/12/2023,06/01/2024,Pedro,Barcelona,Tarjeta de Credito
+244,Mochila,Calzado,11570,89,130,17/05/2023,18/05/2023,Juan,Sevilla,Efectivo
+245,Bufanda,Ropa,816,16,51,24/06/2023,25/06/2023,Ricardo,Madrid,Efectivo
+246,Mochila,Bolsos,3213,51,63,16/10/2023,20/10/2023,Carlos,Barcelona,Efectivo
+247,Camiseta,Accesorios,6048,72,84,19/01/2023,25/01/2023,Pedro,Sevilla,Efectivo
+248,Mochila,Bolsos,2050,82,25,14/07/2023,23/07/2023,Luis,Sevilla,Tarjeta de Credito
+249,Chaqueta,Calzado,2484,92,27,26/11/2023,27/11/2023,Sofia,Sevilla,Tarjeta de Credito
+250,Camiseta,Calzado,15680,80,196,24/06/2023,01/07/2023,Juan,Sevilla,Tarjeta de Credito
+251,Mochila,Bolsos,8217,83,99,20/12/2023,25/12/2023,Juan,Sevilla,Efectivo
+252,Chaqueta,Bolsos,6426,42,153,21/05/2023,29/05/2023,Juan,Barcelona,Efectivo
+253,Bufanda,Ropa,255,17,15,03/09/2023,10/09/2023,Luis,Valencia,Efectivo
+254,Mochila,Calzado,12222,63,194,03/04/2023,07/04/2023,Laura,Barcelona,Efectivo
+255,Chaqueta,Calzado,5265,45,117,27/08/2023,31/08/2023,Ricardo,Barcelona,Efectivo
+256,Zapatos,Bolsos,14168,77,184,24/07/2023,30/07/2023,Luis,Barcelona,Tarjeta de Credito
+257,Bota,Accesorios,399,7,57,17/02/2023,23/02/2023,Marta,Valencia,Efectivo
+258,Zapatos,Calzado,1377,27,51,02/09/2023,11/09/2023,Ricardo,Madrid,Tarjeta de Credito
+259,Bota,Accesorios,850,10,85,16/11/2023,21/11/2023,Maria,Valencia,Efectivo
+260,Pantalón,Bolsos,6698,34,197,13/11/2023,21/11/2023,Sofia,Barcelona,Efectivo
+261,Pantalón,Bolsos,3096,36,86,22/10/2023,27/10/2023,Luis,Sevilla,Tarjeta de Credito
+262,Pantalón,Ropa,3525,25,141,08/05/2023,10/05/2023,Pedro,Sevilla,Tarjeta de Credito
+263,Bufanda,Calzado,834,6,139,10/12/2023,16/12/2023,Ricardo,Barcelona,Efectivo
+264,Zapatos,Accesorios,1632,24,68,09/10/2023,18/10/2023,Marta,Sevilla,Efectivo
+265,Bota,Ropa,2952,18,164,17/01/2023,20/01/2023,Maria,Barcelona,Efectivo
+266,Chaqueta,Calzado,3132,87,36,12/03/2023,13/03/2023,Laura,Sevilla,Efectivo
+267,Camiseta,Ropa,528,6,88,26/09/2023,27/09/2023,Pedro,Valencia,Tarjeta de Credito
+268,Chaqueta,Bolsos,2349,29,81,21/11/2023,24/11/2023,Ricardo,Madrid,Efectivo
+269,Camiseta,Calzado,400,25,16,09/10/2023,14/10/2023,Sofia,Madrid,Tarjeta de Credito
+270,Sombrero,Ropa,11000,55,200,01/11/2023,04/11/2023,Pedro,Valencia,Efectivo
+271,Chaqueta,Ropa,9720,81,120,07/01/2023,16/01/2023,Maria,Valencia,Tarjeta de Credito
+272,Mochila,Accesorios,5888,46,128,10/11/2023,18/11/2023,Pedro,Barcelona,Tarjeta de Credito
+273,Mochila,Ropa,4392,24,183,01/11/2023,04/11/2023,Ana,Barcelona,Efectivo
+274,Guantes,Calzado,5400,75,72,13/04/2023,22/04/2023,Carlos,Barcelona,Tarjeta de Credito
+275,Zapatos,Calzado,3458,26,133,05/11/2023,11/11/2023,Laura,Sevilla,Efectivo
+276,Camiseta,Accesorios,2058,98,21,12/07/2023,19/07/2023,Maria,Barcelona,Tarjeta de Credito
+277,Camiseta,Calzado,4200,28,150,29/08/2023,02/09/2023,Pedro,Valencia,Efectivo
+278,Zapatos,Bolsos,156,3,52,03/03/2023,07/03/2023,Carlos,Madrid,Tarjeta de Credito
+279,Bufanda,Calzado,1950,75,26,17/01/2023,19/01/2023,Carlos,Sevilla,Efectivo
+280,Guantes,Calzado,2736,38,72,20/06/2023,25/06/2023,Pedro,Barcelona,Efectivo
+281,Bufanda,Ropa,7869,61,129,25/01/2023,02/02/2023,Sofia,Sevilla,Tarjeta de Credito
+282,Bufanda,Ropa,3510,78,45,08/09/2023,15/09/2023,Ana,Sevilla,Tarjeta de Credito
+283,Bufanda,Calzado,867,51,17,10/09/2023,17/09/2023,Luis,Barcelona,Tarjeta de Credito
+284,Zapatos,Accesorios,7020,90,78,26/07/2023,01/08/2023,Ana,Sevilla,Tarjeta de Credito
+285,Bufanda,Ropa,4752,48,99,29/01/2023,01/02/2023,Pedro,Madrid,Efectivo
+286,Mochila,Accesorios,945,21,45,27/04/2023,02/05/2023,Laura,Valencia,Tarjeta de Credito
+287,Pantalón,Calzado,1998,54,37,09/10/2023,10/10/2023,Luis,Valencia,Efectivo
+288,Sombrero,Calzado,7112,56,127,24/05/2023,31/05/2023,Maria,Madrid,Tarjeta de Credito
+289,Camiseta,Bolsos,9588,94,102,25/01/2023,03/02/2023,Ana,Sevilla,Efectivo
+290,Camiseta,Ropa,10856,59,184,06/11/2023,07/11/2023,Pedro,Barcelona,Efectivo
+291,Sombrero,Calzado,6120,72,85,05/06/2023,07/06/2023,Ana,Sevilla,Efectivo
+292,Zapatos,Bolsos,5610,51,110,14/03/2023,17/03/2023,Luis,Madrid,Efectivo
+293,Chaqueta,Ropa,3340,20,167,30/04/2023,03/05/2023,Marta,Sevilla,Tarjeta de Credito
+294,Zapatos,Calzado,15360,96,160,08/11/2023,16/11/2023,Ricardo,Valencia,Tarjeta de Credito
+295,Camiseta,Calzado,13158,86,153,17/11/2023,24/11/2023,Ana,Sevilla,Efectivo
+296,Camiseta,Ropa,1357,59,23,03/04/2023,09/04/2023,Maria,Madrid,Tarjeta de Credito
+297,Sombrero,Ropa,5680,71,80,27/03/2023,31/03/2023,Maria,Valencia,Tarjeta de Credito
+298,Bufanda,Ropa,1701,9,189,02/12/2023,11/12/2023,Juan,Sevilla,Efectivo
+299,Zapatos,Calzado,133,1,133,30/12/2023,31/12/2023,Ana,Sevilla,Tarjeta de Credito
+300,Bota,Calzado,3886,29,134,28/04/2023,30/04/2023,Ricardo,Valencia,Tarjeta de Credito
+301,Sombrero,Bolsos,2898,63,46,21/08/2023,25/08/2023,Sofia,Barcelona,Tarjeta de Credito
+302,Mochila,Accesorios,2736,72,38,18/07/2023,21/07/2023,Carlos,Valencia,Efectivo
+303,Camiseta,Ropa,8512,56,152,25/07/2023,26/07/2023,Ricardo,Barcelona,Tarjeta de Credito
+304,Sombrero,Calzado,12512,68,184,05/12/2023,10/12/2023,Carlos,Madrid,Efectivo
+305,Zapatos,Calzado,6405,35,183,27/05/2023,03/06/2023,Carlos,Madrid,Tarjeta de Credito
+306,Camiseta,Ropa,567,3,189,28/09/2023,30/09/2023,Marta,Valencia,Tarjeta de Credito
+307,Chaqueta,Accesorios,196,7,28,19/05/2023,24/05/2023,Juan,Valencia,Tarjeta de Credito
+308,Sombrero,Ropa,3105,27,115,30/06/2023,06/07/2023,Ricardo,Madrid,Efectivo
+309,Guantes,Accesorios,30,1,30,30/01/2023,06/02/2023,Ricardo,Barcelona,Efectivo
+310,Camiseta,Calzado,6643,91,73,26/02/2023,27/02/2023,Marta,Madrid,Tarjeta de Credito
+311,Zapatos,Accesorios,13920,80,174,20/08/2023,27/08/2023,Ana,Valencia,Efectivo
+312,Pantalón,Bolsos,2556,71,36,26/05/2023,30/05/2023,Ana,Madrid,Tarjeta de Credito
+313,Bota,Calzado,2816,44,64,17/02/2023,25/02/2023,Ana,Valencia,Efectivo
+314,Socks,Bolsos,3306,87,38,13/07/2023,17/07/2023,Laura,Valencia,Efectivo
+315,Bufanda,Ropa,6437,41,157,12/08/2023,18/08/2023,Carlos,Madrid,Tarjeta de Credito
+316,Socks,Ropa,2550,75,34,16/05/2023,25/05/2023,Laura,Barcelona,Tarjeta de Credito
+317,Zapatos,Ropa,3318,42,79,22/01/2023,27/01/2023,Juan,Sevilla,Tarjeta de Credito
+318,Mochila,Accesorios,2376,33,72,06/01/2023,10/01/2023,Marta,Madrid,Tarjeta de Credito
+319,Mochila,Calzado,8650,50,173,23/07/2023,31/07/2023,Ricardo,Sevilla,Efectivo
+320,Pantalón,Ropa,8757,63,139,27/08/2023,05/09/2023,Carlos,Madrid,Efectivo
+321,Bufanda,Ropa,15900,100,159,04/07/2023,08/07/2023,Laura,Sevilla,Efectivo
+322,Guantes,Calzado,925,37,25,26/12/2023,29/12/2023,Laura,Barcelona,Tarjeta de Credito
+323,Pantalón,Ropa,9145,59,155,19/10/2023,27/10/2023,Pedro,Barcelona,Tarjeta de Credito
+324,Socks,Bolsos,15471,81,191,01/12/2023,06/12/2023,Laura,Madrid,Efectivo
+325,Pantalón,Calzado,10791,99,109,08/08/2023,10/08/2023,Sofia,Valencia,Tarjeta de Credito
+326,Socks,Calzado,1872,48,39,26/04/2023,05/05/2023,Ricardo,Sevilla,Efectivo
+327,Camiseta,Calzado,270,5,54,09/11/2023,12/11/2023,Sofia,Valencia,Efectivo
+328,Mochila,Bolsos,1344,48,28,18/02/2023,20/02/2023,Ricardo,Valencia,Efectivo
+329,Camiseta,Calzado,4128,96,43,22/06/2023,23/06/2023,Marta,Valencia,Efectivo
+330,Bota,Bolsos,450,3,150,23/03/2023,31/03/2023,Ricardo,Barcelona,Efectivo
+331,Bufanda,Calzado,8460,47,180,18/11/2023,21/11/2023,Sofia,Madrid,Tarjeta de Credito
+332,Guantes,Accesorios,4402,62,71,29/11/2023,06/12/2023,Ricardo,Madrid,Tarjeta de Credito
+333,Socks,Ropa,12573,99,127,14/02/2023,15/02/2023,Marta,Barcelona,Tarjeta de Credito
+334,Guantes,Accesorios,1526,14,109,01/12/2023,02/12/2023,Marta,Barcelona,Efectivo
+335,Socks,Ropa,1953,63,31,20/01/2023,29/01/2023,Juan,Madrid,Efectivo
+336,Zapatos,Bolsos,11529,61,189,09/08/2023,17/08/2023,Ricardo,Valencia,Efectivo
+337,Pantalón,Accesorios,5859,31,189,03/05/2023,06/05/2023,Pedro,Sevilla,Efectivo
+338,Bota,Calzado,11400,95,120,22/08/2023,28/08/2023,Ana,Sevilla,Tarjeta de Credito
+339,Mochila,Ropa,2941,17,173,09/08/2023,12/08/2023,Maria,Sevilla,Tarjeta de Credito
+340,Socks,Ropa,1968,24,82,19/11/2023,23/11/2023,Marta,Valencia,Efectivo
+341,Guantes,Accesorios,3588,23,156,05/12/2023,06/12/2023,Luis,Madrid,Efectivo
+342,Bota,Bolsos,3854,82,47,03/01/2023,08/01/2023,Ana,Barcelona,Efectivo
+343,Chaqueta,Accesorios,3950,50,79,01/07/2023,02/07/2023,Carlos,Madrid,Tarjeta de Credito
+344,Chaqueta,Bolsos,9750,78,125,25/07/2023,26/07/2023,Ricardo,Valencia,Tarjeta de Credito
+345,Camiseta,Bolsos,6952,79,88,16/11/2023,23/11/2023,Sofia,Barcelona,Tarjeta de Credito
+346,Mochila,Ropa,15326,79,194,09/02/2023,15/02/2023,Maria,Valencia,Efectivo
+347,Zapatos,Accesorios,10990,70,157,28/02/2023,02/03/2023,Luis,Sevilla,Efectivo
+348,Guantes,Accesorios,486,27,18,03/03/2023,05/03/2023,Ana,Sevilla,Tarjeta de Credito
+349,Pantalón,Bolsos,615,15,41,12/05/2023,19/05/2023,Ricardo,Valencia,Efectivo
+350,Pantalón,Accesorios,7050,50,141,01/03/2023,02/03/2023,Juan,Barcelona,Tarjeta de Credito
+351,Guantes,Calzado,2124,36,59,27/11/2023,29/11/2023,Carlos,Barcelona,Efectivo
+352,Bufanda,Calzado,728,8,91,02/05/2023,10/05/2023,Maria,Madrid,Tarjeta de Credito
+353,Zapatos,Accesorios,1106,79,14,17/04/2023,23/04/2023,Pedro,Sevilla,Efectivo
+354,Bota,Accesorios,471,3,157,06/04/2023,08/04/2023,Juan,Madrid,Tarjeta de Credito
+355,Socks,Bolsos,5952,62,96,13/12/2023,20/12/2023,Luis,Madrid,Tarjeta de Credito
+356,Bufanda,Calzado,6345,47,135,23/08/2023,27/08/2023,Maria,Valencia,Tarjeta de Credito
+357,Socks,Calzado,6468,77,84,03/03/2023,05/03/2023,Juan,Valencia,Tarjeta de Credito
+358,Socks,Ropa,17052,98,174,13/09/2023,19/09/2023,Carlos,Madrid,Tarjeta de Credito
+359,Bufanda,Bolsos,2728,88,31,18/02/2023,27/02/2023,Pedro,Sevilla,Tarjeta de Credito
+360,Camiseta,Ropa,18720,96,195,14/12/2023,23/12/2023,Juan,Valencia,Efectivo
+361,Chaqueta,Calzado,4697,61,77,08/06/2023,16/06/2023,Laura,Madrid,Efectivo
+362,Socks,Bolsos,1696,32,53,04/05/2023,07/05/2023,Pedro,Madrid,Efectivo
+363,Bufanda,Accesorios,4042,94,43,13/11/2023,16/11/2023,Luis,Madrid,Tarjeta de Credito
+364,Bufanda,Bolsos,1118,13,86,26/07/2023,28/07/2023,Carlos,Madrid,Tarjeta de Credito
+365,Sombrero,Accesorios,51,1,51,17/02/2023,22/02/2023,Ricardo,Madrid,Efectivo
+366,Camiseta,Accesorios,4964,34,146,16/05/2023,20/05/2023,Sofia,Madrid,Tarjeta de Credito
+367,Mochila,Bolsos,7130,62,115,20/07/2023,27/07/2023,Sofia,Valencia,Tarjeta de Credito
+368,Sombrero,Accesorios,8216,79,104,07/09/2023,11/09/2023,Sofia,Sevilla,Tarjeta de Credito
+369,Sombrero,Ropa,11232,78,144,10/11/2023,19/11/2023,Maria,Madrid,Tarjeta de Credito
+370,Guantes,Calzado,7161,93,77,23/12/2023,25/12/2023,Luis,Barcelona,Tarjeta de Credito
+371,Chaqueta,Accesorios,15288,98,156,14/11/2023,20/11/2023,Carlos,Valencia,Efectivo
+372,Bufanda,Ropa,13776,82,168,22/10/2023,29/10/2023,Pedro,Valencia,Efectivo
+373,Chaqueta,Accesorios,9727,71,137,10/11/2023,14/11/2023,Maria,Madrid,Efectivo
+374,Zapatos,Calzado,15996,93,172,28/07/2023,03/08/2023,Luis,Valencia,Efectivo
+375,Guantes,Ropa,6014,31,194,21/12/2023,28/12/2023,Ricardo,Madrid,Efectivo
+376,Mochila,Calzado,6016,64,94,30/07/2023,03/08/2023,Laura,Sevilla,Tarjeta de Credito
+377,Chaqueta,Calzado,4950,25,198,11/07/2023,19/07/2023,Carlos,Sevilla,Tarjeta de Credito
+378,Pantalón,Ropa,6384,38,168,13/02/2023,22/02/2023,Sofia,Valencia,Tarjeta de Credito
+379,Socks,Ropa,1288,14,92,29/01/2023,30/01/2023,Juan,Valencia,Tarjeta de Credito
+380,Zapatos,Ropa,832,8,104,28/02/2023,07/03/2023,Carlos,Barcelona,Efectivo
+381,Camiseta,Bolsos,17290,91,190,12/03/2023,21/03/2023,Marta,Valencia,Efectivo
+382,Mochila,Ropa,2214,54,41,02/04/2023,07/04/2023,Luis,Barcelona,Efectivo
+383,Zapatos,Ropa,150,2,75,22/09/2023,24/09/2023,Ana,Sevilla,Tarjeta de Credito
+384,Socks,Ropa,15876,81,196,08/08/2023,14/08/2023,Ricardo,Sevilla,Efectivo
+385,Guantes,Ropa,9750,78,125,03/08/2023,10/08/2023,Laura,Madrid,Tarjeta de Credito
+386,Socks,Accesorios,13083,89,147,04/10/2023,06/10/2023,Ricardo,Sevilla,Efectivo
+387,Sombrero,Bolsos,7784,56,139,05/03/2023,07/03/2023,Carlos,Barcelona,Efectivo
+388,Socks,Calzado,6486,94,69,12/12/2023,13/12/2023,Ana,Valencia,Tarjeta de Credito
+389,Sombrero,Ropa,2418,93,26,19/10/2023,23/10/2023,Marta,Madrid,Tarjeta de Credito
+390,Guantes,Accesorios,8820,84,105,02/09/2023,09/09/2023,Pedro,Barcelona,Efectivo
+391,Bota,Accesorios,13005,85,153,03/03/2023,12/03/2023,Juan,Valencia,Efectivo
+392,Sombrero,Accesorios,1525,61,25,28/11/2023,01/12/2023,Ana,Madrid,Tarjeta de Credito
+393,Camiseta,Calzado,1210,22,55,19/06/2023,26/06/2023,Luis,Sevilla,Efectivo
+394,Socks,Ropa,6160,35,176,26/09/2023,03/10/2023,Sofia,Barcelona,Efectivo
+395,Socks,Bolsos,2688,16,168,24/09/2023,01/10/2023,Marta,Valencia,Tarjeta de Credito
+396,Camiseta,Bolsos,5800,50,116,23/02/2023,25/02/2023,Juan,Madrid,Efectivo
+397,Pantalón,Accesorios,4171,43,97,16/01/2023,22/01/2023,Laura,Madrid,Tarjeta de Credito
+398,Bufanda,Calzado,2346,17,138,08/01/2023,10/01/2023,Sofia,Sevilla,Efectivo
+399,Bota,Calzado,11840,80,148,14/04/2023,20/04/2023,Carlos,Valencia,Tarjeta de Credito
+400,Mochila,Calzado,7424,58,128,28/02/2023,03/03/2023,Ana,Sevilla,Efectivo
+401,Sombrero,Bolsos,188,2,94,09/11/2023,11/11/2023,Juan,Sevilla,Tarjeta de Credito
+402,Camiseta,Accesorios,52,4,13,09/02/2023,15/02/2023,Maria,Valencia,Efectivo
+403,Guantes,Ropa,6800,85,80,25/08/2023,27/08/2023,Pedro,Valencia,Tarjeta de Credito
+404,Sombrero,Bolsos,6357,39,163,04/04/2023,09/04/2023,Pedro,Valencia,Efectivo
+405,Bufanda,Accesorios,11760,98,120,10/08/2023,12/08/2023,Marta,Barcelona,Efectivo
+406,Guantes,Accesorios,5546,94,59,23/07/2023,26/07/2023,Laura,Valencia,Efectivo
+407,Zapatos,Ropa,894,6,149,18/05/2023,21/05/2023,Marta,Madrid,Efectivo
+408,Socks,Ropa,8424,81,104,27/10/2023,02/11/2023,Maria,Sevilla,Efectivo
+409,Zapatos,Ropa,8989,89,101,26/07/2023,01/08/2023,Luis,Barcelona,Efectivo
+410,Sombrero,Calzado,5106,69,74,02/12/2023,05/12/2023,Laura,Valencia,Efectivo
+411,Bufanda,Ropa,3864,69,56,22/03/2023,25/03/2023,Ricardo,Barcelona,Efectivo
+412,Bota,Accesorios,3800,20,190,06/08/2023,07/08/2023,Luis,Valencia,Efectivo
+413,Sombrero,Ropa,7360,64,115,02/01/2023,09/01/2023,Laura,Barcelona,Tarjeta de Credito
+414,Camiseta,Accesorios,2224,16,139,27/06/2023,05/07/2023,Laura,Sevilla,Tarjeta de Credito
+415,Chaqueta,Bolsos,5865,51,115,12/12/2023,14/12/2023,Maria,Sevilla,Efectivo
+416,Sombrero,Calzado,1221,37,33,06/10/2023,10/10/2023,Carlos,Madrid,Tarjeta de Credito
+417,Socks,Bolsos,949,73,13,26/05/2023,02/06/2023,Maria,Madrid,Efectivo
+418,Socks,Bolsos,8073,69,117,14/11/2023,22/11/2023,Laura,Valencia,Efectivo
+419,Sombrero,Accesorios,1176,42,28,12/08/2023,13/08/2023,Juan,Sevilla,Tarjeta de Credito
+420,Guantes,Bolsos,9291,57,163,03/03/2023,07/03/2023,Luis,Barcelona,Efectivo
+421,Chaqueta,Accesorios,3234,66,49,21/10/2023,27/10/2023,Maria,Barcelona,Efectivo
+422,Camiseta,Ropa,531,9,59,27/08/2023,30/08/2023,Carlos,Barcelona,Tarjeta de Credito
+423,Sombrero,Ropa,18000,100,180,14/07/2023,19/07/2023,Ana,Madrid,Tarjeta de Credito
+424,Guantes,Accesorios,7224,86,84,15/06/2023,24/06/2023,Marta,Barcelona,Efectivo
+425,Socks,Ropa,1344,64,21,10/08/2023,13/08/2023,Laura,Madrid,Tarjeta de Credito
+426,Socks,Calzado,3096,86,36,02/03/2023,07/03/2023,Ricardo,Madrid,Tarjeta de Credito
+427,Bufanda,Bolsos,2684,22,122,09/05/2023,17/05/2023,Ana,Valencia,Efectivo
+428,Sombrero,Calzado,6494,34,191,22/06/2023,28/06/2023,Pedro,Barcelona,Tarjeta de Credito
+429,Chaqueta,Bolsos,3190,55,58,05/06/2023,09/06/2023,Sofia,Barcelona,Tarjeta de Credito
+430,Pantalón,Ropa,4437,29,153,20/04/2023,28/04/2023,Carlos,Sevilla,Efectivo
+431,Chaqueta,Calzado,5282,38,139,26/09/2023,29/09/2023,Ricardo,Valencia,Tarjeta de Credito
+432,Socks,Ropa,6693,97,69,22/12/2023,25/12/2023,Sofia,Sevilla,Tarjeta de Credito
+433,Socks,Bolsos,3438,18,191,05/10/2023,09/10/2023,Carlos,Valencia,Efectivo
+434,Zapatos,Accesorios,2769,71,39,15/03/2023,24/03/2023,Juan,Barcelona,Efectivo
+435,Socks,Accesorios,6045,65,93,26/07/2023,31/07/2023,Marta,Madrid,Efectivo
+436,Camiseta,Calzado,16975,97,175,06/10/2023,14/10/2023,Ana,Madrid,Tarjeta de Credito
+437,Mochila,Ropa,37,1,37,22/11/2023,28/11/2023,Luis,Madrid,Efectivo
+438,Sombrero,Ropa,2992,88,34,06/12/2023,09/12/2023,Carlos,Madrid,Efectivo
+439,Chaqueta,Calzado,420,4,105,23/12/2023,31/12/2023,Luis,Madrid,Tarjeta de Credito
+440,Mochila,Accesorios,536,4,134,06/12/2023,15/12/2023,Marta,Sevilla,Efectivo
+441,Guantes,Bolsos,1558,82,19,23/07/2023,31/07/2023,Laura,Valencia,Efectivo
+442,Pantalón,Calzado,5319,27,197,10/06/2023,14/06/2023,Pedro,Barcelona,Efectivo
+443,Camiseta,Bolsos,2193,43,51,28/01/2023,03/02/2023,Ana,Sevilla,Efectivo
+444,Chaqueta,Accesorios,2891,59,49,14/09/2023,15/09/2023,Marta,Valencia,Tarjeta de Credito
+445,Mochila,Ropa,2752,32,86,14/06/2023,18/06/2023,Marta,Madrid,Efectivo
+446,Pantalón,Accesorios,3762,33,114,04/03/2023,12/03/2023,Juan,Valencia,Efectivo
+447,Zapatos,Calzado,3556,28,127,22/01/2023,23/01/2023,Sofia,Valencia,Tarjeta de Credito
+448,Camiseta,Ropa,2805,55,51,11/03/2023,14/03/2023,Pedro,Madrid,Efectivo
+449,Camiseta,Calzado,5600,100,56,06/04/2023,07/04/2023,Ana,Madrid,Tarjeta de Credito
+450,Zapatos,Calzado,10440,60,174,12/06/2023,21/06/2023,Laura,Madrid,Tarjeta de Credito
+451,Sombrero,Accesorios,2170,70,31,20/03/2023,22/03/2023,Laura,Barcelona,Tarjeta de Credito
+452,Zapatos,Calzado,12028,62,194,05/01/2023,14/01/2023,Maria,Madrid,Efectivo
+453,Camiseta,Accesorios,9280,80,116,12/11/2023,16/11/2023,Marta,Barcelona,Tarjeta de Credito
+454,Camiseta,Ropa,1224,34,36,30/04/2023,02/05/2023,Carlos,Madrid,Tarjeta de Credito
+455,Mochila,Accesorios,4350,87,50,29/10/2023,02/11/2023,Juan,Barcelona,Tarjeta de Credito
+456,Socks,Ropa,7832,88,89,27/06/2023,03/07/2023,Pedro,Valencia,Efectivo
+457,Pantalón,Accesorios,9576,56,171,25/06/2023,02/07/2023,Laura,Sevilla,Efectivo
+458,Zapatos,Bolsos,2197,13,169,05/08/2023,08/08/2023,Ana,Valencia,Efectivo
+459,Pantalón,Bolsos,5488,56,98,25/02/2023,28/02/2023,Maria,Valencia,Efectivo
+460,Zapatos,Calzado,1350,18,75,06/07/2023,14/07/2023,Ana,Madrid,Efectivo
+461,Guantes,Accesorios,1134,54,21,20/08/2023,25/08/2023,Juan,Barcelona,Efectivo
+462,Camiseta,Accesorios,13629,77,177,12/09/2023,16/09/2023,Carlos,Sevilla,Efectivo
+463,Socks,Ropa,3526,43,82,14/04/2023,21/04/2023,Maria,Madrid,Tarjeta de Credito
+464,Mochila,Calzado,3315,39,85,18/03/2023,25/03/2023,Maria,Madrid,Tarjeta de Credito
+465,Socks,Accesorios,6039,61,99,18/08/2023,27/08/2023,Sofia,Madrid,Tarjeta de Credito
+466,Socks,Calzado,798,42,19,15/09/2023,24/09/2023,Pedro,Valencia,Tarjeta de Credito
+467,Socks,Bolsos,8505,81,105,21/09/2023,26/09/2023,Maria,Barcelona,Efectivo
+468,Pantalón,Accesorios,14615,79,185,27/11/2023,05/12/2023,Sofia,Barcelona,Tarjeta de Credito
+469,Zapatos,Accesorios,522,18,29,01/07/2023,02/07/2023,Sofia,Sevilla,Tarjeta de Credito
+470,Bota,Calzado,1104,23,48,13/09/2023,22/09/2023,Juan,Barcelona,Tarjeta de Credito
+471,Guantes,Accesorios,3726,54,69,07/02/2023,15/02/2023,Luis,Barcelona,Tarjeta de Credito
+472,Chaqueta,Calzado,2250,30,75,25/06/2023,01/07/2023,Ana,Madrid,Efectivo
+473,Socks,Accesorios,7252,98,74,27/01/2023,30/01/2023,Carlos,Madrid,Efectivo
+474,Sombrero,Ropa,10904,58,188,03/10/2023,06/10/2023,Ricardo,Valencia,Efectivo
+475,Pantalón,Calzado,9044,68,133,20/05/2023,28/05/2023,Ana,Madrid,Tarjeta de Credito
+476,Mochila,Accesorios,11591,67,173,26/10/2023,31/10/2023,Maria,Madrid,Efectivo
+477,Chaqueta,Bolsos,11431,71,161,14/10/2023,21/10/2023,Carlos,Madrid,Tarjeta de Credito
+478,Bota,Accesorios,2952,18,164,01/04/2023,06/04/2023,Laura,Madrid,Efectivo
+479,Sombrero,Bolsos,973,7,139,02/03/2023,10/03/2023,Luis,Valencia,Efectivo
+480,Bota,Bolsos,6720,40,168,31/12/2023,04/01/2024,Laura,Madrid,Efectivo
+481,Chaqueta,Ropa,4620,70,66,13/12/2023,15/12/2023,Laura,Sevilla,Efectivo
+482,Socks,Calzado,7482,86,87,12/06/2023,15/06/2023,Pedro,Sevilla,Efectivo
+483,Sombrero,Accesorios,2470,65,38,17/12/2023,25/12/2023,Ana,Sevilla,Tarjeta de Credito
+484,Bota,Ropa,1632,68,24,23/05/2023,30/05/2023,Ricardo,Sevilla,Efectivo
+485,Mochila,Accesorios,1029,49,21,10/09/2023,12/09/2023,Juan,Madrid,Tarjeta de Credito
+486,Zapatos,Bolsos,5720,52,110,26/09/2023,02/10/2023,Ricardo,Sevilla,Tarjeta de Credito
+487,Camiseta,Calzado,4785,29,165,18/10/2023,27/10/2023,Laura,Madrid,Tarjeta de Credito
+488,Zapatos,Accesorios,1953,21,93,06/07/2023,10/07/2023,Maria,Valencia,Tarjeta de Credito
+489,Chaqueta,Accesorios,12060,90,134,31/10/2023,09/11/2023,Luis,Sevilla,Tarjeta de Credito
+490,Pantalón,Bolsos,8736,78,112,18/10/2023,20/10/2023,Marta,Barcelona,Efectivo
+491,Camiseta,Accesorios,297,9,33,27/03/2023,29/03/2023,Ricardo,Sevilla,Efectivo
+492,Guantes,Accesorios,7426,47,158,15/06/2023,24/06/2023,Laura,Sevilla,Efectivo
+493,Mochila,Bolsos,11172,76,147,24/04/2023,01/05/2023,Luis,Madrid,Efectivo
+494,Guantes,Ropa,4998,42,119,22/12/2023,29/12/2023,Carlos,Sevilla,Tarjeta de Credito
+495,Sombrero,Bolsos,4437,51,87,02/07/2023,03/07/2023,Ana,Barcelona,Efectivo
+496,Camiseta,Ropa,6160,56,110,26/07/2023,01/08/2023,Sofia,Madrid,Efectivo
+497,Guantes,Calzado,7905,51,155,13/09/2023,20/09/2023,Pedro,Madrid,Tarjeta de Credito
+498,Guantes,Ropa,10570,70,151,23/08/2023,29/08/2023,Luis,Valencia,Tarjeta de Credito
+499,Bota,Ropa,3420,20,171,21/12/2023,27/12/2023,Maria,Valencia,Efectivo
+500,Zapatos,Calzado,12056,88,137,03/01/2023,05/01/2023,Maria,Sevilla,Efectivo
+501,Bota,Ropa,1809,27,67,27/07/2023,02/08/2023,Luis,Valencia,Tarjeta de Credito
+502,Camiseta,Bolsos,3230,38,85,16/07/2023,20/07/2023,Maria,Valencia,Efectivo
+503,Camiseta,Ropa,11448,72,159,07/12/2023,16/12/2023,Ana,Valencia,Efectivo
+504,Chaqueta,Calzado,2925,65,45,05/05/2023,06/05/2023,Maria,Madrid,Efectivo
+505,Bota,Bolsos,9828,54,182,18/05/2023,26/05/2023,Ricardo,Madrid,Efectivo
+506,Bufanda,Calzado,4152,24,173,05/12/2023,10/12/2023,Sofia,Madrid,Tarjeta de Credito
+507,Zapatos,Calzado,1457,47,31,25/01/2023,26/01/2023,Maria,Valencia,Tarjeta de Credito
+508,Camiseta,Accesorios,9656,71,136,09/03/2023,13/03/2023,Sofia,Madrid,Tarjeta de Credito
+509,Chaqueta,Accesorios,7387,83,89,02/03/2023,03/03/2023,Laura,Valencia,Efectivo
+510,Bota,Calzado,17028,86,198,29/01/2023,04/02/2023,Juan,Madrid,Efectivo
+511,Zapatos,Calzado,6867,63,109,19/01/2023,21/01/2023,Ana,Madrid,Efectivo
+512,Bota,Calzado,11001,57,193,20/06/2023,25/06/2023,Juan,Barcelona,Efectivo
+513,Guantes,Accesorios,5775,55,105,15/03/2023,22/03/2023,Laura,Sevilla,Efectivo
+514,Chaqueta,Accesorios,10200,60,170,02/03/2023,04/03/2023,Ana,Valencia,Tarjeta de Credito
+515,Zapatos,Ropa,18018,99,182,02/06/2023,08/06/2023,Luis,Barcelona,Efectivo
+516,Socks,Ropa,10726,62,173,03/10/2023,09/10/2023,Luis,Madrid,Efectivo
+517,Sombrero,Calzado,4710,30,157,17/02/2023,22/02/2023,Sofia,Valencia,Tarjeta de Credito
+518,Sombrero,Bolsos,2511,93,27,30/07/2023,04/08/2023,Laura,Madrid,Efectivo
+519,Zapatos,Bolsos,1034,22,47,09/12/2023,12/12/2023,Sofia,Sevilla,Tarjeta de Credito
+520,Bota,Accesorios,12000,75,160,19/05/2023,21/05/2023,Pedro,Barcelona,Tarjeta de Credito
+521,Chaqueta,Accesorios,9912,84,118,20/04/2023,27/04/2023,Maria,Sevilla,Tarjeta de Credito
+522,Sombrero,Accesorios,3828,29,132,02/07/2023,03/07/2023,Marta,Barcelona,Tarjeta de Credito
+523,Chaqueta,Calzado,6273,41,153,28/01/2023,03/02/2023,Pedro,Madrid,Tarjeta de Credito
+524,Sombrero,Bolsos,8232,42,196,16/07/2023,22/07/2023,Maria,Sevilla,Efectivo
+525,Guantes,Ropa,15484,98,158,10/07/2023,13/07/2023,Ana,Sevilla,Tarjeta de Credito
+526,Bota,Calzado,7345,65,113,11/11/2023,13/11/2023,Sofia,Madrid,Tarjeta de Credito
+527,Guantes,Ropa,4619,31,149,20/02/2023,22/02/2023,Ana,Sevilla,Efectivo
+528,Sombrero,Ropa,4590,30,153,29/05/2023,07/06/2023,Ana,Valencia,Efectivo
+529,Socks,Calzado,1620,18,90,25/09/2023,30/09/2023,Maria,Barcelona,Tarjeta de Credito
+530,Socks,Ropa,1632,17,96,19/02/2023,26/02/2023,Laura,Barcelona,Efectivo
+531,Guantes,Bolsos,5738,38,151,03/09/2023,08/09/2023,Maria,Barcelona,Efectivo
+532,Socks,Ropa,980,14,70,23/04/2023,30/04/2023,Carlos,Valencia,Tarjeta de Credito
+533,Sombrero,Bolsos,4785,87,55,19/06/2023,23/06/2023,Luis,Barcelona,Tarjeta de Credito
+534,Zapatos,Bolsos,3649,89,41,15/06/2023,23/06/2023,Luis,Madrid,Efectivo
+535,Guantes,Bolsos,1896,79,24,14/01/2023,21/01/2023,Pedro,Sevilla,Tarjeta de Credito
+536,Pantalón,Accesorios,2968,56,53,22/07/2023,27/07/2023,Luis,Valencia,Tarjeta de Credito
+537,Bota,Ropa,3388,22,154,15/10/2023,21/10/2023,Maria,Barcelona,Efectivo
+538,Socks,Calzado,11926,67,178,08/07/2023,13/07/2023,Ricardo,Madrid,Tarjeta de Credito
+539,Socks,Calzado,3528,56,63,04/06/2023,11/06/2023,Sofia,Sevilla,Tarjeta de Credito
+540,Camiseta,Ropa,1007,19,53,24/02/2023,26/02/2023,Maria,Sevilla,Tarjeta de Credito
+541,Bufanda,Accesorios,6099,57,107,01/07/2023,06/07/2023,Maria,Valencia,Tarjeta de Credito
+542,Guantes,Accesorios,616,44,14,29/07/2023,01/08/2023,Marta,Valencia,Tarjeta de Credito
+543,Mochila,Bolsos,11564,98,118,16/03/2023,25/03/2023,Sofia,Valencia,Efectivo
+544,Socks,Ropa,1260,35,36,04/10/2023,10/10/2023,Carlos,Madrid,Efectivo
+545,Bota,Ropa,125,1,125,13/05/2023,16/05/2023,Luis,Madrid,Tarjeta de Credito
+546,Pantalón,Calzado,4992,52,96,09/12/2023,16/12/2023,Sofia,Valencia,Efectivo
+547,Socks,Ropa,9605,85,113,28/02/2023,04/03/2023,Luis,Barcelona,Tarjeta de Credito
+548,Pantalón,Accesorios,12276,93,132,11/12/2023,14/12/2023,Pedro,Sevilla,Tarjeta de Credito
+549,Sombrero,Ropa,6160,70,88,01/07/2023,09/07/2023,Sofia,Sevilla,Tarjeta de Credito
+550,Sombrero,Calzado,1924,37,52,05/12/2023,09/12/2023,Luis,Madrid,Tarjeta de Credito
+551,Bufanda,Bolsos,6890,65,106,17/11/2023,18/11/2023,Carlos,Sevilla,Tarjeta de Credito
+552,Zapatos,Calzado,2040,51,40,05/03/2023,11/03/2023,Juan,Barcelona,Efectivo
+553,Mochila,Calzado,108,1,108,23/11/2023,24/11/2023,Ana,Sevilla,Efectivo
+554,Camiseta,Bolsos,2366,91,26,17/09/2023,22/09/2023,Ana,Madrid,Tarjeta de Credito
+555,Bufanda,Calzado,1932,21,92,12/07/2023,19/07/2023,Carlos,Madrid,Efectivo
+556,Chaqueta,Calzado,6307,53,119,23/05/2023,29/05/2023,Marta,Barcelona,Tarjeta de Credito
+557,Camiseta,Ropa,3056,16,191,14/04/2023,16/04/2023,Juan,Barcelona,Efectivo
+558,Guantes,Ropa,12139,61,199,02/08/2023,06/08/2023,Pedro,Sevilla,Tarjeta de Credito
+559,Bota,Bolsos,2214,54,41,30/08/2023,01/09/2023,Carlos,Sevilla,Efectivo
+560,Chaqueta,Ropa,7080,40,177,28/07/2023,29/07/2023,Ana,Madrid,Tarjeta de Credito
+561,Chaqueta,Ropa,3900,26,150,03/04/2023,06/04/2023,Ana,Barcelona,Tarjeta de Credito
+562,Bufanda,Calzado,3520,80,44,22/05/2023,25/05/2023,Ana,Barcelona,Efectivo
+563,Zapatos,Accesorios,13064,92,142,22/04/2023,29/04/2023,Laura,Barcelona,Efectivo
+564,Bufanda,Ropa,2470,65,38,28/02/2023,01/03/2023,Carlos,Sevilla,Tarjeta de Credito
+565,Guantes,Accesorios,7900,100,79,12/02/2023,21/02/2023,Maria,Barcelona,Efectivo
+566,Socks,Ropa,11988,74,162,26/07/2023,01/08/2023,Pedro,Madrid,Tarjeta de Credito
+567,Socks,Ropa,6656,64,104,25/09/2023,29/09/2023,Ana,Madrid,Efectivo
+568,Zapatos,Bolsos,1333,43,31,23/10/2023,26/10/2023,Luis,Sevilla,Efectivo
+569,Guantes,Bolsos,3094,17,182,28/04/2023,01/05/2023,Carlos,Valencia,Tarjeta de Credito
+570,Zapatos,Bolsos,4602,59,78,20/01/2023,22/01/2023,Laura,Sevilla,Efectivo
+571,Pantalón,Accesorios,2254,23,98,10/08/2023,12/08/2023,Carlos,Valencia,Efectivo
+572,Socks,Calzado,567,7,81,15/06/2023,20/06/2023,Pedro,Barcelona,Tarjeta de Credito
+573,Chaqueta,Ropa,6072,44,138,11/05/2023,20/05/2023,Laura,Sevilla,Efectivo
+574,Mochila,Ropa,9593,53,181,05/06/2023,07/06/2023,Pedro,Madrid,Tarjeta de Credito
+575,Bota,Ropa,6816,71,96,03/07/2023,05/07/2023,Carlos,Barcelona,Tarjeta de Credito
+576,Guantes,Accesorios,8295,79,105,31/03/2023,06/04/2023,Maria,Madrid,Tarjeta de Credito
+577,Camiseta,Bolsos,2856,34,84,04/04/2023,06/04/2023,Pedro,Barcelona,Tarjeta de Credito
+578,Zapatos,Calzado,8096,46,176,13/01/2023,17/01/2023,Laura,Sevilla,Tarjeta de Credito
+579,Bota,Accesorios,4284,68,63,18/11/2023,24/11/2023,Laura,Valencia,Efectivo
+580,Camiseta,Bolsos,7566,78,97,20/10/2023,25/10/2023,Pedro,Barcelona,Tarjeta de Credito
+581,Bota,Accesorios,12948,78,166,18/08/2023,19/08/2023,Ricardo,Valencia,Tarjeta de Credito
+582,Mochila,Calzado,1008,16,63,18/11/2023,24/11/2023,Carlos,Barcelona,Efectivo
+583,Camiseta,Bolsos,1775,71,25,19/10/2023,20/10/2023,Ricardo,Madrid,Efectivo
+584,Bufanda,Accesorios,10368,96,108,26/01/2023,29/01/2023,Marta,Madrid,Efectivo
+585,Sombrero,Calzado,551,19,29,16/03/2023,21/03/2023,Carlos,Barcelona,Tarjeta de Credito
+586,Bufanda,Ropa,110,2,55,30/12/2023,04/01/2024,Pedro,Valencia,Tarjeta de Credito
+587,Socks,Calzado,1360,10,136,26/10/2023,01/11/2023,Juan,Sevilla,Tarjeta de Credito
+588,Sombrero,Ropa,3350,50,67,30/05/2023,07/06/2023,Pedro,Sevilla,Efectivo
+589,Bufanda,Accesorios,15390,81,190,28/05/2023,02/06/2023,Ricardo,Madrid,Tarjeta de Credito
+590,Sombrero,Bolsos,1440,12,120,08/01/2023,09/01/2023,Maria,Sevilla,Efectivo
+591,Sombrero,Bolsos,9660,70,138,29/01/2023,03/02/2023,Pedro,Madrid,Tarjeta de Credito
+592,Chaqueta,Accesorios,1980,22,90,23/10/2023,26/10/2023,Pedro,Sevilla,Efectivo
+593,Zapatos,Bolsos,5312,32,166,28/07/2023,01/08/2023,Maria,Barcelona,Tarjeta de Credito
+594,Zapatos,Bolsos,7812,84,93,08/05/2023,16/05/2023,Pedro,Madrid,Tarjeta de Credito
+595,Chaqueta,Ropa,79,1,79,06/12/2023,13/12/2023,Ana,Madrid,Tarjeta de Credito
+596,Bota,Accesorios,918,54,17,26/04/2023,01/05/2023,Juan,Barcelona,Efectivo
+597,Pantalón,Calzado,2204,58,38,24/05/2023,26/05/2023,Luis,Madrid,Efectivo
+598,Bota,Ropa,8470,70,121,14/11/2023,20/11/2023,Juan,Sevilla,Tarjeta de Credito
+599,Camiseta,Accesorios,15604,83,188,23/08/2023,29/08/2023,Pedro,Sevilla,Tarjeta de Credito
+600,Camiseta,Ropa,3060,18,170,07/01/2023,13/01/2023,Ana,Madrid,Tarjeta de Credito
+601,Sombrero,Calzado,840,6,140,14/02/2023,23/02/2023,Carlos,Sevilla,Efectivo
+602,Bufanda,Calzado,8865,45,197,27/08/2023,04/09/2023,Pedro,Valencia,Tarjeta de Credito
+603,Bufanda,Accesorios,16684,97,172,04/06/2023,12/06/2023,Ricardo,Madrid,Tarjeta de Credito
+604,Zapatos,Calzado,2691,23,117,30/06/2023,01/07/2023,Ana,Barcelona,Tarjeta de Credito
+605,Guantes,Ropa,2714,23,118,03/08/2023,08/08/2023,Maria,Valencia,Tarjeta de Credito
+606,Bota,Calzado,754,26,29,29/03/2023,05/04/2023,Ana,Madrid,Efectivo
+607,Socks,Ropa,6314,77,82,13/09/2023,19/09/2023,Maria,Barcelona,Efectivo
+608,Mochila,Ropa,1232,7,176,14/03/2023,19/03/2023,Marta,Sevilla,Tarjeta de Credito
+609,Bufanda,Calzado,1027,79,13,28/06/2023,06/07/2023,Luis,Barcelona,Tarjeta de Credito
+610,Mochila,Accesorios,1232,44,28,31/07/2023,03/08/2023,Sofia,Valencia,Efectivo
+611,Sombrero,Bolsos,2997,27,111,20/10/2023,26/10/2023,Ana,Sevilla,Efectivo
+612,Mochila,Calzado,4732,26,182,22/08/2023,27/08/2023,Laura,Madrid,Tarjeta de Credito
+613,Socks,Ropa,17460,97,180,27/08/2023,04/09/2023,Ricardo,Sevilla,Efectivo
+614,Chaqueta,Ropa,11850,79,150,11/08/2023,15/08/2023,Pedro,Madrid,Efectivo
+615,Socks,Calzado,5400,36,150,29/04/2023,07/05/2023,Ricardo,Madrid,Tarjeta de Credito
+616,Mochila,Accesorios,10835,55,197,09/11/2023,11/11/2023,Juan,Barcelona,Efectivo
+617,Socks,Accesorios,12416,64,194,21/09/2023,30/09/2023,Sofia,Barcelona,Efectivo
+618,Pantalón,Ropa,8645,91,95,26/07/2023,04/08/2023,Juan,Barcelona,Tarjeta de Credito
+619,Sombrero,Ropa,3477,57,61,05/04/2023,11/04/2023,Marta,Valencia,Tarjeta de Credito
+620,Bota,Accesorios,8280,69,120,10/08/2023,14/08/2023,Sofia,Valencia,Efectivo
+621,Chaqueta,Bolsos,11590,61,190,03/10/2023,07/10/2023,Sofia,Barcelona,Tarjeta de Credito
+622,Bufanda,Calzado,236,2,118,19/08/2023,25/08/2023,Juan,Valencia,Efectivo
+623,Camiseta,Ropa,5225,55,95,05/11/2023,10/11/2023,Maria,Sevilla,Tarjeta de Credito
+624,Bota,Ropa,5044,97,52,29/04/2023,05/05/2023,Juan,Sevilla,Efectivo
+625,Camiseta,Accesorios,4080,80,51,25/09/2023,02/10/2023,Ricardo,Valencia,Tarjeta de Credito
+626,Sombrero,Calzado,8613,87,99,30/09/2023,07/10/2023,Maria,Valencia,Efectivo
+627,Chaqueta,Accesorios,4712,38,124,05/03/2023,14/03/2023,Ricardo,Sevilla,Efectivo
+628,Zapatos,Calzado,2800,80,35,25/10/2023,02/11/2023,Marta,Madrid,Efectivo
+629,Bufanda,Calzado,12480,78,160,16/12/2023,22/12/2023,Pedro,Sevilla,Tarjeta de Credito
+630,Pantalón,Calzado,1508,29,52,11/01/2023,17/01/2023,Carlos,Sevilla,Tarjeta de Credito
+631,Zapatos,Ropa,2236,26,86,08/04/2023,13/04/2023,Maria,Valencia,Efectivo
+632,Sombrero,Bolsos,5775,35,165,12/03/2023,13/03/2023,Marta,Sevilla,Efectivo
+633,Bota,Accesorios,11534,79,146,30/12/2023,08/01/2024,Laura,Valencia,Tarjeta de Credito
+634,Pantalón,Bolsos,1943,67,29,27/02/2023,08/03/2023,Marta,Valencia,Tarjeta de Credito
+635,Socks,Accesorios,16791,87,193,17/10/2023,26/10/2023,Juan,Barcelona,Tarjeta de Credito
+636,Mochila,Calzado,1392,29,48,08/09/2023,16/09/2023,Juan,Sevilla,Tarjeta de Credito
+637,Pantalón,Ropa,6392,34,188,03/10/2023,06/10/2023,Carlos,Madrid,Tarjeta de Credito
+638,Sombrero,Bolsos,2037,97,21,19/02/2023,20/02/2023,Marta,Barcelona,Tarjeta de Credito
+639,Guantes,Ropa,7872,41,192,24/12/2023,01/01/2024,Luis,Valencia,Efectivo
+640,Mochila,Accesorios,820,41,20,04/08/2023,11/08/2023,Pedro,Valencia,Tarjeta de Credito
+641,Camiseta,Ropa,3749,23,163,21/02/2023,26/02/2023,Juan,Madrid,Efectivo
+642,Bufanda,Ropa,3621,71,51,28/09/2023,05/10/2023,Carlos,Valencia,Tarjeta de Credito
+643,Camiseta,Bolsos,492,3,164,25/03/2023,29/03/2023,Pedro,Sevilla,Tarjeta de Credito
+644,Pantalón,Calzado,1160,58,20,20/10/2023,29/10/2023,Marta,Barcelona,Efectivo
+645,Camiseta,Ropa,1504,32,47,06/05/2023,08/05/2023,Marta,Valencia,Efectivo
+646,Sombrero,Calzado,3317,31,107,23/10/2023,01/11/2023,Sofia,Valencia,Tarjeta de Credito
+647,Socks,Accesorios,14760,82,180,13/03/2023,22/03/2023,Carlos,Madrid,Efectivo
+648,Bota,Ropa,1204,43,28,23/10/2023,28/10/2023,Juan,Sevilla,Efectivo
+649,Bufanda,Bolsos,1001,7,143,24/08/2023,25/08/2023,Luis,Valencia,Efectivo
+650,Camiseta,Accesorios,183,1,183,25/02/2023,04/03/2023,Marta,Madrid,Efectivo
+651,Camiseta,Accesorios,7625,61,125,26/12/2023,30/12/2023,Luis,Valencia,Tarjeta de Credito
+652,Pantalón,Bolsos,1708,14,122,20/04/2023,29/04/2023,Marta,Madrid,Efectivo
+653,Bota,Ropa,9308,52,179,11/07/2023,17/07/2023,Juan,Madrid,Tarjeta de Credito
+654,Zapatos,Ropa,7104,96,74,03/04/2023,06/04/2023,Pedro,Sevilla,Tarjeta de Credito
+655,Camiseta,Accesorios,648,6,108,16/12/2023,22/12/2023,Ana,Valencia,Tarjeta de Credito
+656,Sombrero,Ropa,810,10,81,25/02/2023,03/03/2023,Pedro,Sevilla,Tarjeta de Credito
+657,Guantes,Calzado,13916,71,196,01/03/2023,06/03/2023,Marta,Madrid,Efectivo
+658,Bufanda,Bolsos,5490,90,61,18/05/2023,20/05/2023,Ricardo,Barcelona,Efectivo
+659,Camiseta,Calzado,12446,98,127,08/02/2023,10/02/2023,Ana,Valencia,Tarjeta de Credito
+660,Sombrero,Ropa,5520,30,184,28/01/2023,04/02/2023,Ana,Barcelona,Tarjeta de Credito
+661,Sombrero,Accesorios,12900,100,129,18/02/2023,20/02/2023,Luis,Valencia,Tarjeta de Credito
+662,Bufanda,Bolsos,336,21,16,05/05/2023,11/05/2023,Carlos,Sevilla,Tarjeta de Credito
+663,Zapatos,Ropa,1200,60,20,13/01/2023,18/01/2023,Luis,Sevilla,Efectivo
+664,Sombrero,Ropa,9072,81,112,05/02/2023,09/02/2023,Luis,Sevilla,Tarjeta de Credito
+665,Guantes,Accesorios,6790,97,70,11/04/2023,18/04/2023,Ricardo,Sevilla,Efectivo
+666,Sombrero,Accesorios,5698,74,77,09/10/2023,17/10/2023,Pedro,Sevilla,Tarjeta de Credito
+667,Sombrero,Calzado,10206,63,162,27/03/2023,31/03/2023,Pedro,Barcelona,Tarjeta de Credito
+668,Sombrero,Bolsos,6258,42,149,04/01/2023,05/01/2023,Laura,Sevilla,Tarjeta de Credito
+669,Socks,Bolsos,8313,51,163,11/08/2023,12/08/2023,Marta,Madrid,Tarjeta de Credito
+670,Socks,Accesorios,7104,64,111,04/12/2023,05/12/2023,Ricardo,Madrid,Efectivo
+671,Zapatos,Calzado,9044,76,119,15/06/2023,16/06/2023,Laura,Barcelona,Efectivo
+672,Camiseta,Bolsos,8344,56,149,10/12/2023,15/12/2023,Juan,Valencia,Efectivo
+673,Sombrero,Accesorios,14400,80,180,05/10/2023,09/10/2023,Marta,Madrid,Tarjeta de Credito
+674,Bota,Ropa,2460,41,60,10/05/2023,19/05/2023,Marta,Valencia,Tarjeta de Credito
+675,Camiseta,Bolsos,4032,32,126,31/01/2023,03/02/2023,Sofia,Barcelona,Efectivo
+676,Zapatos,Calzado,2610,15,174,11/01/2023,18/01/2023,Sofia,Valencia,Efectivo
+677,Chaqueta,Calzado,3410,62,55,29/10/2023,06/11/2023,Maria,Valencia,Tarjeta de Credito
+678,Camiseta,Calzado,1674,27,62,06/04/2023,12/04/2023,Maria,Valencia,Tarjeta de Credito
+679,Camiseta,Ropa,2716,28,97,09/07/2023,10/07/2023,Luis,Valencia,Efectivo
+680,Mochila,Bolsos,10530,81,130,11/07/2023,19/07/2023,Juan,Barcelona,Tarjeta de Credito
+681,Pantalón,Bolsos,1408,64,22,23/09/2023,26/09/2023,Ana,Madrid,Tarjeta de Credito
+682,Mochila,Ropa,5782,59,98,08/05/2023,16/05/2023,Ana,Sevilla,Efectivo
+683,Guantes,Bolsos,7772,58,134,26/08/2023,30/08/2023,Sofia,Valencia,Tarjeta de Credito
+684,Socks,Ropa,254,2,127,21/12/2023,29/12/2023,Sofia,Madrid,Efectivo
+685,Socks,Ropa,2268,36,63,22/04/2023,23/04/2023,Sofia,Madrid,Tarjeta de Credito
+686,Pantalón,Ropa,13774,71,194,12/11/2023,15/11/2023,Ricardo,Barcelona,Efectivo
+687,Bufanda,Calzado,1625,13,125,09/12/2023,15/12/2023,Carlos,Madrid,Tarjeta de Credito
+688,Bufanda,Bolsos,1905,15,127,25/05/2023,03/06/2023,Maria,Barcelona,Efectivo
+689,Zapatos,Ropa,1157,89,13,06/03/2023,08/03/2023,Ricardo,Valencia,Efectivo
+690,Pantalón,Bolsos,7308,87,84,04/09/2023,05/09/2023,Pedro,Valencia,Efectivo
+691,Camiseta,Calzado,3480,60,58,11/08/2023,14/08/2023,Ana,Sevilla,Efectivo
+692,Bufanda,Ropa,352,22,16,09/11/2023,13/11/2023,Marta,Sevilla,Tarjeta de Credito
+693,Sombrero,Accesorios,7497,63,119,16/04/2023,21/04/2023,Maria,Sevilla,Tarjeta de Credito
+694,Bota,Calzado,11790,90,131,30/06/2023,03/07/2023,Laura,Madrid,Efectivo
+695,Camiseta,Accesorios,1940,97,20,03/07/2023,05/07/2023,Pedro,Valencia,Tarjeta de Credito
+696,Guantes,Bolsos,7575,75,101,14/08/2023,16/08/2023,Maria,Barcelona,Tarjeta de Credito
+697,Sombrero,Bolsos,14134,74,191,22/09/2023,29/09/2023,Ricardo,Sevilla,Tarjeta de Credito
+698,Sombrero,Calzado,4550,25,182,05/10/2023,14/10/2023,Juan,Barcelona,Tarjeta de Credito
+699,Pantalón,Bolsos,1536,48,32,30/03/2023,01/04/2023,Marta,Barcelona,Tarjeta de Credito
+700,Zapatos,Accesorios,1591,43,37,25/06/2023,02/07/2023,Maria,Sevilla,Efectivo
+701,Guantes,Ropa,4560,38,120,18/01/2023,25/01/2023,Carlos,Valencia,Efectivo
+702,Bufanda,Ropa,2706,41,66,16/04/2023,23/04/2023,Sofia,Sevilla,Efectivo
+703,Pantalón,Ropa,1575,45,35,28/09/2023,01/10/2023,Sofia,Barcelona,Efectivo
+704,Bufanda,Calzado,14256,88,162,15/11/2023,22/11/2023,Marta,Sevilla,Tarjeta de Credito
+705,Pantalón,Bolsos,2520,40,63,16/06/2023,17/06/2023,Ricardo,Barcelona,Tarjeta de Credito
+706,Pantalón,Accesorios,3686,97,38,13/01/2023,14/01/2023,Sofia,Barcelona,Efectivo
+707,Pantalón,Bolsos,1802,17,106,03/12/2023,08/12/2023,Maria,Sevilla,Tarjeta de Credito
+708,Zapatos,Bolsos,15224,88,173,01/02/2023,03/02/2023,Laura,Madrid,Tarjeta de Credito
+709,Pantalón,Bolsos,1311,57,23,09/02/2023,18/02/2023,Ana,Sevilla,Efectivo
+710,Chaqueta,Ropa,174,2,87,28/05/2023,04/06/2023,Ana,Madrid,Tarjeta de Credito
+711,Bota,Accesorios,4224,96,44,06/08/2023,10/08/2023,Pedro,Barcelona,Efectivo
+712,Bufanda,Accesorios,2418,62,39,07/08/2023,11/08/2023,Luis,Barcelona,Efectivo
+713,Camiseta,Bolsos,8888,88,101,23/03/2023,25/03/2023,Juan,Madrid,Tarjeta de Credito
+714,Mochila,Ropa,234,9,26,29/11/2023,04/12/2023,Marta,Barcelona,Tarjeta de Credito
+715,Guantes,Ropa,11356,68,167,27/07/2023,31/07/2023,Pedro,Madrid,Efectivo
+716,Socks,Accesorios,8262,81,102,20/07/2023,21/07/2023,Luis,Madrid,Efectivo
+717,Zapatos,Ropa,3094,17,182,28/11/2023,06/12/2023,Ricardo,Barcelona,Tarjeta de Credito
+718,Camiseta,Ropa,4400,50,88,07/02/2023,10/02/2023,Carlos,Valencia,Efectivo
+719,Sombrero,Ropa,11186,94,119,30/07/2023,05/08/2023,Carlos,Madrid,Efectivo
+720,Chaqueta,Calzado,7520,40,188,23/11/2023,27/11/2023,Juan,Sevilla,Efectivo
+721,Socks,Bolsos,6438,58,111,06/09/2023,15/09/2023,Sofia,Sevilla,Tarjeta de Credito
+722,Mochila,Accesorios,8625,75,115,15/08/2023,22/08/2023,Maria,Barcelona,Efectivo
+723,Camiseta,Accesorios,4760,85,56,17/02/2023,26/02/2023,Pedro,Valencia,Tarjeta de Credito
+724,Socks,Calzado,3990,21,190,18/01/2023,21/01/2023,Pedro,Barcelona,Efectivo
+725,Camiseta,Bolsos,1314,18,73,22/10/2023,23/10/2023,Marta,Valencia,Tarjeta de Credito
+726,Chaqueta,Accesorios,9625,55,175,15/07/2023,20/07/2023,Marta,Madrid,Efectivo
+727,Mochila,Ropa,2117,29,73,06/07/2023,09/07/2023,Carlos,Madrid,Tarjeta de Credito
+728,Sombrero,Accesorios,2304,24,96,11/12/2023,17/12/2023,Carlos,Madrid,Tarjeta de Credito
+729,Pantalón,Ropa,1184,74,16,12/08/2023,20/08/2023,Laura,Madrid,Tarjeta de Credito
+730,Bufanda,Calzado,527,17,31,14/11/2023,18/11/2023,Laura,Sevilla,Efectivo
+731,Sombrero,Ropa,1620,18,90,31/12/2023,05/01/2024,Sofia,Sevilla,Efectivo
+732,Pantalón,Accesorios,7476,42,178,03/12/2023,08/12/2023,Laura,Barcelona,Efectivo
+733,Zapatos,Accesorios,6972,84,83,17/08/2023,21/08/2023,Maria,Valencia,Tarjeta de Credito
+734,Bota,Accesorios,6615,45,147,18/03/2023,22/03/2023,Maria,Madrid,Efectivo
+735,Guantes,Calzado,15908,82,194,07/07/2023,11/07/2023,Pedro,Madrid,Tarjeta de Credito
+736,Guantes,Calzado,2448,17,144,12/12/2023,16/12/2023,Ana,Valencia,Efectivo
+737,Bufanda,Bolsos,9782,73,134,27/09/2023,01/10/2023,Maria,Valencia,Tarjeta de Credito
+738,Mochila,Accesorios,826,14,59,05/04/2023,10/04/2023,Luis,Barcelona,Tarjeta de Credito
+739,Chaqueta,Ropa,2989,49,61,06/11/2023,08/11/2023,Carlos,Valencia,Tarjeta de Credito
+740,Mochila,Calzado,4930,29,170,12/05/2023,14/05/2023,Marta,Madrid,Efectivo
+741,Chaqueta,Accesorios,950,95,10,08/02/2023,17/02/2023,Laura,Madrid,Efectivo
+742,Mochila,Accesorios,760,4,190,13/03/2023,15/03/2023,Pedro,Madrid,Efectivo
+743,Bota,Calzado,16154,82,197,08/10/2023,14/10/2023,Juan,Madrid,Tarjeta de Credito
+744,Zapatos,Bolsos,3420,20,171,29/11/2023,01/12/2023,Marta,Madrid,Tarjeta de Credito
+745,Zapatos,Calzado,611,47,13,09/06/2023,14/06/2023,Luis,Barcelona,Efectivo
+746,Pantalón,Calzado,1386,9,154,06/07/2023,10/07/2023,Laura,Madrid,Efectivo
+747,Socks,Ropa,10857,77,141,10/07/2023,17/07/2023,Luis,Barcelona,Efectivo
+748,Zapatos,Ropa,14220,79,180,30/04/2023,07/05/2023,Carlos,Madrid,Tarjeta de Credito
+749,Zapatos,Bolsos,351,27,13,08/08/2023,14/08/2023,Carlos,Sevilla,Tarjeta de Credito
+750,Sombrero,Accesorios,150,15,10,22/02/2023,27/02/2023,Sofia,Sevilla,Tarjeta de Credito
+751,Sombrero,Calzado,7360,92,80,10/08/2023,11/08/2023,Pedro,Sevilla,Tarjeta de Credito
+752,Pantalón,Bolsos,3553,19,187,11/05/2023,14/05/2023,Marta,Sevilla,Tarjeta de Credito
+753,Socks,Ropa,17820,90,198,25/08/2023,03/09/2023,Ricardo,Barcelona,Efectivo
+754,Bufanda,Calzado,2288,52,44,03/09/2023,04/09/2023,Ricardo,Barcelona,Tarjeta de Credito
+755,Sombrero,Accesorios,442,26,17,14/08/2023,19/08/2023,Marta,Valencia,Tarjeta de Credito
+756,Bufanda,Ropa,14329,89,161,27/07/2023,29/07/2023,Juan,Madrid,Tarjeta de Credito
+757,Camiseta,Ropa,1170,26,45,06/04/2023,10/04/2023,Pedro,Sevilla,Tarjeta de Credito
+758,Sombrero,Ropa,4862,26,187,19/07/2023,20/07/2023,Luis,Barcelona,Tarjeta de Credito
+759,Bota,Bolsos,6072,46,132,04/09/2023,07/09/2023,Juan,Madrid,Efectivo
+760,Socks,Accesorios,4784,92,52,13/03/2023,20/03/2023,Ana,Madrid,Tarjeta de Credito
+761,Pantalón,Calzado,1764,49,36,14/11/2023,17/11/2023,Marta,Barcelona,Tarjeta de Credito
+762,Camiseta,Bolsos,3362,82,41,04/07/2023,08/07/2023,Luis,Sevilla,Tarjeta de Credito
+763,Socks,Bolsos,8352,96,87,06/01/2023,08/01/2023,Ricardo,Valencia,Efectivo
+764,Bota,Bolsos,6890,53,130,25/07/2023,28/07/2023,Maria,Madrid,Efectivo
+765,Socks,Ropa,465,3,155,01/02/2023,10/02/2023,Sofia,Valencia,Efectivo
+766,Bota,Accesorios,10890,66,165,09/04/2023,12/04/2023,Ricardo,Sevilla,Tarjeta de Credito
+767,Bota,Bolsos,16102,97,166,13/09/2023,18/09/2023,Pedro,Sevilla,Efectivo
+768,Bufanda,Calzado,1050,42,25,06/07/2023,08/07/2023,Carlos,Valencia,Tarjeta de Credito
+769,Mochila,Accesorios,2052,19,108,17/03/2023,21/03/2023,Maria,Sevilla,Tarjeta de Credito
+770,Camiseta,Calzado,952,17,56,26/06/2023,03/07/2023,Sofia,Madrid,Efectivo
+771,Socks,Accesorios,6468,33,196,11/11/2023,18/11/2023,Sofia,Valencia,Tarjeta de Credito
+772,Chaqueta,Calzado,3040,76,40,14/10/2023,17/10/2023,Ana,Sevilla,Tarjeta de Credito
+773,Camiseta,Ropa,637,49,13,15/12/2023,20/12/2023,Ana,Valencia,Tarjeta de Credito
+774,Mochila,Bolsos,9744,56,174,12/09/2023,13/09/2023,Laura,Madrid,Efectivo
+775,Camiseta,Calzado,1638,63,26,21/11/2023,22/11/2023,Ricardo,Sevilla,Tarjeta de Credito
+776,Zapatos,Accesorios,144,3,48,09/07/2023,14/07/2023,Ricardo,Madrid,Tarjeta de Credito
+777,Chaqueta,Bolsos,2793,49,57,04/11/2023,13/11/2023,Ricardo,Sevilla,Efectivo
+778,Mochila,Bolsos,10065,55,183,11/12/2023,12/12/2023,Laura,Barcelona,Tarjeta de Credito
+779,Bufanda,Accesorios,4810,26,185,07/05/2023,08/05/2023,Juan,Sevilla,Tarjeta de Credito
+780,Socks,Calzado,4752,99,48,14/10/2023,18/10/2023,Sofia,Valencia,Efectivo
+781,Guantes,Ropa,10152,72,141,11/09/2023,15/09/2023,Maria,Sevilla,Tarjeta de Credito
+782,Mochila,Ropa,2028,52,39,01/08/2023,03/08/2023,Pedro,Madrid,Tarjeta de Credito
+783,Pantalón,Calzado,16700,100,167,07/09/2023,16/09/2023,Sofia,Madrid,Tarjeta de Credito
+784,Socks,Bolsos,217,7,31,25/03/2023,03/04/2023,Ana,Sevilla,Tarjeta de Credito
+785,Mochila,Bolsos,3450,46,75,13/01/2023,15/01/2023,Luis,Valencia,Tarjeta de Credito
+786,Zapatos,Bolsos,5382,46,117,14/02/2023,23/02/2023,Carlos,Barcelona,Efectivo
+787,Guantes,Bolsos,2100,100,21,07/05/2023,13/05/2023,Laura,Valencia,Efectivo
+788,Zapatos,Calzado,720,16,45,24/04/2023,02/05/2023,Marta,Barcelona,Efectivo
+789,Guantes,Bolsos,648,24,27,03/10/2023,07/10/2023,Luis,Madrid,Efectivo
+790,Pantalón,Accesorios,6039,61,99,24/07/2023,26/07/2023,Pedro,Valencia,Tarjeta de Credito
+791,Socks,Bolsos,10260,54,190,03/12/2023,05/12/2023,Ricardo,Barcelona,Tarjeta de Credito
+792,Bufanda,Ropa,620,62,10,30/09/2023,09/10/2023,Ana,Sevilla,Tarjeta de Credito
+793,Zapatos,Bolsos,136,1,136,27/02/2023,28/02/2023,Ana,Madrid,Tarjeta de Credito
+794,Zapatos,Calzado,9555,49,195,24/11/2023,01/12/2023,Ana,Sevilla,Tarjeta de Credito
+795,Bota,Ropa,2475,25,99,07/08/2023,10/08/2023,Ricardo,Madrid,Efectivo
+796,Guantes,Calzado,960,10,96,19/04/2023,22/04/2023,Marta,Valencia,Efectivo
+797,Sombrero,Calzado,7920,80,99,06/10/2023,08/10/2023,Laura,Valencia,Tarjeta de Credito
+798,Socks,Ropa,2288,16,143,23/06/2023,29/06/2023,Luis,Madrid,Tarjeta de Credito
+799,Guantes,Calzado,4582,58,79,24/11/2023,26/11/2023,Ricardo,Madrid,Tarjeta de Credito
+800,Bota,Calzado,3816,72,53,21/09/2023,25/09/2023,Pedro,Madrid,Efectivo
+801,Camiseta,Bolsos,4669,29,161,11/11/2023,20/11/2023,Laura,Valencia,Tarjeta de Credito
+802,Guantes,Accesorios,8740,92,95,21/04/2023,30/04/2023,Pedro,Barcelona,Tarjeta de Credito
+803,Bufanda,Calzado,168,6,28,06/07/2023,12/07/2023,Laura,Sevilla,Tarjeta de Credito
+804,Socks,Calzado,1760,16,110,26/09/2023,30/09/2023,Marta,Sevilla,Efectivo
+805,Bota,Calzado,3100,20,155,17/08/2023,24/08/2023,Carlos,Valencia,Tarjeta de Credito
+806,Camiseta,Bolsos,8320,80,104,05/06/2023,06/06/2023,Pedro,Sevilla,Efectivo
+807,Chaqueta,Accesorios,7810,71,110,08/07/2023,12/07/2023,Ricardo,Madrid,Efectivo
+808,Bota,Ropa,3042,78,39,29/09/2023,04/10/2023,Laura,Barcelona,Efectivo
+809,Chaqueta,Bolsos,7697,43,179,02/01/2023,10/01/2023,Ana,Sevilla,Efectivo
+810,Socks,Bolsos,1092,26,42,03/09/2023,05/09/2023,Sofia,Barcelona,Efectivo
+811,Zapatos,Accesorios,1890,90,21,29/07/2023,03/08/2023,Ana,Madrid,Efectivo
+812,Bota,Accesorios,9906,78,127,13/10/2023,19/10/2023,Juan,Sevilla,Tarjeta de Credito
+813,Pantalón,Bolsos,7313,71,103,25/12/2023,30/12/2023,Carlos,Valencia,Tarjeta de Credito
+814,Chaqueta,Ropa,5412,33,164,13/01/2023,22/01/2023,Carlos,Barcelona,Tarjeta de Credito
+815,Bufanda,Bolsos,4576,26,176,06/04/2023,07/04/2023,Ana,Madrid,Efectivo
+816,Pantalón,Accesorios,6570,45,146,09/08/2023,12/08/2023,Luis,Barcelona,Tarjeta de Credito
+817,Mochila,Ropa,13272,84,158,26/08/2023,28/08/2023,Marta,Sevilla,Efectivo
+818,Mochila,Accesorios,5355,63,85,04/04/2023,07/04/2023,Pedro,Sevilla,Efectivo
+819,Camiseta,Ropa,2546,67,38,04/12/2023,13/12/2023,Ricardo,Valencia,Efectivo
+820,Zapatos,Calzado,8840,52,170,26/09/2023,05/10/2023,Carlos,Madrid,Tarjeta de Credito
+821,Socks,Accesorios,13532,68,199,20/06/2023,22/06/2023,Ana,Madrid,Efectivo
+822,Bota,Accesorios,3276,26,126,04/04/2023,07/04/2023,Ana,Valencia,Efectivo
+823,Sombrero,Bolsos,1800,75,24,29/05/2023,02/06/2023,Marta,Valencia,Tarjeta de Credito
+824,Bufanda,Accesorios,22,2,11,22/04/2023,01/05/2023,Marta,Madrid,Tarjeta de Credito
+825,Chaqueta,Accesorios,2646,14,189,24/02/2023,27/02/2023,Maria,Barcelona,Efectivo
+826,Socks,Calzado,3780,30,126,03/12/2023,10/12/2023,Maria,Barcelona,Efectivo
+827,Pantalón,Accesorios,8869,49,181,26/04/2023,29/04/2023,Luis,Valencia,Tarjeta de Credito
+828,Mochila,Calzado,2292,12,191,23/05/2023,30/05/2023,Luis,Barcelona,Tarjeta de Credito
+829,Bufanda,Calzado,2430,90,27,20/07/2023,27/07/2023,Juan,Madrid,Tarjeta de Credito
+830,Sombrero,Calzado,528,44,12,29/06/2023,08/07/2023,Luis,Sevilla,Efectivo
+831,Bota,Calzado,4752,33,144,21/07/2023,23/07/2023,Laura,Sevilla,Tarjeta de Credito
+832,Camiseta,Ropa,2340,13,180,30/12/2023,05/01/2024,Marta,Barcelona,Tarjeta de Credito
+833,Sombrero,Bolsos,13650,78,175,22/02/2023,03/03/2023,Ricardo,Valencia,Tarjeta de Credito
+834,Bufanda,Ropa,15312,88,174,29/06/2023,01/07/2023,Laura,Valencia,Efectivo
+835,Sombrero,Accesorios,19110,98,195,09/11/2023,11/11/2023,Pedro,Valencia,Tarjeta de Credito
+836,Bufanda,Ropa,4420,26,170,04/11/2023,09/11/2023,Ana,Valencia,Tarjeta de Credito
+837,Bufanda,Ropa,2457,21,117,17/05/2023,25/05/2023,Luis,Valencia,Tarjeta de Credito
+838,Guantes,Accesorios,5488,28,196,01/07/2023,10/07/2023,Ana,Barcelona,Tarjeta de Credito
+839,Chaqueta,Accesorios,4992,48,104,01/01/2023,03/01/2023,Carlos,Sevilla,Tarjeta de Credito
+840,Mochila,Accesorios,13100,100,131,13/02/2023,18/02/2023,Juan,Sevilla,Efectivo
+841,Guantes,Ropa,800,40,20,15/08/2023,22/08/2023,Carlos,Barcelona,Efectivo
+842,Bota,Ropa,5082,66,77,27/11/2023,03/12/2023,Juan,Valencia,Efectivo
+843,Guantes,Accesorios,9636,73,132,08/04/2023,14/04/2023,Maria,Barcelona,Tarjeta de Credito
+844,Zapatos,Bolsos,10614,87,122,27/07/2023,03/08/2023,Ana,Sevilla,Efectivo
+845,Zapatos,Bolsos,8453,79,107,22/09/2023,25/09/2023,Juan,Madrid,Efectivo
+846,Mochila,Calzado,7854,77,102,15/10/2023,18/10/2023,Sofia,Barcelona,Efectivo
+847,Sombrero,Accesorios,713,23,31,28/09/2023,07/10/2023,Laura,Valencia,Tarjeta de Credito
+848,Chaqueta,Calzado,14661,81,181,20/05/2023,28/05/2023,Juan,Sevilla,Tarjeta de Credito
+849,Mochila,Bolsos,6528,48,136,25/08/2023,30/08/2023,Juan,Sevilla,Efectivo
+850,Bufanda,Calzado,286,2,143,13/03/2023,19/03/2023,Laura,Sevilla,Efectivo
+851,Pantalón,Accesorios,15036,84,179,04/06/2023,05/06/2023,Ana,Sevilla,Tarjeta de Credito
+852,Chaqueta,Accesorios,680,20,34,09/07/2023,10/07/2023,Ana,Valencia,Tarjeta de Credito
+853,Chaqueta,Accesorios,11446,59,194,25/09/2023,29/09/2023,Laura,Madrid,Efectivo
+854,Bufanda,Ropa,4324,46,94,17/11/2023,19/11/2023,Carlos,Sevilla,Tarjeta de Credito
+855,Bufanda,Calzado,192,3,64,17/04/2023,24/04/2023,Sofia,Barcelona,Efectivo
+856,Camiseta,Bolsos,8415,55,153,20/08/2023,22/08/2023,Ricardo,Madrid,Tarjeta de Credito
+857,Mochila,Bolsos,1248,12,104,11/02/2023,13/02/2023,Pedro,Sevilla,Efectivo
+858,Bufanda,Bolsos,6040,40,151,09/07/2023,14/07/2023,Sofia,Madrid,Efectivo
+859,Zapatos,Ropa,11616,66,176,19/05/2023,23/05/2023,Ana,Barcelona,Tarjeta de Credito
+860,Bota,Ropa,16500,100,165,13/04/2023,21/04/2023,Ricardo,Sevilla,Efectivo
+861,Pantalón,Accesorios,14664,78,188,20/06/2023,24/06/2023,Maria,Barcelona,Efectivo
+862,Mochila,Bolsos,2048,16,128,17/12/2023,23/12/2023,Luis,Valencia,Efectivo
+863,Socks,Ropa,15438,83,186,30/09/2023,05/10/2023,Juan,Sevilla,Tarjeta de Credito
+864,Zapatos,Accesorios,612,34,18,09/08/2023,11/08/2023,Laura,Sevilla,Tarjeta de Credito
+865,Sombrero,Bolsos,8580,44,195,01/08/2023,09/08/2023,Laura,Sevilla,Tarjeta de Credito
+866,Bufanda,Calzado,1092,6,182,07/12/2023,09/12/2023,Juan,Sevilla,Efectivo
+867,Socks,Accesorios,12243,77,159,25/02/2023,06/03/2023,Luis,Valencia,Tarjeta de Credito
+868,Bufanda,Ropa,10816,64,169,08/12/2023,17/12/2023,Pedro,Sevilla,Efectivo
+869,Chaqueta,Ropa,5100,100,51,12/04/2023,15/04/2023,Luis,Madrid,Efectivo
+870,Zapatos,Accesorios,1364,22,62,11/07/2023,15/07/2023,Ricardo,Sevilla,Tarjeta de Credito
+871,Chaqueta,Accesorios,3528,18,196,06/11/2023,14/11/2023,Luis,Valencia,Tarjeta de Credito
+872,Camiseta,Ropa,996,12,83,19/07/2023,28/07/2023,Ricardo,Sevilla,Efectivo
+873,Chaqueta,Calzado,2496,52,48,21/08/2023,24/08/2023,Luis,Madrid,Efectivo
+874,Camiseta,Bolsos,12314,94,131,15/08/2023,20/08/2023,Pedro,Valencia,Tarjeta de Credito
+875,Camiseta,Calzado,1224,51,24,19/05/2023,27/05/2023,Pedro,Valencia,Tarjeta de Credito
+876,Socks,Accesorios,11786,71,166,10/12/2023,13/12/2023,Ana,Madrid,Tarjeta de Credito
+877,Bufanda,Calzado,12672,96,132,01/11/2023,08/11/2023,Juan,Madrid,Efectivo
+878,Sombrero,Ropa,5760,48,120,29/05/2023,06/06/2023,Pedro,Madrid,Efectivo
+879,Chaqueta,Accesorios,2660,19,140,25/04/2023,28/04/2023,Ricardo,Madrid,Efectivo
+880,Zapatos,Bolsos,552,6,92,04/03/2023,06/03/2023,Pedro,Madrid,Efectivo
+881,Camiseta,Ropa,1596,84,19,14/04/2023,21/04/2023,Ana,Valencia,Efectivo
+882,Bufanda,Ropa,2727,27,101,05/12/2023,14/12/2023,Laura,Valencia,Tarjeta de Credito
+883,Pantalón,Bolsos,2014,53,38,25/12/2023,26/12/2023,Ricardo,Sevilla,Tarjeta de Credito
+884,Mochila,Bolsos,2112,48,44,05/06/2023,08/06/2023,Ana,Sevilla,Efectivo
+885,Socks,Calzado,105,7,15,30/09/2023,05/10/2023,Carlos,Barcelona,Efectivo
+886,Sombrero,Accesorios,8791,59,149,06/01/2023,09/01/2023,Carlos,Sevilla,Tarjeta de Credito
+887,Guantes,Bolsos,8280,69,120,27/05/2023,28/05/2023,Maria,Sevilla,Tarjeta de Credito
+888,Socks,Bolsos,517,11,47,03/07/2023,10/07/2023,Luis,Madrid,Tarjeta de Credito
+889,Pantalón,Accesorios,1290,15,86,28/01/2023,04/02/2023,Juan,Madrid,Tarjeta de Credito
+890,Mochila,Bolsos,6528,64,102,07/02/2023,15/02/2023,Marta,Sevilla,Efectivo
+891,Pantalón,Bolsos,468,3,156,29/04/2023,04/05/2023,Sofia,Barcelona,Tarjeta de Credito
+892,Chaqueta,Calzado,5244,69,76,20/10/2023,25/10/2023,Ana,Madrid,Efectivo
+893,Camiseta,Ropa,3335,23,145,01/09/2023,06/09/2023,Laura,Sevilla,Tarjeta de Credito
+894,Sombrero,Ropa,901,53,17,09/03/2023,10/03/2023,Sofia,Sevilla,Tarjeta de Credito
+895,Bota,Ropa,4847,37,131,02/08/2023,07/08/2023,Laura,Valencia,Tarjeta de Credito
+896,Camiseta,Ropa,837,9,93,06/08/2023,12/08/2023,Sofia,Barcelona,Efectivo
+897,Bota,Bolsos,2760,15,184,26/06/2023,27/06/2023,Ana,Valencia,Efectivo
+898,Mochila,Accesorios,423,3,141,26/10/2023,02/11/2023,Marta,Barcelona,Tarjeta de Credito
+899,Bufanda,Accesorios,17484,93,188,13/06/2023,14/06/2023,Sofia,Madrid,Efectivo
+900,Guantes,Calzado,6580,70,94,27/02/2023,01/03/2023,Ana,Barcelona,Efectivo
+901,Zapatos,Calzado,918,17,54,26/09/2023,28/09/2023,Pedro,Sevilla,Tarjeta de Credito
+902,Camiseta,Bolsos,3770,26,145,04/11/2023,09/11/2023,Marta,Sevilla,Tarjeta de Credito
+903,Sombrero,Accesorios,2016,21,96,27/02/2023,06/03/2023,Ricardo,Barcelona,Efectivo
+904,Pantalón,Accesorios,1800,72,25,15/10/2023,16/10/2023,Laura,Barcelona,Efectivo
+905,Sombrero,Ropa,1806,21,86,15/04/2023,16/04/2023,Carlos,Barcelona,Efectivo
+906,Mochila,Bolsos,198,11,18,16/08/2023,17/08/2023,Luis,Valencia,Tarjeta de Credito
+907,Bota,Bolsos,2622,38,69,04/09/2023,10/09/2023,Carlos,Barcelona,Tarjeta de Credito
+908,Pantalón,Ropa,6264,72,87,07/07/2023,09/07/2023,Marta,Madrid,Efectivo
+909,Zapatos,Bolsos,7568,88,86,24/03/2023,25/03/2023,Ricardo,Valencia,Tarjeta de Credito
+910,Zapatos,Bolsos,2800,35,80,05/07/2023,11/07/2023,Laura,Valencia,Tarjeta de Credito
+911,Camiseta,Calzado,336,14,24,09/09/2023,11/09/2023,Ricardo,Barcelona,Efectivo
+912,Mochila,Accesorios,1120,14,80,21/12/2023,27/12/2023,Sofia,Madrid,Efectivo
+913,Bufanda,Bolsos,1110,10,111,26/08/2023,03/09/2023,Laura,Valencia,Tarjeta de Credito
+914,Mochila,Calzado,2136,12,178,26/12/2023,28/12/2023,Sofia,Sevilla,Tarjeta de Credito
+915,Bota,Accesorios,1178,38,31,03/07/2023,12/07/2023,Ana,Valencia,Efectivo
+916,Sombrero,Ropa,5474,34,161,11/10/2023,19/10/2023,Marta,Barcelona,Tarjeta de Credito
+917,Zapatos,Calzado,5002,41,122,29/07/2023,30/07/2023,Ana,Madrid,Tarjeta de Credito
+918,Sombrero,Calzado,1810,10,181,31/10/2023,07/11/2023,Maria,Barcelona,Efectivo
+919,Sombrero,Accesorios,170,17,10,23/10/2023,29/10/2023,Ricardo,Sevilla,Efectivo
+920,Sombrero,Ropa,323,17,19,07/04/2023,13/04/2023,Sofia,Sevilla,Tarjeta de Credito
+921,Zapatos,Calzado,7973,67,119,27/07/2023,02/08/2023,Pedro,Sevilla,Tarjeta de Credito
+922,Socks,Bolsos,11966,62,193,17/05/2023,23/05/2023,Ana,Barcelona,Tarjeta de Credito
+923,Chaqueta,Bolsos,11590,95,122,03/07/2023,10/07/2023,Maria,Valencia,Efectivo
+924,Bota,Bolsos,59,1,59,17/03/2023,20/03/2023,Juan,Barcelona,Tarjeta de Credito
+925,Socks,Ropa,252,12,21,14/10/2023,20/10/2023,Carlos,Madrid,Tarjeta de Credito
+926,Bota,Calzado,392,4,98,22/05/2023,25/05/2023,Laura,Valencia,Efectivo
+927,Pantalón,Bolsos,8274,42,197,25/08/2023,01/09/2023,Maria,Sevilla,Efectivo
+928,Mochila,Ropa,2119,13,163,25/01/2023,01/02/2023,Marta,Barcelona,Tarjeta de Credito
+929,Mochila,Bolsos,11858,98,121,17/10/2023,25/10/2023,Ana,Sevilla,Efectivo
+930,Guantes,Accesorios,7395,85,87,08/03/2023,10/03/2023,Marta,Sevilla,Efectivo
+931,Mochila,Calzado,15308,86,178,07/09/2023,16/09/2023,Carlos,Madrid,Tarjeta de Credito
+932,Zapatos,Calzado,692,4,173,28/04/2023,03/05/2023,Pedro,Valencia,Efectivo
+933,Bufanda,Ropa,10660,82,130,14/03/2023,23/03/2023,Ricardo,Madrid,Efectivo
+934,Camiseta,Ropa,2208,69,32,09/10/2023,14/10/2023,Ricardo,Madrid,Tarjeta de Credito
+935,Guantes,Calzado,3420,19,180,26/12/2023,02/01/2024,Marta,Madrid,Efectivo
+936,Camiseta,Bolsos,286,2,143,10/01/2023,19/01/2023,Sofia,Sevilla,Tarjeta de Credito
+937,Bota,Bolsos,2160,12,180,30/07/2023,03/08/2023,Pedro,Madrid,Tarjeta de Credito
+938,Camiseta,Accesorios,2754,81,34,19/11/2023,21/11/2023,Ricardo,Madrid,Efectivo
+939,Camiseta,Bolsos,1998,74,27,01/06/2023,10/06/2023,Pedro,Valencia,Efectivo
+940,Guantes,Ropa,19502,98,199,05/01/2023,07/01/2023,Maria,Valencia,Efectivo
+941,Pantalón,Ropa,900,6,150,14/07/2023,17/07/2023,Pedro,Madrid,Tarjeta de Credito
+942,Sombrero,Bolsos,416,8,52,10/10/2023,12/10/2023,Luis,Valencia,Efectivo
+943,Mochila,Ropa,4437,51,87,23/04/2023,26/04/2023,Carlos,Valencia,Tarjeta de Credito
+944,Mochila,Calzado,407,11,37,28/09/2023,04/10/2023,Ricardo,Madrid,Efectivo
+945,Zapatos,Calzado,9765,63,155,12/06/2023,15/06/2023,Pedro,Sevilla,Efectivo
+946,Guantes,Bolsos,3876,57,68,15/04/2023,23/04/2023,Marta,Madrid,Efectivo
+947,Zapatos,Calzado,2364,12,197,30/06/2023,06/07/2023,Juan,Valencia,Tarjeta de Credito
+948,Bufanda,Calzado,5256,73,72,13/02/2023,20/02/2023,Luis,Sevilla,Efectivo
+949,Bufanda,Accesorios,388,2,194,09/10/2023,10/10/2023,Luis,Barcelona,Efectivo
+950,Zapatos,Accesorios,808,8,101,24/06/2023,27/06/2023,Sofia,Sevilla,Tarjeta de Credito
+951,Guantes,Calzado,2068,11,188,11/06/2023,14/06/2023,Pedro,Valencia,Tarjeta de Credito
+952,Zapatos,Bolsos,3445,53,65,17/12/2023,19/12/2023,Sofia,Sevilla,Efectivo
+953,Mochila,Accesorios,16400,100,164,06/12/2023,13/12/2023,Sofia,Madrid,Efectivo
+954,Socks,Ropa,1690,10,169,20/05/2023,29/05/2023,Juan,Barcelona,Efectivo
+955,Chaqueta,Ropa,10200,85,120,12/05/2023,16/05/2023,Maria,Barcelona,Tarjeta de Credito
+956,Camiseta,Ropa,12264,84,146,28/03/2023,02/04/2023,Pedro,Barcelona,Tarjeta de Credito
+957,Chaqueta,Bolsos,616,8,77,25/06/2023,28/06/2023,Ana,Valencia,Tarjeta de Credito
+958,Guantes,Calzado,1980,36,55,02/07/2023,11/07/2023,Ricardo,Valencia,Tarjeta de Credito
+959,Chaqueta,Ropa,7068,93,76,09/05/2023,13/05/2023,Sofia,Barcelona,Efectivo
+960,Bufanda,Bolsos,12388,76,163,03/09/2023,08/09/2023,Carlos,Sevilla,Tarjeta de Credito
+961,Bota,Accesorios,2030,14,145,30/03/2023,31/03/2023,Laura,Barcelona,Tarjeta de Credito
+962,Camiseta,Calzado,810,54,15,07/03/2023,09/03/2023,Carlos,Sevilla,Tarjeta de Credito
+963,Sombrero,Accesorios,2805,85,33,07/06/2023,16/06/2023,Juan,Sevilla,Efectivo
+964,Guantes,Bolsos,15910,86,185,29/05/2023,31/05/2023,Juan,Valencia,Efectivo
+965,Camiseta,Ropa,2163,21,103,06/12/2023,11/12/2023,Marta,Sevilla,Tarjeta de Credito
+966,Chaqueta,Ropa,9100,50,182,26/04/2023,04/05/2023,Maria,Barcelona,Tarjeta de Credito
+967,Bufanda,Bolsos,2068,94,22,02/08/2023,05/08/2023,Ricardo,Valencia,Efectivo
+968,Pantalón,Ropa,1326,39,34,21/10/2023,27/10/2023,Sofia,Madrid,Efectivo
+969,Socks,Calzado,3140,20,157,10/09/2023,14/09/2023,Carlos,Madrid,Efectivo
+970,Sombrero,Bolsos,11176,88,127,23/05/2023,30/05/2023,Laura,Valencia,Efectivo
+971,Socks,Accesorios,7917,87,91,07/09/2023,10/09/2023,Juan,Barcelona,Efectivo
+972,Camiseta,Bolsos,840,7,120,29/10/2023,04/11/2023,Juan,Madrid,Efectivo
+973,Bufanda,Calzado,819,9,91,25/01/2023,03/02/2023,Maria,Madrid,Efectivo
+974,Bufanda,Calzado,75,1,75,04/10/2023,05/10/2023,Laura,Sevilla,Efectivo
+975,Chaqueta,Bolsos,1404,26,54,11/03/2023,14/03/2023,Laura,Sevilla,Tarjeta de Credito
+976,Mochila,Bolsos,4674,38,123,23/04/2023,25/04/2023,Maria,Barcelona,Tarjeta de Credito
+977,Chaqueta,Ropa,6992,38,184,29/12/2023,06/01/2024,Juan,Valencia,Tarjeta de Credito
+978,Mochila,Calzado,4392,61,72,22/04/2023,29/04/2023,Ricardo,Barcelona,Tarjeta de Credito
+979,Mochila,Bolsos,3740,44,85,30/12/2023,01/01/2024,Pedro,Valencia,Tarjeta de Credito
+980,Sombrero,Bolsos,10578,86,123,30/10/2023,05/11/2023,Pedro,Madrid,Tarjeta de Credito
+981,Chaqueta,Calzado,5280,44,120,01/04/2023,04/04/2023,Maria,Sevilla,Efectivo
+982,Pantalón,Bolsos,14208,74,192,18/01/2023,26/01/2023,Laura,Barcelona,Efectivo
+983,Zapatos,Ropa,9672,62,156,29/05/2023,01/06/2023,Sofia,Barcelona,Tarjeta de Credito
+984,Zapatos,Calzado,264,6,44,15/08/2023,24/08/2023,Maria,Valencia,Tarjeta de Credito
+985,Chaqueta,Ropa,1054,17,62,02/08/2023,03/08/2023,Ricardo,Valencia,Efectivo
+986,Chaqueta,Ropa,1785,51,35,26/12/2023,31/12/2023,Maria,Barcelona,Efectivo
+987,Socks,Ropa,874,38,23,31/05/2023,03/06/2023,Luis,Valencia,Efectivo
+988,Sombrero,Ropa,3048,24,127,11/07/2023,17/07/2023,Carlos,Barcelona,Tarjeta de Credito
+989,Chaqueta,Calzado,2754,51,54,09/02/2023,11/02/2023,Laura,Barcelona,Efectivo
+990,Socks,Ropa,1810,10,181,30/08/2023,08/09/2023,Marta,Barcelona,Tarjeta de Credito
+991,Mochila,Ropa,4320,72,60,18/05/2023,24/05/2023,Marta,Madrid,Tarjeta de Credito
+992,Bufanda,Bolsos,3780,21,180,11/12/2023,18/12/2023,Laura,Valencia,Efectivo
+993,Bufanda,Calzado,8960,70,128,29/06/2023,04/07/2023,Ricardo,Sevilla,Efectivo
+994,Mochila,Calzado,13600,85,160,19/07/2023,28/07/2023,Luis,Sevilla,Tarjeta de Credito
+995,Guantes,Accesorios,11001,57,193,22/07/2023,23/07/2023,Luis,Valencia,Efectivo
+996,Socks,Calzado,1092,39,28,02/03/2023,07/03/2023,Juan,Barcelona,Efectivo
+997,Socks,Calzado,8008,88,91,11/07/2023,17/07/2023,Carlos,Sevilla,Tarjeta de Credito
+998,Mochila,Accesorios,2805,33,85,05/01/2023,12/01/2023,Pedro,Sevilla,Efectivo
+999,Pantalón,Calzado,11328,59,192,25/08/2023,29/08/2023,Ana,Valencia,Tarjeta de Credito
+1000,Bota,Calzado,1818,18,101,30/06/2023,01/07/2023,Ricardo,Sevilla,Tarjeta de Credito

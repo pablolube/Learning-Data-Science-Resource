@@ -1,0 +1,1001 @@
+ID_Producto,Producto,Categoria,Fecha de Venta,Region,MetododePago,Cantidad Vendida,Precio Unitario,Ventas,Cliente,Ciudad
+1,Guantes,Ropa,06/11/2023,Este,Efectivo,47,76,3572,Juan,Zaragoza
+2,Chaqueta,Bolsos,13/02/2023,Norte,Tarjeta de Crédito,20,96,1920,Laura,Sevilla
+3,Mochila,Accesorios,08/04/2023,Oeste,Tarjeta de Crédito,2,43,86,Pedro,Malaga
+4,Sombrero,Bolsos,18/09/2023,Oeste,Efectivo,41,106,4346,Luis,Barcelona
+5,Guantes,Bolsos,19/04/2023,Norte,Tarjeta de Crédito,19,80,1520,Carlos,Madrid
+6,Socks,Bolsos,10/10/2023,Sur,Efectivo,37,12,444,Ricardo,Alicante
+7,Zapatos,Bolsos,09/12/2023,Norte,Efectivo,18,67,1206,Sofia,Sevilla
+8,Guantes,Deportes,14/04/2023,Norte,Efectivo,16,41,656,Sofia,Madrid
+9,Mochila,Deportes,13/09/2023,Sur,Tarjeta de Crédito,4,40,160,Sofia,Granada
+10,Sombrero,Calzado,25/07/2023,Oeste,Tarjeta de Crédito,12,91,1092,Maria,Murcia
+11,Chaqueta,Ropa,01/12/2023,Este,Efectivo,29,52,1508,Luis,Bilbao
+12,Mochila,Bolsos,12/02/2023,Norte,Tarjeta de Crédito,7,144,1008,Carlos,Bilbao
+13,Mochila,Calzado,19/12/2023,Sur,Tarjeta de Crédito,14,114,1596,Pedro,Madrid
+14,Zapatos,Ropa,02/09/2023,Norte,Efectivo,12,10,120,Maria,Alicante
+15,Bufanda,Accesorios,14/10/2023,Sur,Efectivo,35,70,2450,Luis,Granada
+16,Sombrero,Deportes,21/12/2023,Este,Tarjeta de Crédito,5,23,115,Ricardo,Malaga
+17,Pantalón,Ropa,30/09/2023,Este,Efectivo,17,15,255,Laura,Alicante
+18,Mochila,Accesorios,24/03/2023,Oeste,Efectivo,42,112,4704,Carlos,Zaragoza
+19,Bufanda,Ropa,20/04/2023,Sur,Efectivo,32,19,608,Sofia,Bilbao
+20,Pantalón,Deportes,09/07/2023,Sur,Tarjeta de Crédito,10,80,800,Juan,Zaragoza
+21,Sombrero,Deportes,15/10/2023,Oeste,Tarjeta de Crédito,43,99,4257,Carlos,Barcelona
+22,Camiseta,Calzado,08/09/2023,Oeste,Tarjeta de Crédito,17,135,2295,Marta,Valencia
+23,Socks,Bolsos,31/07/2023,Sur,Efectivo,5,106,530,Luis,Sevilla
+24,Bufanda,Ropa,18/10/2023,Oeste,Tarjeta de Crédito,45,83,3735,Ana,Granada
+25,Bota,Ropa,13/05/2023,Este,Efectivo,42,124,5208,Ricardo,Alicante
+26,Camiseta,Accesorios,20/07/2023,Norte,Tarjeta de Crédito,9,60,540,Laura,Bilbao
+27,Socks,Deportes,12/10/2023,Este,Tarjeta de Crédito,49,65,3185,Ricardo,Zaragoza
+28,Zapatos,Ropa,22/11/2023,Oeste,Efectivo,33,50,1650,Carlos,Murcia
+29,Guantes,Deportes,05/04/2023,Sur,Tarjeta de Crédito,36,41,1476,Ana,Barcelona
+30,Chaqueta,Ropa,05/10/2023,Sur,Efectivo,36,24,864,Marta,Sevilla
+31,Bota,Calzado,21/11/2023,Este,Tarjeta de Crédito,18,71,1278,Pedro,Sevilla
+32,Zapatos,Bolsos,07/08/2023,Sur,Tarjeta de Crédito,9,37,333,Juan,Alicante
+33,Sombrero,Ropa,30/03/2023,Oeste,Efectivo,29,73,2117,Ana,Granada
+34,Zapatos,Deportes,13/03/2023,Este,Efectivo,50,139,6950,Luis,Malaga
+35,Guantes,Calzado,04/09/2023,Sur,Efectivo,14,136,1904,Sofia,Murcia
+36,Sombrero,Ropa,09/05/2023,Norte,Tarjeta de Crédito,25,45,1125,Marta,Alicante
+37,Bota,Accesorios,31/07/2023,Norte,Tarjeta de Crédito,15,123,1845,Juan,Zaragoza
+38,Guantes,Bolsos,09/12/2023,Oeste,Tarjeta de Crédito,6,22,132,Laura,Valencia
+39,Pantalón,Ropa,06/04/2023,Sur,Efectivo,42,24,1008,Sofia,Madrid
+40,Chaqueta,Calzado,16/03/2023,Oeste,Efectivo,29,98,2842,Carlos,Malaga
+41,Bota,Accesorios,23/02/2023,Este,Efectivo,15,31,465,Ana,Granada
+42,Pantalón,Calzado,10/12/2023,Norte,Tarjeta de Crédito,29,83,2407,Juan,Barcelona
+43,Socks,Calzado,23/02/2023,Este,Tarjeta de Crédito,4,34,136,Maria,Malaga
+44,Bota,Accesorios,06/08/2023,Sur,Efectivo,18,110,1980,Pedro,Bilbao
+45,Socks,Calzado,16/01/2023,Oeste,Tarjeta de Crédito,50,126,6300,Pedro,Granada
+46,Sombrero,Accesorios,09/04/2023,Oeste,Efectivo,49,50,2450,Marta,Valencia
+47,Pantalón,Ropa,20/01/2023,Oeste,Tarjeta de Crédito,44,97,4268,Laura,Bilbao
+48,Chaqueta,Accesorios,15/02/2023,Este,Tarjeta de Crédito,39,119,4641,Marta,Malaga
+49,Guantes,Accesorios,12/07/2023,Norte,Efectivo,16,129,2064,Maria,Madrid
+50,Mochila,Bolsos,27/02/2023,Este,Tarjeta de Crédito,11,106,1166,Luis,Madrid
+51,Zapatos,Accesorios,21/04/2023,Este,Tarjeta de Crédito,14,66,924,Laura,Valencia
+52,Camiseta,Accesorios,09/05/2023,Sur,Efectivo,3,139,417,Ricardo,Sevilla
+53,Chaqueta,Ropa,03/12/2023,Sur,Efectivo,50,105,5250,Luis,Murcia
+54,Pantalón,Bolsos,13/07/2023,Sur,Tarjeta de Crédito,42,130,5460,Laura,Barcelona
+55,Mochila,Deportes,06/12/2023,Norte,Efectivo,38,71,2698,Laura,Sevilla
+56,Chaqueta,Ropa,22/11/2023,Norte,Tarjeta de Crédito,45,146,6570,Maria,Madrid
+57,Pantalón,Ropa,08/01/2023,Sur,Efectivo,42,77,3234,Carlos,Madrid
+58,Bufanda,Deportes,29/01/2023,Sur,Tarjeta de Crédito,18,90,1620,Maria,Zaragoza
+59,Bufanda,Accesorios,22/04/2023,Norte,Tarjeta de Crédito,20,26,520,Laura,Bilbao
+60,Socks,Calzado,10/06/2023,Oeste,Efectivo,48,126,6048,Juan,Malaga
+61,Chaqueta,Bolsos,11/05/2023,Norte,Tarjeta de Crédito,25,59,1475,Luis,Barcelona
+62,Bufanda,Calzado,07/07/2023,Norte,Tarjeta de Crédito,38,121,4598,Maria,Valencia
+63,Pantalón,Deportes,12/06/2023,Norte,Efectivo,13,103,1339,Carlos,Malaga
+64,Socks,Ropa,16/07/2023,Sur,Efectivo,4,94,376,Ana,Zaragoza
+65,Pantalón,Ropa,30/12/2023,Oeste,Tarjeta de Crédito,14,83,1162,Marta,Madrid
+66,Socks,Bolsos,23/07/2023,Norte,Efectivo,33,118,3894,Laura,Valencia
+67,Chaqueta,Ropa,31/07/2023,Sur,Efectivo,28,27,756,Ricardo,Madrid
+68,Mochila,Ropa,19/04/2023,Este,Tarjeta de Crédito,37,51,1887,Ana,Barcelona
+69,Guantes,Bolsos,03/10/2023,Este,Tarjeta de Crédito,8,110,880,Pedro,Bilbao
+70,Bota,Bolsos,14/03/2023,Norte,Efectivo,44,54,2376,Sofia,Malaga
+71,Mochila,Deportes,16/06/2023,Este,Efectivo,34,91,3094,Carlos,Malaga
+72,Sombrero,Ropa,17/09/2023,Oeste,Efectivo,44,26,1144,Ricardo,Sevilla
+73,Pantalón,Ropa,31/08/2023,Este,Tarjeta de Crédito,5,82,410,Sofia,Valencia
+74,Sombrero,Deportes,02/10/2023,Este,Tarjeta de Crédito,5,23,115,Carlos,Murcia
+75,Mochila,Accesorios,12/04/2023,Oeste,Tarjeta de Crédito,31,141,4371,Juan,Zaragoza
+76,Socks,Accesorios,22/06/2023,Norte,Tarjeta de Crédito,45,91,4095,Marta,Murcia
+77,Bota,Accesorios,20/06/2023,Norte,Tarjeta de Crédito,9,129,1161,Ana,Sevilla
+78,Bota,Deportes,21/05/2023,Oeste,Tarjeta de Crédito,42,129,5418,Luis,Barcelona
+79,Camiseta,Ropa,07/07/2023,Oeste,Tarjeta de Crédito,32,56,1792,Carlos,Zaragoza
+80,Bota,Deportes,27/03/2023,Oeste,Efectivo,33,116,3828,Luis,Bilbao
+81,Guantes,Deportes,21/02/2023,Este,Efectivo,3,117,351,Marta,Murcia
+82,Bota,Accesorios,21/04/2023,Oeste,Tarjeta de Crédito,30,18,540,Laura,Bilbao
+83,Mochila,Calzado,31/12/2023,Sur,Tarjeta de Crédito,50,88,4400,Pedro,Murcia
+84,Camiseta,Ropa,08/12/2023,Este,Tarjeta de Crédito,12,24,288,Ana,Bilbao
+85,Mochila,Accesorios,12/02/2023,Norte,Efectivo,29,28,812,Marta,Murcia
+86,Mochila,Calzado,30/07/2023,Norte,Tarjeta de Crédito,3,99,297,Marta,Bilbao
+87,Zapatos,Calzado,19/07/2023,Norte,Efectivo,26,35,910,Juan,Sevilla
+88,Camiseta,Bolsos,25/10/2023,Este,Efectivo,30,101,3030,Sofia,Granada
+89,Mochila,Ropa,12/12/2023,Sur,Efectivo,9,91,819,Pedro,Zaragoza
+90,Zapatos,Calzado,28/08/2023,Oeste,Efectivo,26,140,3640,Ana,Valencia
+91,Zapatos,Accesorios,25/04/2023,Oeste,Efectivo,2,51,102,Laura,Barcelona
+92,Camiseta,Bolsos,26/01/2023,Norte,Tarjeta de Crédito,3,28,84,Laura,Alicante
+93,Sombrero,Ropa,26/10/2023,Norte,Tarjeta de Crédito,46,26,1196,Maria,Madrid
+94,Socks,Deportes,18/03/2023,Este,Efectivo,4,85,340,Marta,Valencia
+95,Guantes,Accesorios,17/05/2023,Sur,Tarjeta de Crédito,25,72,1800,Carlos,Madrid
+96,Socks,Calzado,20/01/2023,Oeste,Efectivo,13,140,1820,Juan,Zaragoza
+97,Bota,Calzado,30/07/2023,Este,Efectivo,39,116,4524,Pedro,Valencia
+98,Guantes,Accesorios,28/08/2023,Oeste,Tarjeta de Crédito,44,58,2552,Laura,Bilbao
+99,Bota,Calzado,08/02/2023,Norte,Tarjeta de Crédito,35,64,2240,Ana,Bilbao
+100,Mochila,Bolsos,25/09/2023,Oeste,Tarjeta de Crédito,23,108,2484,Maria,Alicante
+101,Pantalón,Ropa,26/07/2023,Sur,Tarjeta de Crédito,9,61,549,Ana,Madrid
+102,Camiseta,Bolsos,24/09/2023,Sur,Tarjeta de Crédito,2,109,218,Juan,Barcelona
+103,Guantes,Calzado,03/06/2023,Norte,Efectivo,41,126,5166,Carlos,Zaragoza
+104,Guantes,Deportes,11/02/2023,Sur,Tarjeta de Crédito,44,127,5588,Maria,Bilbao
+105,Mochila,Ropa,11/01/2023,Sur,Tarjeta de Crédito,31,16,496,Maria,Granada
+106,Sombrero,Ropa,21/10/2023,Este,Tarjeta de Crédito,44,55,2420,Sofia,Sevilla
+107,Zapatos,Accesorios,08/04/2023,Oeste,Efectivo,47,55,2585,Pedro,Sevilla
+108,Mochila,Accesorios,02/10/2023,Norte,Tarjeta de Crédito,2,109,218,Maria,Murcia
+109,Bufanda,Deportes,18/08/2023,Norte,Efectivo,32,63,2016,Sofia,Barcelona
+110,Zapatos,Ropa,08/08/2023,Norte,Tarjeta de Crédito,18,71,1278,Sofia,Sevilla
+111,Camiseta,Deportes,06/03/2023,Norte,Tarjeta de Crédito,13,138,1794,Juan,Murcia
+112,Zapatos,Accesorios,21/12/2023,Norte,Efectivo,46,58,2668,Luis,Madrid
+113,Sombrero,Accesorios,20/08/2023,Sur,Tarjeta de Crédito,5,34,170,Ana,Bilbao
+114,Zapatos,Ropa,24/11/2023,Este,Tarjeta de Crédito,42,19,798,Carlos,Bilbao
+115,Camiseta,Bolsos,21/02/2023,Norte,Efectivo,44,127,5588,Ricardo,Granada
+116,Sombrero,Calzado,20/09/2023,Este,Tarjeta de Crédito,10,101,1010,Ana,Valencia
+117,Socks,Accesorios,24/09/2023,Este,Efectivo,43,143,6149,Maria,Sevilla
+118,Guantes,Accesorios,25/12/2023,Sur,Efectivo,25,89,2225,Carlos,Madrid
+119,Guantes,Bolsos,13/11/2023,Norte,Efectivo,34,80,2720,Laura,Malaga
+120,Bota,Bolsos,20/11/2023,Sur,Efectivo,37,87,3219,Luis,Sevilla
+121,Socks,Deportes,03/06/2023,Norte,Efectivo,30,52,1560,Laura,Barcelona
+122,Socks,Deportes,24/12/2023,Sur,Tarjeta de Crédito,7,99,693,Laura,Valencia
+123,Zapatos,Calzado,20/05/2023,Este,Tarjeta de Crédito,6,87,522,Pedro,Sevilla
+124,Guantes,Calzado,20/02/2023,Norte,Tarjeta de Crédito,3,35,105,Ana,Madrid
+125,Camiseta,Ropa,27/04/2023,Oeste,Efectivo,13,130,1690,Ricardo,Sevilla
+126,Chaqueta,Deportes,15/02/2023,Este,Efectivo,3,54,162,Juan,Barcelona
+127,Chaqueta,Accesorios,05/11/2023,Oeste,Efectivo,26,72,1872,Ricardo,Malaga
+128,Sombrero,Deportes,29/03/2023,Este,Efectivo,24,77,1848,Laura,Zaragoza
+129,Guantes,Accesorios,27/07/2023,Sur,Tarjeta de Crédito,6,11,66,Maria,Alicante
+130,Guantes,Bolsos,26/09/2023,Norte,Tarjeta de Crédito,43,117,5031,Luis,Malaga
+131,Chaqueta,Deportes,30/03/2023,Este,Efectivo,49,39,1911,Marta,Murcia
+132,Guantes,Bolsos,28/04/2023,Sur,Efectivo,42,58,2436,Ricardo,Sevilla
+133,Zapatos,Calzado,23/02/2023,Norte,Tarjeta de Crédito,12,149,1788,Laura,Bilbao
+134,Bufanda,Calzado,26/04/2023,Norte,Efectivo,49,53,2597,Luis,Granada
+135,Pantalón,Ropa,28/04/2023,Este,Efectivo,36,22,792,Carlos,Bilbao
+136,Socks,Deportes,17/09/2023,Norte,Efectivo,2,87,174,Ana,Malaga
+137,Bota,Bolsos,16/03/2023,Este,Tarjeta de Crédito,11,135,1485,Sofia,Bilbao
+138,Sombrero,Accesorios,01/11/2023,Norte,Tarjeta de Crédito,39,107,4173,Pedro,Madrid
+139,Bufanda,Calzado,07/01/2023,Oeste,Efectivo,34,35,1190,Luis,Bilbao
+140,Chaqueta,Calzado,02/05/2023,Sur,Tarjeta de Crédito,26,57,1482,Maria,Valencia
+141,Socks,Accesorios,11/01/2023,Oeste,Efectivo,18,75,1350,Maria,Zaragoza
+142,Guantes,Bolsos,14/12/2023,Este,Efectivo,21,96,2016,Luis,Sevilla
+143,Bota,Bolsos,03/08/2023,Oeste,Tarjeta de Crédito,36,88,3168,Maria,Bilbao
+144,Guantes,Deportes,06/10/2023,Este,Efectivo,40,32,1280,Ana,Barcelona
+145,Camiseta,Deportes,28/01/2023,Norte,Efectivo,46,90,4140,Maria,Zaragoza
+146,Camiseta,Ropa,23/08/2023,Norte,Tarjeta de Crédito,44,57,2508,Ricardo,Zaragoza
+147,Bota,Calzado,09/11/2023,Este,Efectivo,22,133,2926,Sofia,Bilbao
+148,Bota,Deportes,26/01/2023,Oeste,Efectivo,30,139,4170,Maria,Zaragoza
+149,Chaqueta,Bolsos,23/02/2023,Norte,Efectivo,50,93,4650,Sofia,Granada
+150,Bota,Accesorios,29/01/2023,Sur,Tarjeta de Crédito,43,29,1247,Laura,Bilbao
+151,Zapatos,Bolsos,19/12/2023,Norte,Efectivo,30,55,1650,Juan,Madrid
+152,Guantes,Calzado,13/06/2023,Sur,Tarjeta de Crédito,8,140,1120,Ana,Malaga
+153,Bufanda,Bolsos,27/09/2023,Oeste,Efectivo,34,21,714,Juan,Valencia
+154,Mochila,Ropa,30/11/2023,Sur,Efectivo,47,49,2303,Laura,Alicante
+155,Bota,Calzado,04/02/2023,Sur,Efectivo,9,75,675,Ana,Murcia
+156,Sombrero,Accesorios,13/10/2023,Sur,Efectivo,20,109,2180,Luis,Zaragoza
+157,Camiseta,Ropa,14/12/2023,Sur,Tarjeta de Crédito,40,87,3480,Luis,Madrid
+158,Zapatos,Calzado,30/09/2023,Norte,Tarjeta de Crédito,25,25,625,Sofia,Sevilla
+159,Socks,Accesorios,27/07/2023,Sur,Efectivo,19,92,1748,Laura,Sevilla
+160,Mochila,Ropa,26/08/2023,Norte,Efectivo,5,53,265,Sofia,Murcia
+161,Bufanda,Ropa,03/04/2023,Sur,Efectivo,11,143,1573,Pedro,Valencia
+162,Mochila,Calzado,22/06/2023,Este,Efectivo,15,109,1635,Maria,Zaragoza
+163,Bota,Deportes,20/03/2023,Oeste,Efectivo,8,31,248,Marta,Granada
+164,Chaqueta,Ropa,20/04/2023,Sur,Efectivo,19,27,513,Pedro,Murcia
+165,Camiseta,Ropa,05/08/2023,Este,Efectivo,23,21,483,Maria,Valencia
+166,Camiseta,Accesorios,24/12/2023,Sur,Efectivo,27,132,3564,Ana,Zaragoza
+167,Socks,Bolsos,16/04/2023,Sur,Tarjeta de Crédito,40,126,5040,Sofia,Madrid
+168,Chaqueta,Calzado,16/02/2023,Sur,Tarjeta de Crédito,32,60,1920,Ana,Malaga
+169,Guantes,Calzado,30/06/2023,Este,Tarjeta de Crédito,26,80,2080,Ana,Granada
+170,Pantalón,Deportes,05/03/2023,Oeste,Efectivo,27,57,1539,Maria,Alicante
+171,Zapatos,Deportes,03/09/2023,Este,Efectivo,19,28,532,Laura,Sevilla
+172,Camiseta,Calzado,01/09/2023,Oeste,Efectivo,50,15,750,Maria,Barcelona
+173,Sombrero,Deportes,16/11/2023,Sur,Tarjeta de Crédito,42,93,3906,Carlos,Madrid
+174,Camiseta,Accesorios,28/03/2023,Norte,Efectivo,29,62,1798,Luis,Sevilla
+175,Mochila,Calzado,05/08/2023,Sur,Tarjeta de Crédito,39,116,4524,Luis,Bilbao
+176,Camiseta,Deportes,07/01/2023,Oeste,Efectivo,41,110,4510,Pedro,Barcelona
+177,Camiseta,Calzado,05/10/2023,Este,Tarjeta de Crédito,33,57,1881,Luis,Sevilla
+178,Pantalón,Bolsos,03/12/2023,Sur,Tarjeta de Crédito,19,144,2736,Maria,Valencia
+179,Pantalón,Ropa,29/07/2023,Este,Tarjeta de Crédito,37,78,2886,Ricardo,Granada
+180,Bufanda,Calzado,18/06/2023,Este,Efectivo,19,20,380,Sofia,Sevilla
+181,Guantes,Ropa,26/11/2023,Este,Tarjeta de Crédito,33,140,4620,Maria,Alicante
+182,Sombrero,Deportes,18/05/2023,Sur,Efectivo,47,131,6157,Maria,Malaga
+183,Camiseta,Ropa,02/11/2023,Este,Efectivo,16,78,1248,Marta,Valencia
+184,Camiseta,Calzado,18/08/2023,Este,Efectivo,23,32,736,Sofia,Madrid
+185,Zapatos,Bolsos,04/11/2023,Sur,Efectivo,7,46,322,Carlos,Madrid
+186,Pantalón,Deportes,10/06/2023,Este,Efectivo,26,18,468,Luis,Madrid
+187,Sombrero,Calzado,01/01/2023,Sur,Tarjeta de Crédito,32,24,768,Sofia,Madrid
+188,Socks,Deportes,24/08/2023,Oeste,Efectivo,12,140,1680,Luis,Malaga
+189,Bufanda,Accesorios,07/07/2023,Oeste,Efectivo,8,102,816,Pedro,Sevilla
+190,Guantes,Ropa,04/01/2023,Oeste,Efectivo,5,26,130,Sofia,Zaragoza
+191,Chaqueta,Accesorios,12/05/2023,Este,Efectivo,42,81,3402,Luis,Sevilla
+192,Guantes,Calzado,06/08/2023,Norte,Efectivo,28,130,3640,Carlos,Bilbao
+193,Mochila,Bolsos,17/09/2023,Norte,Tarjeta de Crédito,5,20,100,Juan,Granada
+194,Camiseta,Deportes,01/01/2023,Este,Tarjeta de Crédito,49,81,3969,Ana,Barcelona
+195,Bufanda,Ropa,12/03/2023,Norte,Efectivo,26,115,2990,Ana,Zaragoza
+196,Mochila,Deportes,27/06/2023,Sur,Tarjeta de Crédito,5,134,670,Carlos,Zaragoza
+197,Sombrero,Calzado,08/07/2023,Norte,Tarjeta de Crédito,22,44,968,Marta,Sevilla
+198,Chaqueta,Deportes,18/10/2023,Este,Efectivo,15,128,1920,Juan,Zaragoza
+199,Pantalón,Ropa,08/01/2023,Este,Tarjeta de Crédito,13,23,299,Pedro,Murcia
+200,Bufanda,Calzado,10/09/2023,Sur,Efectivo,28,23,644,Carlos,Murcia
+201,Bufanda,Deportes,19/10/2023,Oeste,Tarjeta de Crédito,33,19,627,Ana,Bilbao
+202,Camiseta,Bolsos,01/09/2023,Este,Tarjeta de Crédito,43,149,6407,Ana,Barcelona
+203,Bota,Calzado,03/05/2023,Sur,Tarjeta de Crédito,23,47,1081,Ana,Alicante
+204,Bufanda,Calzado,26/10/2023,Norte,Efectivo,33,117,3861,Laura,Malaga
+205,Zapatos,Bolsos,10/10/2023,Norte,Tarjeta de Crédito,43,128,5504,Carlos,Sevilla
+206,Chaqueta,Accesorios,01/02/2023,Sur,Tarjeta de Crédito,18,43,774,Maria,Malaga
+207,Chaqueta,Ropa,30/11/2023,Sur,Efectivo,50,19,950,Pedro,Alicante
+208,Zapatos,Accesorios,26/05/2023,Este,Efectivo,30,131,3930,Ana,Sevilla
+209,Socks,Deportes,05/06/2023,Norte,Tarjeta de Crédito,26,124,3224,Luis,Sevilla
+210,Zapatos,Bolsos,16/01/2023,Sur,Efectivo,16,10,160,Carlos,Barcelona
+211,Zapatos,Accesorios,21/12/2023,Norte,Tarjeta de Crédito,13,21,273,Laura,Malaga
+212,Chaqueta,Calzado,16/02/2023,Sur,Tarjeta de Crédito,39,112,4368,Carlos,Murcia
+213,Guantes,Deportes,08/09/2023,Norte,Efectivo,33,13,429,Pedro,Madrid
+214,Chaqueta,Deportes,06/07/2023,Oeste,Efectivo,26,150,3900,Laura,Malaga
+215,Bota,Accesorios,31/01/2023,Este,Efectivo,48,107,5136,Pedro,Granada
+216,Camiseta,Accesorios,17/09/2023,Norte,Tarjeta de Crédito,1,115,115,Carlos,Granada
+217,Mochila,Bolsos,17/01/2023,Oeste,Efectivo,49,94,4606,Maria,Sevilla
+218,Guantes,Ropa,08/02/2023,Norte,Tarjeta de Crédito,38,130,4940,Pedro,Madrid
+219,Pantalón,Accesorios,31/10/2023,Norte,Efectivo,2,141,282,Laura,Valencia
+220,Mochila,Accesorios,08/02/2023,Oeste,Tarjeta de Crédito,49,91,4459,Laura,Alicante
+221,Camiseta,Calzado,12/05/2023,Norte,Efectivo,6,28,168,Pedro,Bilbao
+222,Bota,Deportes,30/01/2023,Norte,Tarjeta de Crédito,46,139,6394,Ricardo,Madrid
+223,Bota,Ropa,07/06/2023,Este,Efectivo,50,21,1050,Carlos,Bilbao
+224,Pantalón,Calzado,05/10/2023,Oeste,Tarjeta de Crédito,38,90,3420,Ricardo,Malaga
+225,Guantes,Bolsos,22/07/2023,Oeste,Efectivo,42,83,3486,Marta,Malaga
+226,Socks,Bolsos,07/03/2023,Sur,Efectivo,24,107,2568,Carlos,Bilbao
+227,Zapatos,Accesorios,18/04/2023,Norte,Tarjeta de Crédito,18,15,270,Pedro,Alicante
+228,Guantes,Accesorios,25/09/2023,Este,Efectivo,27,145,3915,Juan,Madrid
+229,Socks,Bolsos,10/08/2023,Norte,Tarjeta de Crédito,41,134,5494,Pedro,Valencia
+230,Bota,Accesorios,19/10/2023,Norte,Tarjeta de Crédito,8,60,480,Ricardo,Sevilla
+231,Chaqueta,Ropa,18/01/2023,Sur,Efectivo,28,20,560,Maria,Barcelona
+232,Camiseta,Accesorios,31/03/2023,Norte,Tarjeta de Crédito,10,136,1360,Pedro,Malaga
+233,Pantalón,Deportes,30/06/2023,Este,Efectivo,17,149,2533,Pedro,Granada
+234,Camiseta,Accesorios,12/09/2023,Este,Efectivo,29,82,2378,Maria,Alicante
+235,Sombrero,Calzado,10/09/2023,Sur,Tarjeta de Crédito,6,11,66,Pedro,Barcelona
+236,Sombrero,Ropa,14/09/2023,Norte,Efectivo,14,17,238,Ana,Valencia
+237,Guantes,Calzado,12/12/2023,Este,Tarjeta de Crédito,22,148,3256,Juan,Zaragoza
+238,Bota,Calzado,28/03/2023,Norte,Tarjeta de Crédito,6,133,798,Luis,Sevilla
+239,Bota,Deportes,31/03/2023,Norte,Efectivo,26,62,1612,Juan,Malaga
+240,Zapatos,Ropa,25/08/2023,Norte,Efectivo,39,19,741,Pedro,Sevilla
+241,Zapatos,Ropa,11/03/2023,Sur,Tarjeta de Crédito,12,121,1452,Ana,Barcelona
+242,Zapatos,Ropa,13/02/2023,Norte,Tarjeta de Crédito,35,17,595,Carlos,Sevilla
+243,Chaqueta,Ropa,19/07/2023,Este,Efectivo,14,45,630,Pedro,Zaragoza
+244,Mochila,Ropa,01/06/2023,Norte,Efectivo,22,115,2530,Ricardo,Barcelona
+245,Bufanda,Deportes,27/03/2023,Este,Efectivo,23,23,529,Ana,Malaga
+246,Mochila,Accesorios,19/01/2023,Norte,Efectivo,48,95,4560,Maria,Madrid
+247,Camiseta,Calzado,11/04/2023,Este,Tarjeta de Crédito,7,59,413,Ana,Granada
+248,Mochila,Ropa,05/04/2023,Este,Efectivo,40,29,1160,Maria,Barcelona
+249,Chaqueta,Accesorios,11/09/2023,Norte,Tarjeta de Crédito,50,96,4800,Marta,Murcia
+250,Camiseta,Accesorios,23/12/2023,Norte,Tarjeta de Crédito,25,144,3600,Luis,Zaragoza
+251,Mochila,Calzado,30/01/2023,Este,Efectivo,13,146,1898,Sofia,Barcelona
+252,Chaqueta,Deportes,06/09/2023,Oeste,Tarjeta de Crédito,21,138,2898,Ana,Barcelona
+253,Bufanda,Bolsos,02/02/2023,Sur,Efectivo,41,47,1927,Laura,Murcia
+254,Mochila,Bolsos,17/08/2023,Oeste,Tarjeta de Crédito,10,53,530,Ricardo,Malaga
+255,Chaqueta,Accesorios,12/01/2023,Oeste,Efectivo,9,95,855,Pedro,Barcelona
+256,Zapatos,Calzado,28/04/2023,Norte,Tarjeta de Crédito,15,53,795,Ricardo,Granada
+257,Bota,Bolsos,16/12/2023,Sur,Tarjeta de Crédito,2,83,166,Juan,Sevilla
+258,Zapatos,Accesorios,04/06/2023,Oeste,Efectivo,25,128,3200,Sofia,Malaga
+259,Bota,Deportes,03/09/2023,Norte,Efectivo,13,131,1703,Juan,Granada
+260,Pantalón,Bolsos,28/11/2023,Oeste,Tarjeta de Crédito,34,143,4862,Marta,Malaga
+261,Pantalón,Accesorios,04/09/2023,Oeste,Tarjeta de Crédito,34,60,2040,Sofia,Granada
+262,Pantalón,Accesorios,29/01/2023,Norte,Efectivo,35,47,1645,Sofia,Zaragoza
+263,Bufanda,Ropa,10/06/2023,Norte,Tarjeta de Crédito,38,60,2280,Juan,Granada
+264,Zapatos,Deportes,23/08/2023,Norte,Efectivo,3,19,57,Maria,Bilbao
+265,Bota,Ropa,09/07/2023,Sur,Tarjeta de Crédito,42,129,5418,Juan,Granada
+266,Chaqueta,Calzado,27/04/2023,Oeste,Efectivo,6,79,474,Ricardo,Madrid
+267,Camiseta,Ropa,28/09/2023,Norte,Tarjeta de Crédito,48,94,4512,Maria,Madrid
+268,Chaqueta,Ropa,15/09/2023,Este,Efectivo,49,66,3234,Ricardo,Alicante
+269,Camiseta,Bolsos,29/06/2023,Oeste,Efectivo,19,135,2565,Marta,Bilbao
+270,Sombrero,Accesorios,21/06/2023,Este,Tarjeta de Crédito,3,48,144,Pedro,Bilbao
+271,Chaqueta,Deportes,01/10/2023,Sur,Efectivo,18,42,756,Carlos,Sevilla
+272,Mochila,Ropa,16/09/2023,Norte,Tarjeta de Crédito,39,27,1053,Maria,Bilbao
+273,Mochila,Deportes,15/05/2023,Este,Efectivo,9,66,594,Marta,Sevilla
+274,Guantes,Ropa,20/06/2023,Sur,Efectivo,12,105,1260,Laura,Alicante
+275,Zapatos,Calzado,29/07/2023,Norte,Efectivo,5,57,285,Marta,Alicante
+276,Camiseta,Ropa,24/08/2023,Este,Tarjeta de Crédito,3,51,153,Juan,Zaragoza
+277,Camiseta,Bolsos,05/07/2023,Este,Efectivo,11,36,396,Juan,Madrid
+278,Zapatos,Accesorios,30/12/2023,Sur,Tarjeta de Crédito,30,83,2490,Carlos,Granada
+279,Bufanda,Calzado,05/04/2023,Norte,Efectivo,4,119,476,Marta,Granada
+280,Guantes,Ropa,11/01/2023,Norte,Tarjeta de Crédito,5,41,205,Luis,Murcia
+281,Bufanda,Deportes,09/03/2023,Este,Tarjeta de Crédito,1,35,35,Pedro,Murcia
+282,Bufanda,Calzado,29/07/2023,Este,Tarjeta de Crédito,27,34,918,Juan,Valencia
+283,Bufanda,Calzado,15/07/2023,Este,Efectivo,28,84,2352,Carlos,Malaga
+284,Zapatos,Ropa,08/04/2023,Norte,Tarjeta de Crédito,29,32,928,Pedro,Zaragoza
+285,Bufanda,Calzado,03/04/2023,Sur,Efectivo,18,66,1188,Marta,Valencia
+286,Mochila,Deportes,22/01/2023,Sur,Tarjeta de Crédito,12,135,1620,Marta,Valencia
+287,Pantalón,Calzado,21/06/2023,Norte,Tarjeta de Crédito,13,96,1248,Sofia,Barcelona
+288,Sombrero,Deportes,14/05/2023,Oeste,Tarjeta de Crédito,41,40,1640,Carlos,Barcelona
+289,Camiseta,Ropa,25/01/2023,Sur,Tarjeta de Crédito,2,73,146,Juan,Valencia
+290,Camiseta,Accesorios,04/07/2023,Este,Efectivo,37,42,1554,Luis,Bilbao
+291,Sombrero,Calzado,26/03/2023,Oeste,Tarjeta de Crédito,45,11,495,Marta,Malaga
+292,Zapatos,Accesorios,24/02/2023,Oeste,Tarjeta de Crédito,16,27,432,Luis,Zaragoza
+293,Chaqueta,Deportes,08/09/2023,Sur,Efectivo,48,93,4464,Marta,Valencia
+294,Zapatos,Calzado,24/05/2023,Oeste,Tarjeta de Crédito,24,44,1056,Juan,Granada
+295,Camiseta,Bolsos,17/12/2023,Oeste,Tarjeta de Crédito,35,123,4305,Pedro,Malaga
+296,Camiseta,Accesorios,16/06/2023,Sur,Tarjeta de Crédito,22,119,2618,Ana,Barcelona
+297,Sombrero,Calzado,12/08/2023,Sur,Tarjeta de Crédito,36,97,3492,Pedro,Granada
+298,Bufanda,Accesorios,08/08/2023,Oeste,Efectivo,11,81,891,Marta,Barcelona
+299,Zapatos,Calzado,28/06/2023,Este,Efectivo,46,134,6164,Ricardo,Barcelona
+300,Bota,Ropa,29/04/2023,Norte,Tarjeta de Crédito,29,39,1131,Ana,Malaga
+301,Sombrero,Accesorios,22/09/2023,Oeste,Efectivo,35,62,2170,Ana,Barcelona
+302,Mochila,Bolsos,30/05/2023,Oeste,Efectivo,48,147,7056,Luis,Alicante
+303,Camiseta,Bolsos,03/08/2023,Este,Tarjeta de Crédito,15,96,1440,Carlos,Madrid
+304,Sombrero,Deportes,16/07/2023,Oeste,Efectivo,31,148,4588,Luis,Alicante
+305,Zapatos,Calzado,11/02/2023,Oeste,Tarjeta de Crédito,42,22,924,Luis,Madrid
+306,Camiseta,Accesorios,22/02/2023,Norte,Efectivo,41,49,2009,Ricardo,Murcia
+307,Chaqueta,Deportes,26/11/2023,Norte,Efectivo,43,98,4214,Pedro,Murcia
+308,Sombrero,Accesorios,08/09/2023,Norte,Efectivo,16,77,1232,Pedro,Barcelona
+309,Guantes,Calzado,22/10/2023,Sur,Tarjeta de Crédito,10,51,510,Laura,Zaragoza
+310,Camiseta,Bolsos,28/09/2023,Sur,Efectivo,49,103,5047,Marta,Zaragoza
+311,Zapatos,Ropa,03/05/2023,Norte,Tarjeta de Crédito,32,28,896,Ricardo,Madrid
+312,Pantalón,Bolsos,05/12/2023,Norte,Tarjeta de Crédito,2,32,64,Laura,Granada
+313,Bota,Deportes,23/09/2023,Sur,Efectivo,24,63,1512,Juan,Malaga
+314,Socks,Ropa,14/12/2023,Este,Tarjeta de Crédito,23,74,1702,Marta,Barcelona
+315,Bufanda,Deportes,29/01/2023,Oeste,Efectivo,2,149,298,Marta,Malaga
+316,Socks,Calzado,04/02/2023,Oeste,Tarjeta de Crédito,38,33,1254,Sofia,Alicante
+317,Zapatos,Ropa,06/01/2023,Norte,Tarjeta de Crédito,31,43,1333,Sofia,Zaragoza
+318,Mochila,Deportes,21/04/2023,Este,Efectivo,40,62,2480,Maria,Bilbao
+319,Mochila,Calzado,21/10/2023,Sur,Efectivo,26,145,3770,Maria,Alicante
+320,Pantalón,Bolsos,18/03/2023,Norte,Efectivo,29,27,783,Luis,Alicante
+321,Bufanda,Calzado,15/12/2023,Este,Efectivo,3,66,198,Juan,Madrid
+322,Guantes,Accesorios,27/05/2023,Este,Tarjeta de Crédito,14,121,1694,Ana,Sevilla
+323,Pantalón,Calzado,08/03/2023,Este,Tarjeta de Crédito,25,14,350,Ana,Alicante
+324,Socks,Calzado,08/01/2023,Sur,Tarjeta de Crédito,48,22,1056,Sofia,Barcelona
+325,Pantalón,Accesorios,02/05/2023,Sur,Efectivo,1,92,92,Sofia,Valencia
+326,Socks,Deportes,06/12/2023,Oeste,Tarjeta de Crédito,3,38,114,Sofia,Valencia
+327,Camiseta,Deportes,24/06/2023,Oeste,Efectivo,26,12,312,Ricardo,Barcelona
+328,Mochila,Calzado,28/06/2023,Este,Tarjeta de Crédito,18,99,1782,Carlos,Sevilla
+329,Camiseta,Accesorios,26/03/2023,Este,Efectivo,9,113,1017,Maria,Sevilla
+330,Bota,Accesorios,14/02/2023,Sur,Tarjeta de Crédito,38,132,5016,Ricardo,Madrid
+331,Bufanda,Bolsos,16/05/2023,Oeste,Tarjeta de Crédito,23,85,1955,Pedro,Zaragoza
+332,Guantes,Deportes,09/12/2023,Este,Efectivo,21,139,2919,Ana,Malaga
+333,Socks,Ropa,16/01/2023,Oeste,Tarjeta de Crédito,1,117,117,Marta,Sevilla
+334,Guantes,Deportes,29/11/2023,Oeste,Efectivo,21,91,1911,Maria,Bilbao
+335,Socks,Deportes,14/07/2023,Este,Tarjeta de Crédito,27,86,2322,Laura,Madrid
+336,Zapatos,Bolsos,09/01/2023,Sur,Tarjeta de Crédito,42,11,462,Pedro,Murcia
+337,Pantalón,Ropa,12/11/2023,Este,Efectivo,6,136,816,Maria,Granada
+338,Bota,Bolsos,30/11/2023,Este,Efectivo,44,144,6336,Ricardo,Murcia
+339,Mochila,Ropa,29/11/2023,Oeste,Tarjeta de Crédito,36,35,1260,Juan,Madrid
+340,Socks,Calzado,23/11/2023,Este,Tarjeta de Crédito,28,97,2716,Marta,Alicante
+341,Guantes,Ropa,15/01/2023,Sur,Tarjeta de Crédito,45,25,1125,Maria,Malaga
+342,Bota,Bolsos,23/11/2023,Este,Tarjeta de Crédito,17,82,1394,Carlos,Granada
+343,Chaqueta,Deportes,12/04/2023,Sur,Tarjeta de Crédito,40,41,1640,Sofia,Murcia
+344,Chaqueta,Ropa,14/08/2023,Sur,Tarjeta de Crédito,3,24,72,Sofia,Granada
+345,Camiseta,Ropa,05/10/2023,Oeste,Efectivo,12,150,1800,Marta,Bilbao
+346,Mochila,Accesorios,23/04/2023,Norte,Efectivo,39,14,546,Ricardo,Bilbao
+347,Zapatos,Deportes,01/01/2023,Norte,Efectivo,12,83,996,Sofia,Bilbao
+348,Guantes,Calzado,23/09/2023,Oeste,Tarjeta de Crédito,2,61,122,Maria,Madrid
+349,Pantalón,Bolsos,27/07/2023,Este,Tarjeta de Crédito,46,86,3956,Laura,Malaga
+350,Pantalón,Calzado,20/04/2023,Oeste,Tarjeta de Crédito,22,119,2618,Ana,Madrid
+351,Guantes,Deportes,19/07/2023,Sur,Efectivo,23,115,2645,Ana,Valencia
+352,Bufanda,Ropa,02/11/2023,Norte,Efectivo,30,136,4080,Pedro,Alicante
+353,Zapatos,Ropa,12/01/2023,Oeste,Tarjeta de Crédito,5,16,80,Luis,Alicante
+354,Bota,Deportes,11/12/2023,Este,Tarjeta de Crédito,9,49,441,Juan,Bilbao
+355,Socks,Ropa,07/07/2023,Oeste,Efectivo,21,108,2268,Marta,Valencia
+356,Bufanda,Ropa,03/06/2023,Norte,Efectivo,11,94,1034,Pedro,Sevilla
+357,Socks,Ropa,30/11/2023,Oeste,Efectivo,5,74,370,Luis,Sevilla
+358,Socks,Bolsos,06/10/2023,Oeste,Tarjeta de Crédito,35,141,4935,Ricardo,Bilbao
+359,Bufanda,Bolsos,20/06/2023,Norte,Tarjeta de Crédito,27,20,540,Carlos,Murcia
+360,Camiseta,Accesorios,14/05/2023,Sur,Tarjeta de Crédito,49,117,5733,Carlos,Madrid
+361,Chaqueta,Calzado,25/01/2023,Sur,Efectivo,2,35,70,Juan,Bilbao
+362,Socks,Deportes,18/01/2023,Norte,Efectivo,24,94,2256,Sofia,Zaragoza
+363,Bufanda,Deportes,09/07/2023,Oeste,Tarjeta de Crédito,31,132,4092,Maria,Granada
+364,Bufanda,Deportes,21/05/2023,Norte,Tarjeta de Crédito,33,77,2541,Pedro,Alicante
+365,Sombrero,Accesorios,12/02/2023,Sur,Efectivo,39,113,4407,Pedro,Sevilla
+366,Camiseta,Bolsos,30/11/2023,Este,Tarjeta de Crédito,30,89,2670,Marta,Barcelona
+367,Mochila,Accesorios,11/10/2023,Oeste,Efectivo,46,62,2852,Marta,Sevilla
+368,Sombrero,Deportes,26/05/2023,Sur,Efectivo,37,115,4255,Carlos,Alicante
+369,Sombrero,Calzado,11/11/2023,Oeste,Tarjeta de Crédito,28,53,1484,Carlos,Granada
+370,Guantes,Ropa,15/11/2023,Norte,Efectivo,31,149,4619,Laura,Alicante
+371,Chaqueta,Bolsos,02/04/2023,Este,Tarjeta de Crédito,11,99,1089,Laura,Barcelona
+372,Bufanda,Bolsos,28/06/2023,Norte,Efectivo,23,110,2530,Sofia,Bilbao
+373,Chaqueta,Accesorios,25/02/2023,Este,Efectivo,2,106,212,Laura,Valencia
+374,Zapatos,Bolsos,04/06/2023,Oeste,Tarjeta de Crédito,40,18,720,Maria,Barcelona
+375,Guantes,Deportes,09/06/2023,Oeste,Efectivo,41,21,861,Maria,Alicante
+376,Mochila,Deportes,21/04/2023,Norte,Tarjeta de Crédito,27,78,2106,Pedro,Alicante
+377,Chaqueta,Accesorios,17/05/2023,Este,Tarjeta de Crédito,35,37,1295,Ana,Zaragoza
+378,Pantalón,Deportes,20/08/2023,Este,Efectivo,2,65,130,Maria,Zaragoza
+379,Socks,Calzado,08/08/2023,Oeste,Tarjeta de Crédito,39,108,4212,Luis,Malaga
+380,Zapatos,Accesorios,09/03/2023,Norte,Tarjeta de Crédito,37,119,4403,Carlos,Zaragoza
+381,Camiseta,Calzado,29/10/2023,Este,Tarjeta de Crédito,21,86,1806,Marta,Madrid
+382,Mochila,Ropa,06/09/2023,Oeste,Tarjeta de Crédito,5,112,560,Laura,Valencia
+383,Zapatos,Calzado,19/11/2023,Sur,Tarjeta de Crédito,45,115,5175,Pedro,Granada
+384,Socks,Ropa,06/01/2023,Norte,Tarjeta de Crédito,21,118,2478,Juan,Barcelona
+385,Guantes,Ropa,07/10/2023,Sur,Efectivo,29,121,3509,Marta,Alicante
+386,Socks,Calzado,04/04/2023,Norte,Tarjeta de Crédito,20,67,1340,Luis,Malaga
+387,Sombrero,Accesorios,26/09/2023,Oeste,Efectivo,38,87,3306,Laura,Malaga
+388,Socks,Deportes,16/07/2023,Este,Efectivo,20,84,1680,Luis,Granada
+389,Sombrero,Deportes,25/01/2023,Este,Tarjeta de Crédito,50,51,2550,Carlos,Valencia
+390,Guantes,Ropa,28/05/2023,Este,Efectivo,25,77,1925,Carlos,Barcelona
+391,Bota,Ropa,28/04/2023,Norte,Efectivo,2,42,84,Sofia,Sevilla
+392,Sombrero,Accesorios,04/12/2023,Oeste,Tarjeta de Crédito,32,80,2560,Pedro,Zaragoza
+393,Camiseta,Bolsos,04/12/2023,Sur,Tarjeta de Crédito,26,65,1690,Marta,Bilbao
+394,Socks,Calzado,07/03/2023,Oeste,Tarjeta de Crédito,6,114,684,Ricardo,Malaga
+395,Socks,Ropa,28/10/2023,Sur,Efectivo,41,110,4510,Ricardo,Zaragoza
+396,Camiseta,Deportes,24/06/2023,Norte,Efectivo,3,60,180,Marta,Zaragoza
+397,Pantalón,Accesorios,15/11/2023,Norte,Tarjeta de Crédito,33,83,2739,Juan,Madrid
+398,Bufanda,Calzado,17/03/2023,Sur,Tarjeta de Crédito,1,130,130,Pedro,Valencia
+399,Bota,Accesorios,24/04/2023,Sur,Efectivo,5,14,70,Luis,Bilbao
+400,Mochila,Calzado,21/04/2023,Sur,Efectivo,13,92,1196,Juan,Sevilla
+401,Sombrero,Calzado,06/09/2023,Oeste,Efectivo,19,60,1140,Ana,Alicante
+402,Camiseta,Ropa,22/07/2023,Sur,Efectivo,12,19,228,Marta,Madrid
+403,Guantes,Accesorios,27/05/2023,Norte,Tarjeta de Crédito,48,149,7152,Luis,Zaragoza
+404,Sombrero,Accesorios,04/02/2023,Norte,Efectivo,25,13,325,Ricardo,Zaragoza
+405,Bufanda,Deportes,05/11/2023,Este,Efectivo,35,104,3640,Maria,Murcia
+406,Guantes,Deportes,26/01/2023,Sur,Efectivo,12,89,1068,Sofia,Bilbao
+407,Zapatos,Ropa,26/08/2023,Oeste,Efectivo,30,45,1350,Ricardo,Bilbao
+408,Socks,Ropa,14/01/2023,Oeste,Tarjeta de Crédito,5,34,170,Pedro,Murcia
+409,Zapatos,Bolsos,14/02/2023,Oeste,Tarjeta de Crédito,34,107,3638,Carlos,Bilbao
+410,Sombrero,Deportes,04/08/2023,Este,Efectivo,22,110,2420,Maria,Zaragoza
+411,Bufanda,Calzado,21/08/2023,Norte,Efectivo,39,18,702,Sofia,Malaga
+412,Bota,Accesorios,12/07/2023,Oeste,Tarjeta de Crédito,13,70,910,Sofia,Barcelona
+413,Sombrero,Ropa,20/02/2023,Norte,Tarjeta de Crédito,47,62,2914,Ana,Zaragoza
+414,Camiseta,Accesorios,02/08/2023,Este,Efectivo,3,72,216,Ana,Madrid
+415,Chaqueta,Accesorios,31/05/2023,Sur,Efectivo,20,130,2600,Laura,Valencia
+416,Sombrero,Bolsos,02/10/2023,Sur,Tarjeta de Crédito,31,114,3534,Ricardo,Murcia
+417,Socks,Deportes,04/12/2023,Sur,Tarjeta de Crédito,5,13,65,Ricardo,Sevilla
+418,Socks,Ropa,17/03/2023,Oeste,Tarjeta de Crédito,24,102,2448,Ricardo,Alicante
+419,Sombrero,Accesorios,08/08/2023,Sur,Tarjeta de Crédito,40,37,1480,Laura,Sevilla
+420,Guantes,Ropa,14/12/2023,Oeste,Tarjeta de Crédito,33,89,2937,Juan,Zaragoza
+421,Chaqueta,Calzado,06/07/2023,Este,Tarjeta de Crédito,8,85,680,Sofia,Madrid
+422,Camiseta,Bolsos,16/10/2023,Este,Efectivo,24,125,3000,Maria,Zaragoza
+423,Sombrero,Calzado,28/01/2023,Oeste,Tarjeta de Crédito,50,78,3900,Pedro,Valencia
+424,Guantes,Ropa,29/06/2023,Norte,Tarjeta de Crédito,20,107,2140,Sofia,Malaga
+425,Socks,Ropa,10/09/2023,Sur,Tarjeta de Crédito,16,10,160,Ana,Alicante
+426,Socks,Deportes,06/05/2023,Sur,Tarjeta de Crédito,50,105,5250,Luis,Valencia
+427,Bufanda,Accesorios,26/06/2023,Sur,Efectivo,12,26,312,Carlos,Murcia
+428,Sombrero,Accesorios,06/02/2023,Oeste,Efectivo,13,121,1573,Laura,Murcia
+429,Chaqueta,Calzado,09/04/2023,Este,Tarjeta de Crédito,45,100,4500,Marta,Zaragoza
+430,Pantalón,Bolsos,08/04/2023,Sur,Efectivo,42,97,4074,Luis,Madrid
+431,Chaqueta,Accesorios,07/05/2023,Este,Efectivo,39,99,3861,Pedro,Valencia
+432,Socks,Deportes,17/06/2023,Sur,Efectivo,25,58,1450,Ricardo,Granada
+433,Socks,Calzado,21/03/2023,Sur,Efectivo,46,47,2162,Ana,Madrid
+434,Zapatos,Calzado,21/10/2023,Oeste,Efectivo,32,141,4512,Ana,Malaga
+435,Socks,Deportes,29/11/2023,Norte,Efectivo,24,68,1632,Ana,Murcia
+436,Camiseta,Bolsos,06/05/2023,Oeste,Tarjeta de Crédito,48,77,3696,Ricardo,Zaragoza
+437,Mochila,Deportes,09/12/2023,Sur,Tarjeta de Crédito,47,139,6533,Marta,Bilbao
+438,Sombrero,Bolsos,06/11/2023,Sur,Tarjeta de Crédito,44,58,2552,Laura,Murcia
+439,Chaqueta,Deportes,30/05/2023,Norte,Tarjeta de Crédito,9,135,1215,Luis,Alicante
+440,Mochila,Deportes,16/01/2023,Este,Tarjeta de Crédito,40,120,4800,Ricardo,Barcelona
+441,Guantes,Ropa,28/01/2023,Este,Efectivo,50,57,2850,Pedro,Bilbao
+442,Pantalón,Calzado,22/06/2023,Sur,Tarjeta de Crédito,23,60,1380,Laura,Zaragoza
+443,Camiseta,Deportes,15/02/2023,Este,Tarjeta de Crédito,50,52,2600,Pedro,Granada
+444,Chaqueta,Deportes,24/11/2023,Sur,Efectivo,13,107,1391,Laura,Bilbao
+445,Mochila,Accesorios,24/08/2023,Norte,Efectivo,32,133,4256,Marta,Alicante
+446,Pantalón,Calzado,02/08/2023,Norte,Tarjeta de Crédito,50,89,4450,Carlos,Madrid
+447,Zapatos,Accesorios,26/03/2023,Sur,Efectivo,15,120,1800,Pedro,Granada
+448,Camiseta,Calzado,09/10/2023,Norte,Efectivo,36,36,1296,Ricardo,Murcia
+449,Camiseta,Accesorios,20/08/2023,Oeste,Efectivo,49,122,5978,Laura,Granada
+450,Zapatos,Deportes,26/03/2023,Oeste,Efectivo,5,95,475,Ana,Valencia
+451,Sombrero,Deportes,06/03/2023,Norte,Tarjeta de Crédito,22,123,2706,Sofia,Alicante
+452,Zapatos,Ropa,14/05/2023,Sur,Efectivo,16,133,2128,Ana,Bilbao
+453,Camiseta,Accesorios,31/05/2023,Sur,Tarjeta de Crédito,41,58,2378,Juan,Valencia
+454,Camiseta,Bolsos,25/04/2023,Norte,Tarjeta de Crédito,10,85,850,Carlos,Granada
+455,Mochila,Ropa,05/03/2023,Este,Efectivo,24,64,1536,Carlos,Valencia
+456,Socks,Accesorios,09/12/2023,Oeste,Efectivo,18,65,1170,Ana,Sevilla
+457,Pantalón,Accesorios,29/12/2023,Este,Efectivo,49,104,5096,Luis,Alicante
+458,Zapatos,Ropa,18/12/2023,Sur,Tarjeta de Crédito,18,53,954,Marta,Malaga
+459,Pantalón,Deportes,07/06/2023,Sur,Efectivo,7,96,672,Pedro,Madrid
+460,Zapatos,Accesorios,18/03/2023,Este,Efectivo,4,93,372,Ricardo,Granada
+461,Guantes,Deportes,26/05/2023,Norte,Efectivo,26,25,650,Carlos,Alicante
+462,Camiseta,Ropa,09/12/2023,Este,Efectivo,5,46,230,Ana,Malaga
+463,Socks,Deportes,13/08/2023,Este,Efectivo,16,86,1376,Ana,Malaga
+464,Mochila,Calzado,09/11/2023,Oeste,Tarjeta de Crédito,35,54,1890,Marta,Zaragoza
+465,Socks,Bolsos,13/04/2023,Oeste,Efectivo,26,71,1846,Marta,Valencia
+466,Socks,Accesorios,13/12/2023,Este,Efectivo,18,109,1962,Maria,Malaga
+467,Socks,Bolsos,28/10/2023,Este,Efectivo,29,61,1769,Maria,Sevilla
+468,Pantalón,Deportes,29/03/2023,Sur,Tarjeta de Crédito,23,28,644,Luis,Alicante
+469,Zapatos,Accesorios,30/10/2023,Oeste,Efectivo,14,118,1652,Luis,Barcelona
+470,Bota,Deportes,17/06/2023,Oeste,Tarjeta de Crédito,15,53,795,Juan,Barcelona
+471,Guantes,Calzado,19/06/2023,Sur,Tarjeta de Crédito,49,16,784,Luis,Granada
+472,Chaqueta,Ropa,15/05/2023,Norte,Efectivo,33,126,4158,Laura,Murcia
+473,Socks,Accesorios,19/02/2023,Oeste,Efectivo,25,77,1925,Marta,Valencia
+474,Sombrero,Calzado,06/12/2023,Oeste,Efectivo,21,43,903,Ricardo,Murcia
+475,Pantalón,Calzado,13/12/2023,Norte,Tarjeta de Crédito,17,78,1326,Laura,Malaga
+476,Mochila,Accesorios,14/05/2023,Oeste,Tarjeta de Crédito,23,64,1472,Pedro,Alicante
+477,Chaqueta,Deportes,13/12/2023,Oeste,Tarjeta de Crédito,43,19,817,Ana,Granada
+478,Bota,Calzado,17/05/2023,Norte,Tarjeta de Crédito,17,51,867,Luis,Bilbao
+479,Sombrero,Bolsos,02/09/2023,Norte,Tarjeta de Crédito,14,50,700,Ana,Malaga
+480,Bota,Calzado,19/04/2023,Este,Tarjeta de Crédito,29,131,3799,Carlos,Valencia
+481,Chaqueta,Deportes,09/11/2023,Sur,Efectivo,20,147,2940,Juan,Barcelona
+482,Socks,Deportes,14/10/2023,Sur,Efectivo,30,19,570,Carlos,Zaragoza
+483,Sombrero,Bolsos,21/01/2023,Norte,Tarjeta de Crédito,19,111,2109,Juan,Alicante
+484,Bota,Calzado,31/03/2023,Norte,Efectivo,39,137,5343,Maria,Madrid
+485,Mochila,Deportes,23/10/2023,Oeste,Efectivo,13,145,1885,Ana,Murcia
+486,Zapatos,Accesorios,22/04/2023,Este,Tarjeta de Crédito,18,101,1818,Juan,Granada
+487,Camiseta,Ropa,28/10/2023,Este,Tarjeta de Crédito,23,122,2806,Sofia,Murcia
+488,Zapatos,Ropa,18/03/2023,Norte,Efectivo,46,87,4002,Laura,Alicante
+489,Chaqueta,Ropa,26/06/2023,Oeste,Tarjeta de Crédito,33,94,3102,Juan,Murcia
+490,Pantalón,Calzado,09/12/2023,Oeste,Tarjeta de Crédito,39,39,1521,Juan,Alicante
+491,Camiseta,Bolsos,28/05/2023,Sur,Efectivo,40,58,2320,Laura,Murcia
+492,Guantes,Deportes,11/04/2023,Sur,Tarjeta de Crédito,18,18,324,Ana,Sevilla
+493,Mochila,Accesorios,03/09/2023,Oeste,Efectivo,9,78,702,Ana,Bilbao
+494,Guantes,Accesorios,27/04/2023,Sur,Efectivo,33,67,2211,Laura,Malaga
+495,Sombrero,Calzado,02/04/2023,Norte,Efectivo,32,71,2272,Carlos,Malaga
+496,Camiseta,Ropa,28/01/2023,Oeste,Efectivo,17,61,1037,Sofia,Valencia
+497,Guantes,Calzado,25/01/2023,Sur,Efectivo,19,49,931,Ricardo,Madrid
+498,Guantes,Bolsos,27/02/2023,Este,Tarjeta de Crédito,27,72,1944,Pedro,Madrid
+499,Bota,Bolsos,24/10/2023,Oeste,Tarjeta de Crédito,6,59,354,Sofia,Valencia
+500,Zapatos,Deportes,14/05/2023,Oeste,Tarjeta de Crédito,35,150,5250,Ana,Zaragoza
+501,Bota,Deportes,27/11/2023,Este,Tarjeta de Crédito,37,87,3219,Ricardo,Malaga
+502,Camiseta,Bolsos,06/09/2023,Norte,Efectivo,34,106,3604,Maria,Zaragoza
+503,Camiseta,Bolsos,07/02/2023,Este,Efectivo,20,52,1040,Luis,Alicante
+504,Chaqueta,Bolsos,16/03/2023,Oeste,Tarjeta de Crédito,25,45,1125,Juan,Alicante
+505,Bota,Calzado,22/05/2023,Norte,Efectivo,4,131,524,Laura,Barcelona
+506,Bufanda,Bolsos,18/11/2023,Sur,Tarjeta de Crédito,10,117,1170,Laura,Murcia
+507,Zapatos,Accesorios,17/06/2023,Sur,Tarjeta de Crédito,10,19,190,Juan,Madrid
+508,Camiseta,Ropa,16/09/2023,Sur,Tarjeta de Crédito,24,104,2496,Luis,Barcelona
+509,Chaqueta,Bolsos,21/12/2023,Oeste,Efectivo,21,15,315,Pedro,Bilbao
+510,Bota,Ropa,13/08/2023,Este,Efectivo,11,66,726,Luis,Valencia
+511,Zapatos,Calzado,01/06/2023,Norte,Efectivo,27,138,3726,Ricardo,Valencia
+512,Bota,Ropa,19/01/2023,Sur,Efectivo,16,80,1280,Luis,Alicante
+513,Guantes,Calzado,26/05/2023,Norte,Tarjeta de Crédito,26,30,780,Ricardo,Malaga
+514,Chaqueta,Accesorios,29/08/2023,Oeste,Efectivo,30,101,3030,Luis,Zaragoza
+515,Zapatos,Calzado,10/12/2023,Sur,Efectivo,49,136,6664,Pedro,Madrid
+516,Socks,Calzado,25/08/2023,Oeste,Efectivo,16,89,1424,Pedro,Barcelona
+517,Sombrero,Deportes,04/02/2023,Este,Tarjeta de Crédito,7,65,455,Ana,Zaragoza
+518,Sombrero,Bolsos,09/07/2023,Oeste,Tarjeta de Crédito,16,125,2000,Juan,Barcelona
+519,Zapatos,Bolsos,01/01/2023,Oeste,Efectivo,35,34,1190,Pedro,Murcia
+520,Bota,Accesorios,02/06/2023,Este,Efectivo,16,14,224,Ricardo,Bilbao
+521,Chaqueta,Accesorios,06/05/2023,Norte,Efectivo,40,129,5160,Pedro,Bilbao
+522,Sombrero,Bolsos,11/12/2023,Este,Efectivo,12,30,360,Ana,Zaragoza
+523,Chaqueta,Deportes,14/08/2023,Este,Tarjeta de Crédito,35,27,945,Laura,Zaragoza
+524,Sombrero,Bolsos,09/08/2023,Oeste,Efectivo,49,66,3234,Ricardo,Zaragoza
+525,Guantes,Deportes,30/07/2023,Norte,Efectivo,21,102,2142,Ana,Barcelona
+526,Bota,Accesorios,25/01/2023,Sur,Efectivo,50,28,1400,Carlos,Murcia
+527,Guantes,Ropa,16/01/2023,Este,Tarjeta de Crédito,43,137,5891,Carlos,Sevilla
+528,Sombrero,Accesorios,01/07/2023,Norte,Tarjeta de Crédito,36,106,3816,Maria,Zaragoza
+529,Socks,Accesorios,25/11/2023,Este,Efectivo,48,140,6720,Luis,Malaga
+530,Socks,Calzado,09/05/2023,Este,Efectivo,17,30,510,Juan,Madrid
+531,Guantes,Calzado,11/02/2023,Este,Efectivo,32,49,1568,Marta,Madrid
+532,Socks,Calzado,02/12/2023,Este,Efectivo,41,76,3116,Sofia,Barcelona
+533,Sombrero,Calzado,24/08/2023,Oeste,Efectivo,6,136,816,Ana,Zaragoza
+534,Zapatos,Deportes,26/12/2023,Norte,Tarjeta de Crédito,24,64,1536,Laura,Alicante
+535,Guantes,Bolsos,03/02/2023,Norte,Tarjeta de Crédito,27,118,3186,Sofia,Valencia
+536,Pantalón,Ropa,11/12/2023,Norte,Tarjeta de Crédito,20,107,2140,Laura,Sevilla
+537,Bota,Accesorios,14/02/2023,Este,Efectivo,25,121,3025,Sofia,Malaga
+538,Socks,Deportes,14/05/2023,Oeste,Tarjeta de Crédito,2,124,248,Ana,Murcia
+539,Socks,Ropa,21/01/2023,Este,Tarjeta de Crédito,9,126,1134,Marta,Alicante
+540,Camiseta,Deportes,02/05/2023,Este,Tarjeta de Crédito,28,96,2688,Sofia,Bilbao
+541,Bufanda,Deportes,11/03/2023,Norte,Efectivo,38,90,3420,Ana,Alicante
+542,Guantes,Accesorios,18/12/2023,Este,Efectivo,3,75,225,Pedro,Barcelona
+543,Mochila,Bolsos,27/12/2023,Sur,Tarjeta de Crédito,20,28,560,Marta,Sevilla
+544,Socks,Calzado,17/02/2023,Este,Efectivo,6,144,864,Ricardo,Granada
+545,Bota,Bolsos,08/02/2023,Sur,Tarjeta de Crédito,39,127,4953,Laura,Granada
+546,Pantalón,Accesorios,14/10/2023,Este,Tarjeta de Crédito,33,51,1683,Carlos,Zaragoza
+547,Socks,Accesorios,10/01/2023,Oeste,Tarjeta de Crédito,1,51,51,Luis,Zaragoza
+548,Pantalón,Accesorios,30/01/2023,Oeste,Tarjeta de Crédito,37,68,2516,Carlos,Barcelona
+549,Sombrero,Ropa,01/09/2023,Norte,Efectivo,6,29,174,Marta,Murcia
+550,Sombrero,Bolsos,01/10/2023,Este,Efectivo,45,82,3690,Ricardo,Zaragoza
+551,Bufanda,Bolsos,29/03/2023,Sur,Efectivo,34,26,884,Laura,Valencia
+552,Zapatos,Deportes,01/09/2023,Sur,Efectivo,47,36,1692,Ricardo,Sevilla
+553,Mochila,Deportes,25/11/2023,Este,Tarjeta de Crédito,15,11,165,Sofia,Barcelona
+554,Camiseta,Deportes,15/01/2023,Sur,Efectivo,45,72,3240,Laura,Madrid
+555,Bufanda,Accesorios,04/01/2023,Oeste,Tarjeta de Crédito,26,71,1846,Sofia,Bilbao
+556,Chaqueta,Bolsos,10/07/2023,Sur,Efectivo,14,109,1526,Ana,Barcelona
+557,Camiseta,Accesorios,17/06/2023,Norte,Efectivo,7,28,196,Marta,Barcelona
+558,Guantes,Ropa,09/01/2023,Oeste,Efectivo,46,26,1196,Ana,Granada
+559,Bota,Deportes,19/04/2023,Oeste,Tarjeta de Crédito,31,78,2418,Maria,Malaga
+560,Chaqueta,Accesorios,17/05/2023,Oeste,Tarjeta de Crédito,24,126,3024,Ricardo,Murcia
+561,Chaqueta,Accesorios,03/06/2023,Este,Tarjeta de Crédito,31,90,2790,Sofia,Malaga
+562,Bufanda,Ropa,28/07/2023,Este,Tarjeta de Crédito,29,48,1392,Pedro,Valencia
+563,Zapatos,Calzado,29/09/2023,Oeste,Efectivo,42,45,1890,Ana,Madrid
+564,Bufanda,Bolsos,23/05/2023,Este,Tarjeta de Crédito,32,141,4512,Maria,Granada
+565,Guantes,Calzado,09/04/2023,Sur,Tarjeta de Crédito,17,38,646,Juan,Madrid
+566,Socks,Deportes,04/11/2023,Este,Efectivo,14,60,840,Carlos,Valencia
+567,Socks,Accesorios,10/03/2023,Este,Efectivo,40,23,920,Laura,Malaga
+568,Zapatos,Ropa,04/09/2023,Oeste,Tarjeta de Crédito,36,78,2808,Maria,Barcelona
+569,Guantes,Ropa,18/09/2023,Norte,Efectivo,48,66,3168,Marta,Zaragoza
+570,Zapatos,Bolsos,03/10/2023,Norte,Tarjeta de Crédito,24,21,504,Ana,Zaragoza
+571,Pantalón,Calzado,20/03/2023,Norte,Efectivo,45,26,1170,Marta,Alicante
+572,Socks,Bolsos,26/05/2023,Sur,Tarjeta de Crédito,27,39,1053,Carlos,Bilbao
+573,Chaqueta,Accesorios,21/04/2023,Este,Tarjeta de Crédito,25,97,2425,Pedro,Murcia
+574,Mochila,Bolsos,15/09/2023,Norte,Tarjeta de Crédito,32,108,3456,Ricardo,Valencia
+575,Bota,Ropa,03/04/2023,Oeste,Tarjeta de Crédito,18,32,576,Ricardo,Bilbao
+576,Guantes,Ropa,13/01/2023,Norte,Tarjeta de Crédito,46,138,6348,Marta,Murcia
+577,Camiseta,Deportes,17/09/2023,Norte,Efectivo,18,88,1584,Sofia,Bilbao
+578,Zapatos,Deportes,19/04/2023,Este,Tarjeta de Crédito,37,41,1517,Pedro,Malaga
+579,Bota,Accesorios,26/11/2023,Este,Tarjeta de Crédito,26,18,468,Ricardo,Murcia
+580,Camiseta,Calzado,08/07/2023,Este,Tarjeta de Crédito,9,24,216,Pedro,Malaga
+581,Bota,Bolsos,05/04/2023,Sur,Tarjeta de Crédito,35,36,1260,Maria,Barcelona
+582,Mochila,Accesorios,15/04/2023,Sur,Tarjeta de Crédito,8,118,944,Pedro,Granada
+583,Camiseta,Deportes,08/01/2023,Norte,Efectivo,20,85,1700,Luis,Malaga
+584,Bufanda,Bolsos,08/03/2023,Este,Efectivo,42,74,3108,Carlos,Zaragoza
+585,Sombrero,Deportes,10/07/2023,Norte,Tarjeta de Crédito,22,118,2596,Ricardo,Bilbao
+586,Bufanda,Bolsos,13/09/2023,Oeste,Efectivo,19,138,2622,Pedro,Alicante
+587,Socks,Calzado,09/01/2023,Oeste,Tarjeta de Crédito,30,19,570,Marta,Sevilla
+588,Sombrero,Accesorios,27/04/2023,Este,Efectivo,28,56,1568,Juan,Murcia
+589,Bufanda,Bolsos,24/09/2023,Este,Efectivo,35,132,4620,Luis,Valencia
+590,Sombrero,Ropa,09/04/2023,Oeste,Tarjeta de Crédito,43,68,2924,Luis,Alicante
+591,Sombrero,Ropa,25/10/2023,Este,Efectivo,11,105,1155,Sofia,Zaragoza
+592,Chaqueta,Bolsos,13/06/2023,Sur,Efectivo,31,112,3472,Pedro,Malaga
+593,Zapatos,Bolsos,21/05/2023,Sur,Tarjeta de Crédito,49,133,6517,Sofia,Granada
+594,Zapatos,Bolsos,25/09/2023,Este,Tarjeta de Crédito,48,95,4560,Sofia,Barcelona
+595,Chaqueta,Ropa,06/02/2023,Oeste,Efectivo,39,121,4719,Juan,Sevilla
+596,Bota,Ropa,15/03/2023,Norte,Efectivo,36,36,1296,Maria,Madrid
+597,Pantalón,Bolsos,14/03/2023,Este,Efectivo,30,27,810,Pedro,Alicante
+598,Bota,Deportes,04/11/2023,Este,Tarjeta de Crédito,23,91,2093,Ana,Granada
+599,Camiseta,Deportes,18/07/2023,Norte,Efectivo,19,81,1539,Ricardo,Madrid
+600,Camiseta,Calzado,10/05/2023,Este,Efectivo,12,63,756,Sofia,Sevilla
+601,Sombrero,Accesorios,03/09/2023,Norte,Efectivo,15,80,1200,Carlos,Valencia
+602,Bufanda,Deportes,08/11/2023,Oeste,Tarjeta de Crédito,31,47,1457,Laura,Valencia
+603,Bufanda,Ropa,01/03/2023,Sur,Tarjeta de Crédito,43,146,6278,Carlos,Bilbao
+604,Zapatos,Deportes,06/10/2023,Oeste,Tarjeta de Crédito,37,44,1628,Juan,Sevilla
+605,Guantes,Calzado,13/04/2023,Sur,Tarjeta de Crédito,37,91,3367,Juan,Sevilla
+606,Bota,Calzado,23/10/2023,Norte,Efectivo,15,142,2130,Marta,Madrid
+607,Socks,Accesorios,16/11/2023,Sur,Tarjeta de Crédito,29,13,377,Maria,Granada
+608,Mochila,Deportes,07/12/2023,Oeste,Efectivo,50,32,1600,Ricardo,Murcia
+609,Bufanda,Ropa,31/05/2023,Sur,Efectivo,43,57,2451,Sofia,Madrid
+610,Mochila,Ropa,06/06/2023,Norte,Efectivo,26,134,3484,Carlos,Barcelona
+611,Sombrero,Bolsos,25/07/2023,Sur,Efectivo,44,64,2816,Laura,Valencia
+612,Mochila,Ropa,28/06/2023,Este,Tarjeta de Crédito,2,77,154,Juan,Valencia
+613,Socks,Accesorios,16/07/2023,Oeste,Tarjeta de Crédito,20,97,1940,Juan,Bilbao
+614,Chaqueta,Accesorios,11/08/2023,Este,Tarjeta de Crédito,15,10,150,Maria,Barcelona
+615,Socks,Ropa,30/03/2023,Norte,Tarjeta de Crédito,4,144,576,Laura,Valencia
+616,Mochila,Ropa,14/10/2023,Sur,Tarjeta de Crédito,22,104,2288,Laura,Madrid
+617,Socks,Bolsos,03/10/2023,Este,Efectivo,50,149,7450,Maria,Barcelona
+618,Pantalón,Ropa,24/08/2023,Este,Tarjeta de Crédito,38,115,4370,Juan,Madrid
+619,Sombrero,Bolsos,02/07/2023,Sur,Tarjeta de Crédito,23,142,3266,Ricardo,Murcia
+620,Bota,Bolsos,28/07/2023,Sur,Tarjeta de Crédito,26,117,3042,Pedro,Murcia
+621,Chaqueta,Ropa,10/05/2023,Oeste,Tarjeta de Crédito,11,51,561,Pedro,Valencia
+622,Bufanda,Calzado,02/06/2023,Este,Efectivo,28,111,3108,Maria,Valencia
+623,Camiseta,Calzado,13/01/2023,Este,Efectivo,2,133,266,Laura,Granada
+624,Bota,Bolsos,02/05/2023,Norte,Efectivo,8,149,1192,Sofia,Murcia
+625,Camiseta,Ropa,25/12/2023,Oeste,Efectivo,29,112,3248,Maria,Alicante
+626,Sombrero,Calzado,08/08/2023,Norte,Efectivo,11,83,913,Ricardo,Alicante
+627,Chaqueta,Ropa,16/04/2023,Este,Tarjeta de Crédito,37,117,4329,Maria,Bilbao
+628,Zapatos,Ropa,11/03/2023,Norte,Efectivo,18,131,2358,Luis,Murcia
+629,Bufanda,Ropa,14/07/2023,Este,Efectivo,50,26,1300,Carlos,Madrid
+630,Pantalón,Deportes,05/07/2023,Este,Efectivo,14,80,1120,Laura,Madrid
+631,Zapatos,Ropa,09/04/2023,Norte,Tarjeta de Crédito,10,71,710,Marta,Zaragoza
+632,Sombrero,Deportes,23/03/2023,Norte,Tarjeta de Crédito,35,50,1750,Marta,Barcelona
+633,Bota,Bolsos,16/03/2023,Sur,Efectivo,9,128,1152,Laura,Malaga
+634,Pantalón,Calzado,06/12/2023,Sur,Tarjeta de Crédito,35,54,1890,Ricardo,Alicante
+635,Socks,Calzado,11/07/2023,Sur,Tarjeta de Crédito,11,67,737,Luis,Valencia
+636,Mochila,Calzado,21/11/2023,Este,Efectivo,44,135,5940,Luis,Bilbao
+637,Pantalón,Calzado,02/08/2023,Norte,Tarjeta de Crédito,12,53,636,Juan,Malaga
+638,Sombrero,Calzado,11/11/2023,Oeste,Tarjeta de Crédito,3,24,72,Carlos,Sevilla
+639,Guantes,Calzado,14/11/2023,Este,Tarjeta de Crédito,39,87,3393,Pedro,Bilbao
+640,Mochila,Calzado,24/05/2023,Oeste,Efectivo,14,79,1106,Ana,Sevilla
+641,Camiseta,Bolsos,04/08/2023,Norte,Efectivo,28,110,3080,Ricardo,Murcia
+642,Bufanda,Ropa,27/12/2023,Este,Efectivo,11,12,132,Ana,Sevilla
+643,Camiseta,Accesorios,20/11/2023,Oeste,Tarjeta de Crédito,39,95,3705,Ana,Sevilla
+644,Pantalón,Deportes,15/01/2023,Oeste,Efectivo,25,83,2075,Laura,Granada
+645,Camiseta,Accesorios,05/08/2023,Sur,Tarjeta de Crédito,21,60,1260,Marta,Granada
+646,Sombrero,Accesorios,04/02/2023,Sur,Tarjeta de Crédito,10,76,760,Marta,Granada
+647,Socks,Ropa,02/07/2023,Sur,Tarjeta de Crédito,43,85,3655,Pedro,Murcia
+648,Bota,Ropa,27/09/2023,Este,Efectivo,15,102,1530,Laura,Malaga
+649,Bufanda,Ropa,24/12/2023,Norte,Efectivo,19,16,304,Ana,Bilbao
+650,Camiseta,Calzado,10/04/2023,Norte,Efectivo,48,22,1056,Sofia,Bilbao
+651,Camiseta,Bolsos,07/01/2023,Sur,Efectivo,22,129,2838,Marta,Valencia
+652,Pantalón,Calzado,30/01/2023,Sur,Tarjeta de Crédito,21,75,1575,Ricardo,Granada
+653,Bota,Bolsos,01/11/2023,Sur,Efectivo,44,13,572,Ricardo,Murcia
+654,Zapatos,Bolsos,24/05/2023,Oeste,Tarjeta de Crédito,32,147,4704,Juan,Valencia
+655,Camiseta,Accesorios,21/04/2023,Sur,Efectivo,50,97,4850,Maria,Barcelona
+656,Sombrero,Accesorios,20/08/2023,Oeste,Efectivo,23,26,598,Sofia,Valencia
+657,Guantes,Bolsos,28/06/2023,Norte,Efectivo,13,61,793,Marta,Malaga
+658,Bufanda,Bolsos,13/03/2023,Este,Tarjeta de Crédito,5,143,715,Luis,Alicante
+659,Camiseta,Calzado,29/07/2023,Este,Tarjeta de Crédito,4,78,312,Marta,Sevilla
+660,Sombrero,Calzado,08/08/2023,Este,Tarjeta de Crédito,28,146,4088,Juan,Granada
+661,Sombrero,Accesorios,21/03/2023,Este,Tarjeta de Crédito,14,30,420,Ricardo,Alicante
+662,Bufanda,Ropa,24/03/2023,Oeste,Tarjeta de Crédito,8,33,264,Ana,Valencia
+663,Zapatos,Bolsos,11/02/2023,Oeste,Efectivo,9,13,117,Luis,Murcia
+664,Sombrero,Calzado,30/09/2023,Sur,Tarjeta de Crédito,35,12,420,Laura,Sevilla
+665,Guantes,Accesorios,10/07/2023,Oeste,Tarjeta de Crédito,37,77,2849,Carlos,Bilbao
+666,Sombrero,Calzado,22/06/2023,Sur,Tarjeta de Crédito,21,110,2310,Ana,Madrid
+667,Sombrero,Bolsos,07/01/2023,Sur,Tarjeta de Crédito,18,63,1134,Carlos,Sevilla
+668,Sombrero,Bolsos,04/06/2023,Este,Efectivo,33,44,1452,Sofia,Malaga
+669,Socks,Deportes,10/01/2023,Oeste,Tarjeta de Crédito,8,65,520,Maria,Malaga
+670,Socks,Ropa,03/02/2023,Oeste,Efectivo,49,117,5733,Luis,Valencia
+671,Zapatos,Deportes,05/02/2023,Sur,Efectivo,17,49,833,Pedro,Barcelona
+672,Camiseta,Accesorios,06/01/2023,Sur,Efectivo,43,77,3311,Luis,Malaga
+673,Sombrero,Calzado,03/08/2023,Norte,Tarjeta de Crédito,31,55,1705,Marta,Malaga
+674,Bota,Accesorios,14/05/2023,Norte,Efectivo,34,87,2958,Ricardo,Murcia
+675,Camiseta,Bolsos,12/10/2023,Sur,Tarjeta de Crédito,6,150,900,Marta,Valencia
+676,Zapatos,Deportes,06/05/2023,Norte,Tarjeta de Crédito,22,15,330,Marta,Sevilla
+677,Chaqueta,Deportes,03/12/2023,Norte,Tarjeta de Crédito,14,26,364,Sofia,Barcelona
+678,Camiseta,Deportes,23/06/2023,Sur,Tarjeta de Crédito,3,108,324,Ana,Alicante
+679,Camiseta,Accesorios,01/06/2023,Sur,Tarjeta de Crédito,12,90,1080,Pedro,Madrid
+680,Mochila,Bolsos,27/11/2023,Oeste,Efectivo,36,11,396,Pedro,Granada
+681,Pantalón,Calzado,26/01/2023,Sur,Efectivo,12,86,1032,Marta,Bilbao
+682,Mochila,Calzado,25/04/2023,Sur,Tarjeta de Crédito,45,75,3375,Carlos,Malaga
+683,Guantes,Accesorios,11/10/2023,Este,Efectivo,2,61,122,Sofia,Valencia
+684,Socks,Deportes,16/03/2023,Oeste,Tarjeta de Crédito,2,101,202,Marta,Granada
+685,Socks,Ropa,15/06/2023,Oeste,Efectivo,15,31,465,Maria,Bilbao
+686,Pantalón,Accesorios,08/07/2023,Oeste,Efectivo,23,120,2760,Ricardo,Bilbao
+687,Bufanda,Accesorios,19/03/2023,Este,Efectivo,29,116,3364,Ana,Alicante
+688,Bufanda,Bolsos,31/03/2023,Sur,Efectivo,17,76,1292,Laura,Alicante
+689,Zapatos,Calzado,25/06/2023,Oeste,Efectivo,32,149,4768,Maria,Alicante
+690,Pantalón,Accesorios,21/01/2023,Oeste,Tarjeta de Crédito,7,78,546,Carlos,Zaragoza
+691,Camiseta,Accesorios,23/02/2023,Norte,Tarjeta de Crédito,30,93,2790,Luis,Zaragoza
+692,Bufanda,Deportes,03/07/2023,Oeste,Efectivo,28,112,3136,Luis,Bilbao
+693,Sombrero,Deportes,25/12/2023,Sur,Tarjeta de Crédito,14,48,672,Maria,Alicante
+694,Bota,Ropa,10/08/2023,Sur,Efectivo,44,22,968,Marta,Murcia
+695,Camiseta,Bolsos,11/11/2023,Norte,Tarjeta de Crédito,30,50,1500,Laura,Malaga
+696,Guantes,Ropa,24/11/2023,Oeste,Efectivo,17,66,1122,Juan,Granada
+697,Sombrero,Deportes,28/06/2023,Oeste,Efectivo,32,21,672,Juan,Granada
+698,Sombrero,Calzado,03/10/2023,Oeste,Efectivo,46,22,1012,Carlos,Zaragoza
+699,Pantalón,Deportes,22/04/2023,Este,Tarjeta de Crédito,6,129,774,Marta,Bilbao
+700,Zapatos,Bolsos,12/08/2023,Oeste,Tarjeta de Crédito,24,106,2544,Pedro,Valencia
+701,Guantes,Deportes,02/08/2023,Sur,Efectivo,6,66,396,Pedro,Sevilla
+702,Bufanda,Bolsos,28/02/2023,Sur,Efectivo,27,49,1323,Ana,Sevilla
+703,Pantalón,Bolsos,23/11/2023,Este,Tarjeta de Crédito,18,127,2286,Laura,Zaragoza
+704,Bufanda,Bolsos,19/04/2023,Este,Tarjeta de Crédito,24,89,2136,Laura,Valencia
+705,Pantalón,Bolsos,06/06/2023,Oeste,Tarjeta de Crédito,37,137,5069,Luis,Zaragoza
+706,Pantalón,Bolsos,10/07/2023,Norte,Tarjeta de Crédito,24,44,1056,Sofia,Sevilla
+707,Pantalón,Calzado,19/07/2023,Este,Tarjeta de Crédito,38,12,456,Carlos,Valencia
+708,Zapatos,Ropa,08/11/2023,Este,Efectivo,34,129,4386,Juan,Alicante
+709,Pantalón,Accesorios,15/07/2023,Oeste,Tarjeta de Crédito,40,14,560,Carlos,Bilbao
+710,Chaqueta,Ropa,04/02/2023,Oeste,Efectivo,47,20,940,Pedro,Granada
+711,Bota,Bolsos,03/09/2023,Este,Efectivo,15,135,2025,Pedro,Murcia
+712,Bufanda,Calzado,25/08/2023,Norte,Tarjeta de Crédito,11,80,880,Maria,Barcelona
+713,Camiseta,Deportes,14/04/2023,Este,Tarjeta de Crédito,22,126,2772,Ana,Bilbao
+714,Mochila,Calzado,07/01/2023,Oeste,Efectivo,24,147,3528,Laura,Alicante
+715,Guantes,Bolsos,10/10/2023,Oeste,Tarjeta de Crédito,1,115,115,Ricardo,Sevilla
+716,Socks,Calzado,01/01/2023,Este,Efectivo,18,125,2250,Carlos,Alicante
+717,Zapatos,Calzado,07/08/2023,Norte,Tarjeta de Crédito,44,76,3344,Pedro,Zaragoza
+718,Camiseta,Bolsos,18/08/2023,Este,Tarjeta de Crédito,12,40,480,Sofia,Valencia
+719,Sombrero,Calzado,21/06/2023,Este,Tarjeta de Crédito,43,84,3612,Luis,Granada
+720,Chaqueta,Accesorios,28/03/2023,Oeste,Efectivo,28,80,2240,Juan,Malaga
+721,Socks,Accesorios,10/02/2023,Norte,Tarjeta de Crédito,40,75,3000,Ana,Zaragoza
+722,Mochila,Calzado,03/05/2023,Sur,Efectivo,7,79,553,Sofia,Bilbao
+723,Camiseta,Deportes,27/11/2023,Norte,Tarjeta de Crédito,23,50,1150,Ana,Zaragoza
+724,Socks,Bolsos,25/10/2023,Este,Efectivo,21,29,609,Maria,Bilbao
+725,Camiseta,Accesorios,27/06/2023,Este,Tarjeta de Crédito,34,149,5066,Ricardo,Malaga
+726,Chaqueta,Deportes,04/03/2023,Este,Efectivo,11,48,528,Pedro,Madrid
+727,Mochila,Calzado,14/06/2023,Norte,Efectivo,22,54,1188,Luis,Granada
+728,Sombrero,Deportes,06/07/2023,Oeste,Efectivo,42,148,6216,Sofia,Murcia
+729,Pantalón,Ropa,28/07/2023,Este,Efectivo,35,79,2765,Ana,Murcia
+730,Bufanda,Accesorios,15/08/2023,Este,Efectivo,29,134,3886,Laura,Barcelona
+731,Sombrero,Calzado,17/02/2023,Norte,Efectivo,42,100,4200,Maria,Alicante
+732,Pantalón,Bolsos,12/08/2023,Sur,Tarjeta de Crédito,28,79,2212,Laura,Madrid
+733,Zapatos,Calzado,03/01/2023,Sur,Efectivo,18,139,2502,Luis,Murcia
+734,Bota,Bolsos,24/06/2023,Oeste,Efectivo,14,93,1302,Sofia,Zaragoza
+735,Guantes,Calzado,09/04/2023,Oeste,Efectivo,18,98,1764,Maria,Alicante
+736,Guantes,Deportes,26/04/2023,Este,Tarjeta de Crédito,28,88,2464,Sofia,Madrid
+737,Bufanda,Deportes,27/09/2023,Norte,Tarjeta de Crédito,24,122,2928,Pedro,Valencia
+738,Mochila,Deportes,10/09/2023,Este,Tarjeta de Crédito,8,102,816,Marta,Valencia
+739,Chaqueta,Ropa,13/11/2023,Oeste,Efectivo,42,81,3402,Maria,Alicante
+740,Mochila,Bolsos,05/04/2023,Norte,Tarjeta de Crédito,45,58,2610,Laura,Bilbao
+741,Chaqueta,Deportes,30/09/2023,Norte,Tarjeta de Crédito,8,61,488,Luis,Bilbao
+742,Mochila,Ropa,24/01/2023,Oeste,Efectivo,4,42,168,Ricardo,Zaragoza
+743,Bota,Bolsos,26/04/2023,Sur,Efectivo,27,31,837,Pedro,Madrid
+744,Zapatos,Calzado,31/05/2023,Sur,Tarjeta de Crédito,36,123,4428,Marta,Madrid
+745,Zapatos,Ropa,04/12/2023,Norte,Efectivo,5,142,710,Ricardo,Alicante
+746,Pantalón,Accesorios,19/02/2023,Este,Efectivo,33,27,891,Juan,Sevilla
+747,Socks,Ropa,25/07/2023,Sur,Efectivo,49,127,6223,Pedro,Valencia
+748,Zapatos,Ropa,01/12/2023,Este,Efectivo,34,126,4284,Luis,Madrid
+749,Zapatos,Bolsos,20/03/2023,Sur,Tarjeta de Crédito,30,46,1380,Ana,Alicante
+750,Sombrero,Calzado,11/03/2023,Sur,Efectivo,8,73,584,Maria,Malaga
+751,Sombrero,Accesorios,27/01/2023,Este,Tarjeta de Crédito,39,147,5733,Sofia,Barcelona
+752,Pantalón,Deportes,28/09/2023,Oeste,Tarjeta de Crédito,47,88,4136,Luis,Malaga
+753,Socks,Deportes,19/02/2023,Sur,Tarjeta de Crédito,26,132,3432,Maria,Granada
+754,Bufanda,Ropa,19/10/2023,Sur,Tarjeta de Crédito,37,53,1961,Ricardo,Zaragoza
+755,Sombrero,Bolsos,04/09/2023,Este,Efectivo,34,91,3094,Sofia,Madrid
+756,Bufanda,Bolsos,21/09/2023,Oeste,Efectivo,7,96,672,Carlos,Granada
+757,Camiseta,Deportes,20/03/2023,Sur,Efectivo,40,25,1000,Laura,Murcia
+758,Sombrero,Accesorios,09/07/2023,Sur,Tarjeta de Crédito,28,63,1764,Juan,Granada
+759,Bota,Calzado,16/02/2023,Oeste,Tarjeta de Crédito,39,111,4329,Pedro,Alicante
+760,Socks,Accesorios,27/12/2023,Sur,Tarjeta de Crédito,39,107,4173,Luis,Madrid
+761,Pantalón,Calzado,20/12/2023,Oeste,Efectivo,28,11,308,Juan,Barcelona
+762,Camiseta,Deportes,18/12/2023,Oeste,Tarjeta de Crédito,14,103,1442,Ana,Alicante
+763,Socks,Calzado,08/07/2023,Este,Efectivo,50,150,7500,Maria,Alicante
+764,Bota,Bolsos,13/09/2023,Norte,Efectivo,38,68,2584,Maria,Zaragoza
+765,Socks,Ropa,10/08/2023,Oeste,Efectivo,4,78,312,Luis,Zaragoza
+766,Bota,Ropa,29/08/2023,Este,Efectivo,42,128,5376,Marta,Valencia
+767,Bota,Deportes,26/09/2023,Norte,Tarjeta de Crédito,18,101,1818,Marta,Valencia
+768,Bufanda,Bolsos,01/01/2023,Sur,Efectivo,44,54,2376,Carlos,Bilbao
+769,Mochila,Accesorios,03/02/2023,Norte,Tarjeta de Crédito,48,33,1584,Laura,Sevilla
+770,Camiseta,Bolsos,20/03/2023,Oeste,Efectivo,25,100,2500,Sofia,Madrid
+771,Socks,Ropa,24/08/2023,Oeste,Tarjeta de Crédito,7,103,721,Ana,Madrid
+772,Chaqueta,Ropa,30/11/2023,Oeste,Tarjeta de Crédito,38,67,2546,Juan,Granada
+773,Camiseta,Bolsos,15/12/2023,Oeste,Efectivo,28,137,3836,Marta,Madrid
+774,Mochila,Bolsos,08/04/2023,Oeste,Efectivo,5,16,80,Carlos,Madrid
+775,Camiseta,Ropa,23/03/2023,Este,Efectivo,3,56,168,Carlos,Sevilla
+776,Zapatos,Accesorios,11/07/2023,Oeste,Tarjeta de Crédito,44,62,2728,Luis,Murcia
+777,Chaqueta,Deportes,10/09/2023,Este,Efectivo,31,47,1457,Ana,Valencia
+778,Mochila,Deportes,07/02/2023,Sur,Efectivo,47,62,2914,Ricardo,Valencia
+779,Bufanda,Bolsos,14/01/2023,Oeste,Tarjeta de Crédito,42,57,2394,Sofia,Barcelona
+780,Socks,Deportes,13/12/2023,Oeste,Efectivo,20,104,2080,Laura,Madrid
+781,Guantes,Ropa,06/11/2023,Norte,Tarjeta de Crédito,19,146,2774,Pedro,Sevilla
+782,Mochila,Ropa,28/07/2023,Sur,Efectivo,48,73,3504,Luis,Valencia
+783,Pantalón,Bolsos,23/12/2023,Oeste,Tarjeta de Crédito,11,102,1122,Sofia,Sevilla
+784,Socks,Bolsos,30/03/2023,Oeste,Tarjeta de Crédito,40,134,5360,Pedro,Malaga
+785,Mochila,Bolsos,25/02/2023,Sur,Efectivo,3,48,144,Pedro,Murcia
+786,Zapatos,Accesorios,04/04/2023,Este,Tarjeta de Crédito,23,13,299,Ana,Madrid
+787,Guantes,Deportes,03/04/2023,Oeste,Efectivo,7,135,945,Ana,Barcelona
+788,Zapatos,Bolsos,06/12/2023,Norte,Efectivo,23,12,276,Juan,Granada
+789,Guantes,Calzado,26/03/2023,Oeste,Tarjeta de Crédito,7,73,511,Carlos,Valencia
+790,Pantalón,Calzado,02/09/2023,Norte,Efectivo,46,38,1748,Sofia,Malaga
+791,Socks,Ropa,22/01/2023,Norte,Tarjeta de Crédito,34,125,4250,Luis,Sevilla
+792,Bufanda,Deportes,18/10/2023,Oeste,Tarjeta de Crédito,42,20,840,Maria,Zaragoza
+793,Zapatos,Bolsos,29/09/2023,Oeste,Tarjeta de Crédito,19,106,2014,Luis,Alicante
+794,Zapatos,Calzado,02/11/2023,Norte,Tarjeta de Crédito,9,111,999,Juan,Madrid
+795,Bota,Deportes,02/05/2023,Sur,Tarjeta de Crédito,48,30,1440,Laura,Madrid
+796,Guantes,Ropa,08/05/2023,Sur,Tarjeta de Crédito,18,48,864,Carlos,Malaga
+797,Sombrero,Accesorios,23/04/2023,Oeste,Tarjeta de Crédito,41,111,4551,Maria,Sevilla
+798,Socks,Deportes,30/09/2023,Este,Tarjeta de Crédito,48,55,2640,Marta,Bilbao
+799,Guantes,Deportes,02/12/2023,Sur,Efectivo,45,75,3375,Laura,Madrid
+800,Bota,Accesorios,10/05/2023,Oeste,Efectivo,42,100,4200,Ana,Bilbao
+801,Camiseta,Deportes,12/05/2023,Sur,Tarjeta de Crédito,25,120,3000,Pedro,Zaragoza
+802,Guantes,Ropa,26/03/2023,Este,Efectivo,14,91,1274,Marta,Malaga
+803,Bufanda,Ropa,16/12/2023,Oeste,Efectivo,44,132,5808,Luis,Sevilla
+804,Socks,Accesorios,22/03/2023,Este,Efectivo,25,108,2700,Luis,Sevilla
+805,Bota,Bolsos,21/11/2023,Oeste,Efectivo,19,44,836,Ana,Murcia
+806,Camiseta,Calzado,10/03/2023,Este,Efectivo,39,112,4368,Juan,Alicante
+807,Chaqueta,Bolsos,28/05/2023,Sur,Efectivo,15,138,2070,Sofia,Valencia
+808,Bota,Deportes,16/01/2023,Sur,Tarjeta de Crédito,16,34,544,Marta,Valencia
+809,Chaqueta,Calzado,03/11/2023,Este,Efectivo,27,52,1404,Marta,Granada
+810,Socks,Accesorios,15/04/2023,Este,Efectivo,40,93,3720,Ricardo,Barcelona
+811,Zapatos,Accesorios,14/06/2023,Este,Efectivo,10,60,600,Laura,Malaga
+812,Bota,Calzado,20/07/2023,Oeste,Efectivo,4,139,556,Carlos,Zaragoza
+813,Pantalón,Ropa,16/07/2023,Sur,Tarjeta de Crédito,19,135,2565,Laura,Sevilla
+814,Chaqueta,Calzado,04/07/2023,Oeste,Tarjeta de Crédito,28,78,2184,Sofia,Alicante
+815,Bufanda,Deportes,18/11/2023,Sur,Tarjeta de Crédito,21,18,378,Luis,Bilbao
+816,Pantalón,Ropa,22/09/2023,Norte,Tarjeta de Crédito,47,11,517,Luis,Malaga
+817,Mochila,Accesorios,29/12/2023,Oeste,Efectivo,14,19,266,Luis,Granada
+818,Mochila,Calzado,10/04/2023,Sur,Tarjeta de Crédito,33,123,4059,Ricardo,Malaga
+819,Camiseta,Bolsos,08/12/2023,Sur,Tarjeta de Crédito,48,85,4080,Luis,Granada
+820,Zapatos,Bolsos,16/11/2023,Oeste,Tarjeta de Crédito,10,94,940,Sofia,Sevilla
+821,Socks,Deportes,02/08/2023,Oeste,Tarjeta de Crédito,19,58,1102,Ana,Barcelona
+822,Bota,Bolsos,05/10/2023,Sur,Efectivo,30,79,2370,Carlos,Granada
+823,Sombrero,Calzado,11/06/2023,Oeste,Tarjeta de Crédito,22,140,3080,Sofia,Sevilla
+824,Bufanda,Calzado,06/06/2023,Este,Efectivo,3,142,426,Carlos,Sevilla
+825,Chaqueta,Bolsos,08/09/2023,Oeste,Tarjeta de Crédito,37,99,3663,Sofia,Barcelona
+826,Socks,Calzado,07/04/2023,Oeste,Efectivo,41,35,1435,Luis,Valencia
+827,Pantalón,Deportes,18/01/2023,Oeste,Efectivo,18,81,1458,Ana,Malaga
+828,Mochila,Ropa,23/11/2023,Sur,Tarjeta de Crédito,11,14,154,Marta,Madrid
+829,Bufanda,Deportes,07/04/2023,Este,Tarjeta de Crédito,48,24,1152,Laura,Madrid
+830,Sombrero,Deportes,01/01/2023,Norte,Tarjeta de Crédito,2,132,264,Pedro,Bilbao
+831,Bota,Calzado,04/08/2023,Norte,Tarjeta de Crédito,12,10,120,Ana,Bilbao
+832,Camiseta,Ropa,12/05/2023,Este,Efectivo,6,12,72,Marta,Madrid
+833,Sombrero,Calzado,17/09/2023,Este,Efectivo,43,56,2408,Juan,Zaragoza
+834,Bufanda,Accesorios,05/05/2023,Este,Tarjeta de Crédito,40,104,4160,Sofia,Madrid
+835,Sombrero,Calzado,23/03/2023,Sur,Tarjeta de Crédito,44,22,968,Juan,Bilbao
+836,Bufanda,Calzado,10/10/2023,Norte,Efectivo,29,129,3741,Marta,Alicante
+837,Bufanda,Calzado,20/06/2023,Este,Tarjeta de Crédito,30,64,1920,Ana,Bilbao
+838,Guantes,Ropa,28/02/2023,Sur,Efectivo,2,75,150,Sofia,Zaragoza
+839,Chaqueta,Calzado,01/02/2023,Norte,Tarjeta de Crédito,9,99,891,Pedro,Malaga
+840,Mochila,Ropa,10/06/2023,Oeste,Efectivo,47,71,3337,Luis,Madrid
+841,Guantes,Bolsos,11/10/2023,Sur,Efectivo,2,111,222,Sofia,Barcelona
+842,Bota,Accesorios,16/04/2023,Norte,Efectivo,29,148,4292,Sofia,Alicante
+843,Guantes,Ropa,15/04/2023,Sur,Efectivo,33,17,561,Ana,Sevilla
+844,Zapatos,Bolsos,16/08/2023,Norte,Efectivo,10,106,1060,Ana,Zaragoza
+845,Zapatos,Ropa,07/07/2023,Norte,Tarjeta de Crédito,34,126,4284,Marta,Bilbao
+846,Mochila,Ropa,11/03/2023,Oeste,Efectivo,44,73,3212,Maria,Barcelona
+847,Sombrero,Accesorios,14/11/2023,Sur,Tarjeta de Crédito,8,30,240,Sofia,Granada
+848,Chaqueta,Deportes,17/10/2023,Este,Efectivo,37,124,4588,Laura,Valencia
+849,Mochila,Deportes,28/03/2023,Oeste,Efectivo,33,94,3102,Sofia,Madrid
+850,Bufanda,Ropa,28/12/2023,Oeste,Tarjeta de Crédito,47,29,1363,Marta,Valencia
+851,Pantalón,Calzado,25/02/2023,Norte,Tarjeta de Crédito,6,17,102,Carlos,Zaragoza
+852,Chaqueta,Bolsos,23/04/2023,Este,Tarjeta de Crédito,44,67,2948,Juan,Granada
+853,Chaqueta,Calzado,13/01/2023,Sur,Tarjeta de Crédito,40,55,2200,Luis,Granada
+854,Bufanda,Calzado,18/01/2023,Este,Efectivo,45,40,1800,Maria,Granada
+855,Bufanda,Ropa,01/07/2023,Este,Tarjeta de Crédito,19,102,1938,Pedro,Sevilla
+856,Camiseta,Ropa,23/04/2023,Este,Efectivo,32,18,576,Pedro,Zaragoza
+857,Mochila,Ropa,17/08/2023,Este,Tarjeta de Crédito,27,24,648,Pedro,Malaga
+858,Bufanda,Ropa,20/06/2023,Este,Tarjeta de Crédito,1,103,103,Ana,Valencia
+859,Zapatos,Deportes,22/10/2023,Norte,Efectivo,43,147,6321,Pedro,Malaga
+860,Bota,Ropa,08/07/2023,Norte,Efectivo,33,38,1254,Luis,Barcelona
+861,Pantalón,Deportes,20/03/2023,Oeste,Tarjeta de Crédito,40,89,3560,Juan,Murcia
+862,Mochila,Deportes,26/05/2023,Norte,Efectivo,32,45,1440,Pedro,Alicante
+863,Socks,Ropa,01/07/2023,Oeste,Efectivo,5,93,465,Sofia,Alicante
+864,Zapatos,Accesorios,13/10/2023,Oeste,Efectivo,17,118,2006,Sofia,Malaga
+865,Sombrero,Bolsos,07/09/2023,Sur,Efectivo,8,127,1016,Ana,Murcia
+866,Bufanda,Calzado,20/12/2023,Este,Efectivo,42,46,1932,Luis,Murcia
+867,Socks,Deportes,10/11/2023,Norte,Efectivo,34,95,3230,Juan,Madrid
+868,Bufanda,Bolsos,15/07/2023,Sur,Efectivo,9,80,720,Maria,Barcelona
+869,Chaqueta,Accesorios,19/11/2023,Norte,Efectivo,23,102,2346,Marta,Zaragoza
+870,Zapatos,Calzado,12/03/2023,Oeste,Tarjeta de Crédito,35,89,3115,Juan,Murcia
+871,Chaqueta,Calzado,05/09/2023,Norte,Efectivo,50,111,5550,Marta,Bilbao
+872,Camiseta,Deportes,26/05/2023,Este,Tarjeta de Crédito,7,23,161,Carlos,Alicante
+873,Chaqueta,Ropa,16/04/2023,Oeste,Efectivo,15,126,1890,Marta,Bilbao
+874,Camiseta,Accesorios,20/09/2023,Oeste,Efectivo,20,82,1640,Laura,Barcelona
+875,Camiseta,Deportes,23/10/2023,Sur,Efectivo,50,100,5000,Sofia,Murcia
+876,Socks,Accesorios,11/03/2023,Este,Efectivo,25,99,2475,Luis,Valencia
+877,Bufanda,Ropa,12/07/2023,Oeste,Tarjeta de Crédito,3,38,114,Ricardo,Alicante
+878,Sombrero,Ropa,09/03/2023,Este,Tarjeta de Crédito,46,58,2668,Ana,Madrid
+879,Chaqueta,Deportes,01/11/2023,Norte,Efectivo,24,81,1944,Laura,Madrid
+880,Zapatos,Ropa,21/02/2023,Este,Tarjeta de Crédito,34,142,4828,Marta,Granada
+881,Camiseta,Bolsos,29/12/2023,Oeste,Efectivo,46,51,2346,Pedro,Sevilla
+882,Bufanda,Calzado,12/10/2023,Sur,Efectivo,22,144,3168,Luis,Murcia
+883,Pantalón,Deportes,30/11/2023,Oeste,Tarjeta de Crédito,11,51,561,Laura,Barcelona
+884,Mochila,Accesorios,09/01/2023,Este,Tarjeta de Crédito,48,114,5472,Ana,Alicante
+885,Socks,Bolsos,08/09/2023,Este,Efectivo,8,36,288,Sofia,Sevilla
+886,Sombrero,Deportes,28/11/2023,Oeste,Efectivo,39,67,2613,Luis,Barcelona
+887,Guantes,Ropa,25/10/2023,Este,Tarjeta de Crédito,43,55,2365,Ana,Malaga
+888,Socks,Ropa,03/07/2023,Norte,Efectivo,35,75,2625,Carlos,Murcia
+889,Pantalón,Ropa,28/06/2023,Oeste,Tarjeta de Crédito,49,34,1666,Carlos,Zaragoza
+890,Mochila,Ropa,17/07/2023,Sur,Efectivo,46,82,3772,Ana,Zaragoza
+891,Pantalón,Accesorios,08/05/2023,Oeste,Efectivo,38,126,4788,Laura,Murcia
+892,Chaqueta,Bolsos,20/01/2023,Norte,Tarjeta de Crédito,8,138,1104,Luis,Granada
+893,Camiseta,Calzado,24/11/2023,Norte,Tarjeta de Crédito,37,96,3552,Laura,Granada
+894,Sombrero,Accesorios,06/03/2023,Norte,Tarjeta de Crédito,27,83,2241,Maria,Zaragoza
+895,Bota,Accesorios,01/07/2023,Norte,Efectivo,28,134,3752,Marta,Valencia
+896,Camiseta,Calzado,29/08/2023,Norte,Efectivo,40,76,3040,Maria,Alicante
+897,Bota,Calzado,24/01/2023,Sur,Efectivo,34,15,510,Carlos,Zaragoza
+898,Mochila,Ropa,24/03/2023,Este,Efectivo,32,134,4288,Sofia,Valencia
+899,Bufanda,Accesorios,15/11/2023,Norte,Tarjeta de Crédito,15,67,1005,Juan,Sevilla
+900,Guantes,Deportes,04/07/2023,Norte,Efectivo,44,79,3476,Marta,Valencia
+901,Zapatos,Calzado,12/11/2023,Oeste,Efectivo,17,62,1054,Carlos,Sevilla
+902,Camiseta,Calzado,09/04/2023,Sur,Efectivo,33,75,2475,Laura,Barcelona
+903,Sombrero,Bolsos,03/03/2023,Sur,Tarjeta de Crédito,47,67,3149,Laura,Bilbao
+904,Pantalón,Deportes,13/10/2023,Este,Efectivo,46,91,4186,Laura,Barcelona
+905,Sombrero,Deportes,22/01/2023,Sur,Efectivo,16,96,1536,Sofia,Zaragoza
+906,Mochila,Calzado,31/07/2023,Oeste,Tarjeta de Crédito,29,11,319,Maria,Sevilla
+907,Bota,Ropa,06/05/2023,Oeste,Efectivo,9,46,414,Juan,Zaragoza
+908,Pantalón,Bolsos,11/02/2023,Este,Efectivo,33,112,3696,Laura,Murcia
+909,Zapatos,Deportes,08/04/2023,Oeste,Tarjeta de Crédito,49,33,1617,Ricardo,Alicante
+910,Zapatos,Calzado,31/01/2023,Norte,Efectivo,29,121,3509,Marta,Madrid
+911,Camiseta,Deportes,07/06/2023,Norte,Efectivo,13,74,962,Luis,Zaragoza
+912,Mochila,Bolsos,22/04/2023,Oeste,Efectivo,21,138,2898,Ricardo,Alicante
+913,Bufanda,Bolsos,04/09/2023,Este,Tarjeta de Crédito,21,126,2646,Juan,Valencia
+914,Mochila,Accesorios,02/05/2023,Sur,Efectivo,5,125,625,Sofia,Barcelona
+915,Bota,Calzado,30/09/2023,Este,Efectivo,10,114,1140,Juan,Valencia
+916,Sombrero,Bolsos,21/10/2023,Sur,Tarjeta de Crédito,6,12,72,Luis,Madrid
+917,Zapatos,Accesorios,26/07/2023,Oeste,Tarjeta de Crédito,13,55,715,Marta,Sevilla
+918,Sombrero,Accesorios,20/04/2023,Oeste,Efectivo,1,64,64,Luis,Murcia
+919,Sombrero,Deportes,05/10/2023,Norte,Efectivo,20,84,1680,Ana,Alicante
+920,Sombrero,Deportes,25/02/2023,Sur,Efectivo,47,54,2538,Marta,Murcia
+921,Zapatos,Accesorios,26/02/2023,Este,Efectivo,46,86,3956,Juan,Bilbao
+922,Socks,Deportes,18/10/2023,Oeste,Tarjeta de Crédito,8,33,264,Laura,Zaragoza
+923,Chaqueta,Bolsos,24/04/2023,Este,Efectivo,10,44,440,Juan,Sevilla
+924,Bota,Ropa,04/11/2023,Norte,Tarjeta de Crédito,9,33,297,Juan,Bilbao
+925,Socks,Bolsos,07/12/2023,Sur,Tarjeta de Crédito,49,37,1813,Marta,Malaga
+926,Bota,Accesorios,17/07/2023,Sur,Efectivo,41,25,1025,Ana,Zaragoza
+927,Pantalón,Accesorios,17/11/2023,Oeste,Efectivo,3,68,204,Juan,Valencia
+928,Mochila,Bolsos,28/06/2023,Sur,Tarjeta de Crédito,11,24,264,Ricardo,Barcelona
+929,Mochila,Deportes,07/08/2023,Oeste,Tarjeta de Crédito,12,20,240,Carlos,Alicante
+930,Guantes,Deportes,04/10/2023,Norte,Efectivo,10,88,880,Pedro,Madrid
+931,Mochila,Accesorios,16/01/2023,Sur,Tarjeta de Crédito,25,124,3100,Pedro,Madrid
+932,Zapatos,Calzado,02/03/2023,Oeste,Efectivo,49,77,3773,Juan,Valencia
+933,Bufanda,Deportes,23/02/2023,Este,Efectivo,49,52,2548,Ricardo,Granada
+934,Camiseta,Bolsos,17/06/2023,Oeste,Tarjeta de Crédito,25,78,1950,Laura,Madrid
+935,Guantes,Deportes,26/01/2023,Sur,Tarjeta de Crédito,11,150,1650,Sofia,Alicante
+936,Camiseta,Bolsos,02/12/2023,Norte,Efectivo,36,147,5292,Sofia,Valencia
+937,Bota,Accesorios,06/03/2023,Sur,Tarjeta de Crédito,39,84,3276,Marta,Sevilla
+938,Camiseta,Deportes,10/04/2023,Sur,Efectivo,26,112,2912,Pedro,Madrid
+939,Camiseta,Bolsos,15/03/2023,Oeste,Efectivo,14,50,700,Juan,Murcia
+940,Guantes,Accesorios,11/07/2023,Este,Efectivo,39,68,2652,Sofia,Valencia
+941,Pantalón,Calzado,20/06/2023,Sur,Tarjeta de Crédito,40,48,1920,Juan,Alicante
+942,Sombrero,Bolsos,30/09/2023,Este,Efectivo,1,12,12,Marta,Murcia
+943,Mochila,Calzado,06/07/2023,Oeste,Efectivo,4,16,64,Pedro,Zaragoza
+944,Mochila,Calzado,23/01/2023,Este,Efectivo,30,58,1740,Luis,Zaragoza
+945,Zapatos,Ropa,30/06/2023,Oeste,Efectivo,12,35,420,Carlos,Madrid
+946,Guantes,Deportes,23/11/2023,Norte,Efectivo,35,110,3850,Carlos,Murcia
+947,Zapatos,Bolsos,18/04/2023,Este,Efectivo,13,88,1144,Sofia,Barcelona
+948,Bufanda,Calzado,01/12/2023,Este,Efectivo,31,11,341,Carlos,Zaragoza
+949,Bufanda,Ropa,11/06/2023,Norte,Efectivo,38,136,5168,Luis,Barcelona
+950,Zapatos,Accesorios,29/10/2023,Este,Efectivo,43,141,6063,Juan,Sevilla
+951,Guantes,Bolsos,25/07/2023,Norte,Efectivo,23,29,667,Marta,Valencia
+952,Zapatos,Calzado,19/03/2023,Sur,Efectivo,4,126,504,Luis,Bilbao
+953,Mochila,Deportes,16/01/2023,Oeste,Tarjeta de Crédito,16,41,656,Marta,Alicante
+954,Socks,Ropa,23/11/2023,Norte,Efectivo,7,37,259,Marta,Valencia
+955,Chaqueta,Calzado,06/04/2023,Este,Efectivo,22,86,1892,Pedro,Alicante
+956,Camiseta,Deportes,27/05/2023,Norte,Efectivo,29,10,290,Juan,Murcia
+957,Chaqueta,Calzado,02/01/2023,Este,Tarjeta de Crédito,11,65,715,Ricardo,Sevilla
+958,Guantes,Bolsos,10/01/2023,Sur,Efectivo,33,44,1452,Carlos,Malaga
+959,Chaqueta,Bolsos,05/05/2023,Norte,Tarjeta de Crédito,29,121,3509,Ricardo,Madrid
+960,Bufanda,Bolsos,22/03/2023,Sur,Efectivo,39,39,1521,Pedro,Alicante
+961,Bota,Ropa,20/05/2023,Oeste,Efectivo,12,63,756,Marta,Alicante
+962,Camiseta,Bolsos,22/11/2023,Este,Tarjeta de Crédito,7,45,315,Sofia,Murcia
+963,Sombrero,Deportes,30/05/2023,Este,Efectivo,39,89,3471,Carlos,Barcelona
+964,Guantes,Calzado,15/10/2023,Sur,Tarjeta de Crédito,42,67,2814,Carlos,Valencia
+965,Camiseta,Accesorios,27/12/2023,Oeste,Tarjeta de Crédito,48,92,4416,Juan,Malaga
+966,Chaqueta,Deportes,06/12/2023,Norte,Efectivo,26,74,1924,Ana,Granada
+967,Bufanda,Deportes,09/05/2023,Norte,Efectivo,40,78,3120,Maria,Madrid
+968,Pantalón,Bolsos,27/08/2023,Este,Efectivo,9,137,1233,Maria,Bilbao
+969,Socks,Ropa,27/02/2023,Sur,Efectivo,41,60,2460,Maria,Granada
+970,Sombrero,Calzado,17/07/2023,Sur,Tarjeta de Crédito,34,31,1054,Ana,Valencia
+971,Socks,Ropa,30/07/2023,Norte,Tarjeta de Crédito,45,116,5220,Juan,Madrid
+972,Camiseta,Calzado,14/02/2023,Oeste,Efectivo,13,118,1534,Ana,Alicante
+973,Bufanda,Calzado,07/04/2023,Oeste,Tarjeta de Crédito,36,125,4500,Maria,Bilbao
+974,Bufanda,Ropa,06/10/2023,Norte,Tarjeta de Crédito,25,110,2750,Pedro,Barcelona
+975,Chaqueta,Deportes,23/01/2023,Norte,Efectivo,24,109,2616,Luis,Malaga
+976,Mochila,Calzado,01/12/2023,Sur,Tarjeta de Crédito,44,77,3388,Marta,Barcelona
+977,Chaqueta,Ropa,13/02/2023,Oeste,Tarjeta de Crédito,17,45,765,Ana,Sevilla
+978,Mochila,Calzado,27/01/2023,Norte,Efectivo,2,31,62,Juan,Murcia
+979,Mochila,Accesorios,09/10/2023,Norte,Tarjeta de Crédito,13,75,975,Juan,Madrid
+980,Sombrero,Deportes,07/04/2023,Este,Efectivo,31,30,930,Ricardo,Barcelona
+981,Chaqueta,Bolsos,05/02/2023,Norte,Tarjeta de Crédito,29,109,3161,Luis,Granada
+982,Pantalón,Calzado,19/04/2023,Norte,Efectivo,50,137,6850,Sofia,Murcia
+983,Zapatos,Accesorios,24/02/2023,Oeste,Tarjeta de Crédito,28,53,1484,Carlos,Barcelona
+984,Zapatos,Bolsos,11/07/2023,Sur,Tarjeta de Crédito,27,112,3024,Maria,Zaragoza
+985,Chaqueta,Bolsos,07/08/2023,Oeste,Efectivo,15,56,840,Sofia,Sevilla
+986,Chaqueta,Calzado,04/07/2023,Sur,Efectivo,31,48,1488,Ricardo,Valencia
+987,Socks,Ropa,10/03/2023,Este,Efectivo,40,38,1520,Maria,Malaga
+988,Sombrero,Calzado,13/11/2023,Norte,Efectivo,15,63,945,Luis,Sevilla
+989,Chaqueta,Accesorios,10/05/2023,Este,Tarjeta de Crédito,33,99,3267,Ricardo,Murcia
+990,Socks,Bolsos,24/02/2023,Sur,Tarjeta de Crédito,20,94,1880,Maria,Zaragoza
+991,Mochila,Calzado,07/04/2023,Oeste,Tarjeta de Crédito,42,26,1092,Luis,Madrid
+992,Bufanda,Ropa,02/12/2023,Oeste,Efectivo,12,89,1068,Laura,Granada
+993,Bufanda,Calzado,28/03/2023,Este,Tarjeta de Crédito,37,82,3034,Sofia,Malaga
+994,Mochila,Deportes,21/10/2023,Sur,Tarjeta de Crédito,9,58,522,Sofia,Malaga
+995,Guantes,Ropa,29/04/2023,Este,Efectivo,23,110,2530,Carlos,Sevilla
+996,Socks,Accesorios,27/07/2023,Este,Efectivo,8,11,88,Luis,Murcia
+997,Socks,Bolsos,30/11/2023,Norte,Tarjeta de Crédito,32,68,2176,Ana,Madrid
+998,Mochila,Calzado,03/06/2023,Este,Efectivo,48,106,5088,Laura,Alicante
+999,Pantalón,Ropa,04/02/2023,Norte,Tarjeta de Crédito,14,108,1512,Pedro,Zaragoza
+1000,Bota,Deportes,20/03/2023,Norte,Tarjeta de Crédito,27,112,3024,Maria,Alicante
