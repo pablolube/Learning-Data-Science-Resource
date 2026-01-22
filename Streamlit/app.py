@@ -1,13 +1,14 @@
 import streamlit as st
 import Header_and_body as hb
 import Formated_text as ft
+import data_elements as de
 
 st.set_page_config(
     page_title="Ejemplos st.header",
     layout="wide"
 )
 
-tematicas = ("Headings and body", "Formated Text")
+tematicas = ("Headings and body", "Formated Text","Data Elements")
 sidebar = st.sidebar.selectbox("Barra Lateral", tematicas)
 
 match sidebar:
@@ -54,7 +55,29 @@ match sidebar:
             ft.text()
 
         with st.expander("Help"):
-            ft.help()
+            ft.pagina_help()
 
         with st.expander("HTML"):
             ft.html()
+    case "Data Elements":
+
+        with st.expander("📊 DataFrame"):
+            de.mostrar_dataframe()
+
+        with st.expander("✏️ Data Editor"):
+            de.editor_dataframe()
+
+        with st.expander("⚙️ Column Config"):
+            de.configurar_columnas()
+
+        with st.expander("➕ Add"):
+            de.agregar_elemento()
+
+        with st.expander("📋 Table"):
+            de.mostrar_tabla()
+
+        with st.expander("📈 Metric"):
+            de.mostrar_metrica()
+
+        with st.expander("🧾 JSON"):
+            de.mostrar_json()
