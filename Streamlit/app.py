@@ -4,13 +4,15 @@ import Formated_text as ft
 import data_elements as de
 
 st.set_page_config(
-    page_title="Ejemplos st.header",
+    page_title="Apunte Steamlit",
     layout="wide"
 )
 
 tematicas = ("Headings and body", "Formated Text","Data Elements")
-sidebar = st.sidebar.selectbox("Barra Lateral", tematicas)
+sidebar = st.sidebar.radio("Barra Lateral", tematicas)
 
+st.title("APUNTE DE STREAMLIT")
+st.divider()
 match sidebar:
     case "Headings and body":
         
@@ -69,9 +71,6 @@ match sidebar:
 
         with st.expander("⚙️ Column Config"):
             de.configurar_columnas()
-
-        with st.expander("➕ Add"):
-            de.agregar_elemento()
 
         with st.expander("📋 Table"):
             de.mostrar_tabla()
