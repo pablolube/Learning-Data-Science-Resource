@@ -287,12 +287,7 @@ def mostrar_dataframe():
 # st.data_editor
 # ----------------------------------
 def editor_dataframe():
-    """
-    Editor interactivo de DataFrame
-    Permite modificar valores
-    """
-    import streamlit as st
-    import pandas as pd
+  
 
     st.subheader("✏️ Data Editor")
 
@@ -766,9 +761,18 @@ def mostrar_json():
     """
     Muestra datos en formato JSON
     """
-    pass
-
-
+    st.json(
+            {
+                "foo": "bar",
+                "stuff": [
+                    "stuff 1",
+                    "stuff 2",
+                    "stuff 3",
+                ],
+                "level1": {"level2": {"level3": {"a": "b"}}},
+            },
+            expanded=2,
+        )
 
 
 
