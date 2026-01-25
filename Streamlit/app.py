@@ -124,17 +124,12 @@ match sidebar:
             media_tab,
             files_tab
         ) = st.tabs(tab_names)
+# ---------- Helper layout ----------
 
-
-        # ---------- Helper layout ----------
-
-        def render_section(items, columns=2):
-            cols = st.columns(columns)
-
-            for i, (label, func) in enumerate(items):
-                with cols[i % columns]:
-                    with st.expander(label):
-                        func()
+        def render_section(items):
+            for label, func in items:
+                with st.expander(label, expanded=False):
+                    func()
 
 
         # =========================
@@ -163,7 +158,7 @@ match sidebar:
             render_section([
                 ("st.link_button", inp.link_button),
                 ("st.page_link", inp.page_link),
-            ], columns=1)
+            ])
 
 
         # =========================
