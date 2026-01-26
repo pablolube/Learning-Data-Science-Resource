@@ -166,18 +166,21 @@ match sidebar:
         # =========================
         with selections_tab:
             st.subheader("Selections")
-            st.caption("Choose values")
+            
+            with st.expander("EJEMPLOS DE CADA UNO"):
+                inp.selection_example()
+                
             st.divider()
 
             render_section([
                 ("st.checkbox", inp.checkbox),
-                ("st.color_picker", inp.color_picker),
-                ("st.feedback", inp.feedback),
                 ("st.multiselect", inp.multiselect),
+                ("st.selectbox", inp.selectbox),
                 ("st.pills", inp.pills),
                 ("st.radio", inp.radio),
+                ("st.color_picker", inp.color_picker),
+                ("st.feedback", inp.feedback),
                 ("st.segmented_control", inp.segmented_control),
-                ("st.selectbox", inp.selectbox),
                 ("st.select_slider", inp.select_slider),
                 ("st.toggle", inp.toggle),
             ])

@@ -782,6 +782,23 @@ def page_link():
 # =========================
 # SELECTIONS
 # =========================
+def selection_example():
+
+    # -------------------------------------------------
+    # st.checkbox
+    # -------------------------------------------------
+    st.checkbox("Checkbox")
+    st.multiselect("multiselect",options=["Manzana", "Banana", "Cereza"])
+    st.selectbox("Selectbox",options=["Argentina", "Brasil", "Chile"])
+    st.pills("Pills",options=["Efectivo", "Tarjeta", "Transferencia"])
+    st.radio("Radio",options=["Masculino", "Femenino", "Otro"])
+    st.color_picker("color_picker", value="#FF0000")
+    st.feedback("thumbs")
+    st.segmented_control("segmented_control",options=["Pequeño", "Mediano", "Grande"])
+    st.select_slider("select_slider",options=list(range(18, 66)))
+    st.toggle("Activar notificaciones")
+
+
 
 def checkbox():
 
