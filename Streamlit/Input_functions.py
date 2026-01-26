@@ -1,6 +1,9 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
+from datetime import date
+from datetime import time
+
 
 
 # =========================
@@ -1489,7 +1492,6 @@ def multiselect():
     ⚠ Si repetís multiselects similares, usá key único
     """)
 
-
 def pills():
 
     # -------------------------------------------------
@@ -1797,7 +1799,6 @@ def pills():
         - DataFrame (primera columna)
     """)
 
-
 def radio():
 
 
@@ -2089,43 +2090,1486 @@ def radio():
     📌 horizontal=True es ideal para filtros rápidos
     """)
 
-
 def segmented_control():
-    pass
+# =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.segmented_control(label, options, *, selection_mode="single", '
+        'default=None, format_func=None, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, '
+        'disabled=False, label_visibility="visible", width="content")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+
+        with st.echo():
+            st.segmented_control(
+                "**Elegí una categoría** 🧩",
+                ["Frontend", "Backend", "Data"]
+            )
+
+    # =================================================
+    # OPTIONS
+    # =================================================
+    st.subheader("Parámetro options")
+
+    with st.expander("Options como lista"):
+
+        with st.echo():
+            opciones = ["Python", "SQL", "Power BI"]
+
+            valor = st.segmented_control(
+                "Tecnologías",
+                opciones
+            )
+
+            st.write("Seleccionado:", valor)
+
+    # =================================================
+    # SELECTION_MODE
+    # =================================================
+    st.subheader("Parámetro selection_mode")
+
+    with st.expander("Selección simple vs múltiple"):
+
+        with st.echo():
+            seleccion = st.segmented_control(
+                "Lenguajes",
+                ["Python", "Java", "C++"],
+                selection_mode="multi"
+            )
+
+            st.write("Seleccionados:", seleccion)
+
+    # =================================================
+    # DEFAULT
+    # =================================================
+    st.subheader("Parámetro default")
+
+    with st.expander("Valor seleccionado por defecto"):
+
+        with st.echo():
+            st.segmented_control(
+                "Nivel",
+                ["Junior", "Semi Senior", "Senior"],
+                default="Semi Senior"
+            )
+
+    # =================================================
+    # FORMAT_FUNC
+    # =================================================
+    st.subheader("Parámetro format_func")
+
+    with st.expander("Modificar cómo se muestran los valores"):
+
+        with st.echo():
+            opciones = [1, 2, 3]
+
+            st.segmented_control(
+                "Prioridad",
+                opciones,
+                format_func=lambda x: f"Nivel {x}"
+            )
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Identificador único del widget"):
+
+        with st.echo():
+            st.segmented_control(
+                "Modo",
+                ["Auto", "Manual"],
+                key="modo_selector"
+            )
+
+            st.write("Estado:", st.session_state.modo_selector)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip de ayuda"):
+
+        with st.echo():
+            st.segmented_control(
+                "Ambiente",
+                ["Producción", "Testing"],
+                help="Seleccioná el entorno de ejecución"
+            )
+
+    # =================================================
+    # ON_CHANGE + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_change, args y kwargs")
+
+    with st.expander("Ejecutar función al cambiar"):
+
+        def aviso(mensaje):
+            st.toast(mensaje)
+
+        with st.echo():
+            st.segmented_control(
+                "Estado del sistema",
+                ["Activo", "Pausado", "Detenido"],
+                key="estado",
+                on_change=aviso,
+                args=("Estado modificado",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Widget deshabilitado"):
+
+        with st.echo():
+            st.segmented_control(
+                "Plan",
+                ["Free", "Pro", "Enterprise"],
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    st.subheader("Parámetro label_visibility")
+
+    with st.expander("Ocultar el label"):
+
+        with st.echo():
+            st.segmented_control(
+                "Invisible",
+                ["A", "B", "C"],
+                label_visibility="collapsed"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+
+        with st.echo():
+            st.segmented_control(
+                "Tamaño",
+                ["Chico", "Mediano", "Grande"],
+                width="stretch"
+            )
 
 def selectbox():
     pass
 
 def select_slider():
-    pass
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.select_slider(label, options=(), value=None, '
+        'format_func=special_internal_function, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, *, '
+        'disabled=False, label_visibility="visible", width="stretch")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+
+        with st.echo():
+            st.select_slider(
+                "**Seleccioná un nivel** 🎚️",
+                options=["Bajo", "Medio", "Alto"]
+            )
+
+    # =================================================
+    # OPTIONS
+    # =================================================
+    st.subheader("Parámetro options")
+
+    with st.expander("Options como lista ordenada"):
+
+        with st.echo():
+            niveles = ["Junior", "Semi Senior", "Senior"]
+
+            valor = st.select_slider(
+                "Nivel de experiencia",
+                options=niveles
+            )
+
+            st.write("Seleccionado:", valor)
+
+    # =================================================
+    # VALUE
+    # =================================================
+    st.subheader("Parámetro value")
+
+    with st.expander("Valor por defecto"):
+
+        with st.echo():
+            st.select_slider(
+                "Prioridad",
+                options=[1, 2, 3, 4, 5],
+                value=3
+            )
+
+    # =================================================
+    # FORMAT_FUNC
+    # =================================================
+    st.subheader("Parámetro format_func")
+
+    with st.expander("Formato visual del valor"):
+
+        with st.echo():
+            st.select_slider(
+                "Gravedad del incidente",
+                options=[1, 2, 3],
+                format_func=lambda x: f"Nivel {x}"
+            )
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+
+        with st.echo():
+            st.select_slider(
+                "Modo de ejecución",
+                options=["Manual", "Automático"],
+                key="modo_slider"
+            )
+
+            st.write("Estado:", st.session_state.modo_slider)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip de ayuda"):
+
+        with st.echo():
+            st.select_slider(
+                "Entorno",
+                options=["Dev", "QA", "Prod"],
+                help="Elegí el entorno donde se ejecuta la app"
+            )
+
+    # =================================================
+    # ON_CHANGE + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_change, args y kwargs")
+
+    with st.expander("Ejecutar acción al cambiar"):
+
+        def notificar(mensaje):
+            st.toast(mensaje)
+
+        with st.echo():
+            st.select_slider(
+                "Estado del proceso",
+                options=["Iniciado", "En curso", "Finalizado"],
+                key="estado_proceso",
+                on_change=notificar,
+                args=("Estado actualizado",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Slider deshabilitado"):
+
+        with st.echo():
+            st.select_slider(
+                "Plan",
+                options=["Free", "Pro", "Enterprise"],
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    st.subheader("Parámetro label_visibility")
+
+    with st.expander("Ocultar label"):
+
+        with st.echo():
+            st.select_slider(
+                "Invisible",
+                options=["A", "B", "C"],
+                label_visibility="collapsed"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+
+        with st.echo():
+            st.select_slider(
+                "Tamaño",
+                options=["Chico", "Mediano", "Grande"],
+                width="stretch"
+            )
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Filtro de rango temporal"):
+        with st.echo():
+            año = st.select_slider(
+                "Año",
+                options=list(range(2018, 2026)),
+                value=2023
+            )
+            st.write("Filtrar datos del año:", año)
+
+    with st.expander("2️⃣ Estados de un workflow"):
+        with st.echo():
+            estado = st.select_slider(
+                "Estado del ticket",
+                options=["Nuevo", "Asignado", "Resuelto", "Cerrado"]
+            )
+            st.write("Estado actual:", estado)
+
+    with st.expander("3️⃣ Nivel de riesgo / severidad"):
+        with st.echo():
+            riesgo = st.select_slider(
+                "Riesgo",
+                options=[1, 2, 3, 4, 5],
+                format_func=lambda x: "🔥" * x
+            )
+            st.write("Riesgo:", riesgo)
+
+    with st.expander("4️⃣ Control de calidad"):
+        with st.echo():
+            calidad = st.select_slider(
+                "Calidad del producto",
+                options=["Deficiente", "Aceptable", "Buena", "Excelente"]
+            )
+            st.write("Calidad:", calidad)
 
 def toggle():
-    pass
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.toggle(label, value=False, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, *, '
+        'disabled=False, label_visibility="visible", width="content")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+
+        with st.echo():
+            estado = st.toggle("**Modo oscuro** 🌙")
+            st.write("Estado:", estado)
+
+    # =================================================
+    # VALUE
+    # =================================================
+    st.subheader("Parámetro value")
+
+    with st.expander("Valor inicial del toggle"):
+
+        with st.echo():
+            activo = st.toggle(
+                "Notificaciones",
+                value=True
+            )
+            st.write("Activo:", activo)
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+
+        with st.echo():
+            st.toggle(
+                "Autoguardado",
+                key="auto_save"
+            )
+            st.write("Estado:", st.session_state.auto_save)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip de ayuda"):
+
+        with st.echo():
+            st.toggle(
+                "Modo seguro",
+                help="Activa validaciones extra de seguridad"
+            )
+
+    # =================================================
+    # ON_CHANGE + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_change, args y kwargs")
+
+    with st.expander("Ejecutar acción al cambiar"):
+
+        def aviso(mensaje):
+            st.toast(mensaje)
+
+        with st.echo():
+            st.toggle(
+                "Sistema activo",
+                key="sistema",
+                on_change=aviso,
+                args=("Estado del sistema modificado",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Toggle deshabilitado"):
+
+        with st.echo():
+            st.toggle(
+                "Cuenta verificada",
+                value=True,
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    st.subheader("Parámetro label_visibility")
+
+    with st.expander("Ocultar el label"):
+
+        with st.echo():
+            st.toggle(
+                "Invisible",
+                label_visibility="collapsed"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+
+        with st.echo():
+            st.toggle(
+                "Pantalla completa",
+                width="content"
+            )
+
+    # =================================================
+    # QUÉ DEVUELVE
+    # =================================================
+    st.subheader("¿Qué devuelve st.toggle?")
+
+    with st.expander("Valor retornado"):
+
+        with st.echo():
+            valor = st.toggle("Activar feature X")
+
+            st.write(valor)
+            st.write(type(valor))
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Activar / desactivar funcionalidades"):
+        with st.echo():
+            debug = st.toggle("Modo debug")
+
+            if debug:
+                st.warning("Debug activado")
+            else:
+                st.info("Debug desactivado")
 
 
 # =========================
 # NUMERIC
 # =========================
 
+
 def number_input():
-    pass
+
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.number_input(label, min_value=None, max_value=None, value="min", '
+        'step=None, format=None, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, *, '
+        'placeholder=None, disabled=False, label_visibility="visible", '
+        'icon=None, width="stretch")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+        with st.echo():
+            valor = st.number_input(
+                "**Cantidad de usuarios** 👥",
+                key="cantidad_usuarios"
+            )
+            st.write("Valor:", valor)
+
+    # =================================================
+    # MIN_VALUE / MAX_VALUE
+    # =================================================
+    st.subheader("Parámetros min_value y max_value")
+
+    with st.expander("Rango permitido"):
+        with st.echo():
+            edad = st.number_input(
+                "Edad",
+                min_value=0,
+                max_value=120,
+                key="edad"
+            )
+            st.write("Edad:", edad)
+
+    # =================================================
+    # VALUE
+    # =================================================
+    st.subheader("Parámetro value")
+
+    with st.expander("Valor inicial"):
+        with st.echo():
+            stock = st.number_input(
+                "Stock inicial",
+                min_value=0,
+                value=10,
+                key="stock"
+            )
+            st.write("Stock:", stock)
+
+    # =================================================
+    # STEP
+    # =================================================
+    st.subheader("Parámetro step")
+
+    with st.expander("Incrementos controlados"):
+        with st.echo():
+            porcentaje = st.number_input(
+                "Descuento (%)",
+                min_value=0,
+                max_value=100,
+                step=5,
+                key="descuento"
+            )
+            st.write("Descuento:", porcentaje)
+
+    # =================================================
+    # FORMAT
+    # =================================================
+    st.subheader("Parámetro format")
+
+    with st.expander("Formato visual del número"):
+        with st.echo():
+            precio = st.number_input(
+                "Precio",
+                min_value=0.0,
+                step=0.5,
+                key="precio"
+            )
+            st.write("Precio real:", precio)
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+        with st.echo():
+            st.number_input(
+                "Cantidad máxima",
+                key="max_qty"
+            )
+            st.write("Estado:", st.session_state.max_qty)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip de ayuda"):
+        with st.echo():
+            st.number_input(
+                "Timeout (segundos)",
+                help="Tiempo máximo de espera antes de cancelar",
+                key="timeout_help"
+            )
+
+    # =================================================
+    # ON_CHANGE + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_change, args y kwargs")
+
+    with st.expander("Ejecutar acción al cambiar"):
+
+        def aviso(mensaje):
+            st.toast(mensaje)
+
+        with st.echo():
+            st.number_input(
+                "Reintentos",
+                key="reintentos",
+                on_change=aviso,
+                args=("Cantidad modificada",)
+            )
+
+    # =================================================
+    # PLACEHOLDER
+    # =================================================
+    st.subheader("Parámetro placeholder")
+
+    with st.expander("Texto guía cuando no hay valor"):
+        with st.echo():
+            st.number_input(
+                "Código interno",
+                placeholder="Ej: 1001",
+                key="codigo_interno"
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Input deshabilitado"):
+        with st.echo():
+            st.number_input(
+                "ID del sistema",
+                value=999,
+                disabled=True,
+                key="id_sistema"
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    st.subheader("Parámetro label_visibility")
+
+    with st.expander("Ocultar label"):
+        with st.echo():
+            st.number_input(
+                "Invisible",
+                label_visibility="collapsed",
+                key="invisible"
+            )
+
+    # =================================================
+    # ICON
+    # =================================================
+    st.subheader("Parámetro icon")
+
+    with st.expander("Icono en el input"):
+        with st.echo():
+            st.number_input(
+                "Monto",
+                icon="💰",
+                key="monto"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+        with st.echo():
+            st.number_input(
+                "Ancho completo",
+                width="stretch",
+                key="ancho_completo"
+            )
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Parámetros de negocio"):
+        with st.echo():
+            tasa = st.number_input(
+                "Tasa de interés (%)",
+                min_value=0.0,
+                max_value=100.0,
+                step=0.25,
+                key="tasa"
+            )
+            st.write("Tasa:", tasa)
+
+    with st.expander("2️⃣ Filtros numéricos"):
+        with st.echo():
+            min_precio = st.number_input(
+                "Precio mínimo",
+                min_value=0,
+                key="precio_min"
+            )
+            st.write("Filtrar desde:", min_precio)
+
+    with st.expander("3️⃣ Configuración técnica"):
+        with st.echo():
+            timeout = st.number_input(
+                "Timeout",
+                min_value=1,
+                max_value=300,
+                key="timeout"
+            )
+            st.write("Timeout:", timeout)
+
+    with st.expander("4️⃣ Cálculos dinámicos"):
+        with st.echo():
+            cantidad = st.number_input(
+                "Cantidad",
+                min_value=1,
+                value=1,
+                key="cantidad_calc"
+            )
+
+            precio_unitario = 1200
+            total = cantidad * precio_unitario
+
+            st.success(f"Total: ${total}")
 
 def slider():
-    pass
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.slider(label, min_value=None, max_value=None, value=None, '
+        'step=None, format=None, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, *, '
+        'disabled=False, label_visibility="visible", width="stretch")',
+        language="python"
+    )
 
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+        with st.echo():
+            valor = st.slider(
+                "**Nivel de prioridad** 🚦",
+                min_value=1,
+                max_value=5,
+                key="prioridad"
+            )
+            st.write("Valor:", valor)
+
+    # =================================================
+    # MIN_VALUE / MAX_VALUE
+    # =================================================
+    st.subheader("Parámetros min_value y max_value")
+
+    with st.expander("Rango permitido"):
+        with st.echo():
+            edad = st.slider(
+                "Edad",
+                min_value=0,
+                max_value=120,
+                key="edad_slider"
+            )
+            st.write("Edad:", edad)
+
+    # =================================================
+    # VALUE
+    # =================================================
+    st.subheader("Parámetro value")
+
+    with st.expander("Valor inicial"):
+        with st.echo():
+            volumen = st.slider(
+                "Volumen",
+                min_value=0,
+                max_value=100,
+                value=30,
+                key="volumen"
+            )
+            st.write("Volumen:", volumen)
+
+    # =================================================
+    # STEP
+    # =================================================
+    st.subheader("Parámetro step")
+
+    with st.expander("Incrementos controlados"):
+        with st.echo():
+            descuento = st.slider(
+                "Descuento (%)",
+                min_value=0,
+                max_value=100,
+                step=5,
+                key="descuento_slider"
+            )
+            st.write("Descuento:", descuento)
+
+    # =================================================
+    # FORMAT
+    # =================================================
+    st.subheader("Parámetro format")
+
+    with st.expander("Formato visual (solo números)"):
+        with st.echo():
+            temperatura = st.slider(
+                "Temperatura",
+                min_value=-10.0,
+                max_value=50.0,
+                step=0.5,
+                format="%.1f °C",
+                key="temperatura"
+            )
+            st.write("Temperatura real:", temperatura)
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+        with st.echo():
+            st.slider(
+                "Zoom",
+                min_value=1,
+                max_value=10,
+                key="zoom"
+            )
+            st.write("Estado:", st.session_state.zoom)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip de ayuda"):
+        with st.echo():
+            st.slider(
+                "Sensibilidad",
+                min_value=1,
+                max_value=10,
+                help="Ajusta qué tan sensible es el sistema",
+                key="sensibilidad"
+            )
+
+    # =================================================
+    # ON_CHANGE + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_change, args y kwargs")
+
+    with st.expander("Ejecutar acción al cambiar"):
+
+        def aviso(mensaje):
+            st.toast(mensaje)
+
+        with st.echo():
+            st.slider(
+                "Reintentos",
+                min_value=0,
+                max_value=10,
+                key="reintentos_slider",
+                on_change=aviso,
+                args=("Valor del slider modificado",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Slider deshabilitado"):
+        with st.echo():
+            st.slider(
+                "Modo bloqueado",
+                min_value=0,
+                max_value=10,
+                value=5,
+                disabled=True,
+                key="bloqueado"
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    st.subheader("Parámetro label_visibility")
+
+    with st.expander("Ocultar label"):
+        with st.echo():
+            st.slider(
+                "Invisible",
+                min_value=0,
+                max_value=10,
+                label_visibility="collapsed",
+                key="invisible_slider"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+        with st.echo():
+            st.slider(
+                "Ancho completo",
+                min_value=0,
+                max_value=100,
+                width="stretch",
+                key="ancho_slider"
+            )
+
+    # =================================================
+    # RANGO (VALUE COMO TUPLA)
+    # =================================================
+    st.subheader("Slider de rango (value como tupla)")
+
+    with st.expander("Seleccionar un rango"):
+        with st.echo():
+            rango = st.slider(
+                "Rango de precios",
+                min_value=0,
+                max_value=10000,
+                value=(2000, 6000),
+                step=500,
+                key="rango_precios"
+            )
+            st.write("Rango seleccionado:", rango)
+
+    # =================================================
+    # QUÉ DEVUELVE
+    # =================================================
+    st.subheader("¿Qué devuelve st.slider?")
+
+    with st.expander("Tipo de dato retornado"):
+        with st.echo():
+            valor = st.slider(
+                "Valor",
+                min_value=0,
+                max_value=10,
+                key="tipo_valor"
+            )
+            st.write(valor)
+            st.write(type(valor))
+
+            rango = st.slider(
+                "Rango",
+                min_value=0,
+                max_value=10,
+                value=(3, 7),
+                key="tipo_rango"
+            )
+            st.write(rango)
+            st.write(type(rango))
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Filtros por rango"):
+        with st.echo():
+            precio_min, precio_max = st.slider(
+                "Precio",
+                min_value=0,
+                max_value=5000,
+                value=(1000, 3000),
+                key="filtro_precio"
+            )
+            st.write("Filtrar entre:", precio_min, "y", precio_max)
+
+    with st.expander("2️⃣ Ajustes en tiempo real"):
+        with st.echo():
+            brillo = st.slider(
+                "Brillo",
+                min_value=0,
+                max_value=100,
+                key="brillo"
+            )
+            st.write("Brillo:", brillo)
+
+    with st.expander("3️⃣ Parámetros de simulación"):
+        with st.echo():
+            velocidad = st.slider(
+                "Velocidad",
+                min_value=0.0,
+                max_value=1.0,
+                step=0.05,
+                key="velocidad"
+            )
+            st.write("Velocidad:", velocidad)
+
+    with st.expander("4️⃣ Configuración UX"):
+        with st.echo():
+            tamaño_fuente = st.slider(
+                "Tamaño de fuente",
+                min_value=10,
+                max_value=30,
+                key="fuente"
+            )
+            st.write("Fuente:", tamaño_fuente)
 
 # =========================
 # DATE AND TIME
 # =========================
 
-def date_input():
-    pass
-
 def datetime_input():
     pass
 
+def date_input():
+
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.date_input(label, value=None, min_value=None, max_value=None, '
+        'format="YYYY-MM-DD", key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, *, '
+        'disabled=False, label_visibility="visible", width="content")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+
+        with st.echo():
+            fecha = st.date_input("📅 **Fecha del evento**")
+            st.write("Fecha:", fecha)
+
+    # =================================================
+    # VALUE
+    # =================================================
+    st.subheader("Parámetro value")
+
+    with st.expander("Fecha inicial por defecto"):
+
+        with st.echo():
+            fecha = st.date_input(
+                "Hoy por defecto",
+                value=date.today()
+            )
+            st.write("Fecha:", fecha)
+
+    # =================================================
+    # VALUE COMO RANGO
+    # =================================================
+    st.subheader("Value como rango de fechas")
+
+    with st.expander("Selector de rango"):
+
+        with st.echo():
+            rango = st.date_input(
+                "Rango de fechas",
+                value=(date(2024, 1, 1), date(2024, 1, 31))
+            )
+            st.write("Rango:", rango)
+
+    # =================================================
+    # MIN_VALUE / MAX_VALUE
+    # =================================================
+    st.subheader("Parámetros min_value y max_value")
+
+    with st.expander("Limitar fechas válidas"):
+
+        with st.echo():
+            fecha = st.date_input(
+                "Fecha permitida",
+                min_value=date(2020, 1, 1),
+                max_value=date(2030, 12, 31)
+            )
+            st.write("Fecha:", fecha)
+
+    # =================================================
+    # FORMAT
+    # =================================================
+    st.subheader("Parámetro format")
+
+    with st.expander("Formato visual de fecha"):
+
+        with st.echo():
+            fecha = st.date_input(
+                "Formato DD/MM/YYYY",
+                format="DD/MM/YYYY"
+            )
+            st.write("Fecha:", fecha)
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+
+        with st.echo():
+            st.date_input(
+                "Fecha guardada",
+                key="fecha_guardada"
+            )
+            st.write("Estado:", st.session_state.fecha_guardada)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip informativo"):
+
+        with st.echo():
+            st.date_input(
+                "Inicio del proyecto",
+                help="Seleccioná la fecha de comienzo"
+            )
+
+    # =================================================
+    # ON_CHANGE + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_change, args y kwargs")
+
+    with st.expander("Acción al cambiar fecha"):
+
+        def aviso(mensaje):
+            st.toast(mensaje)
+
+        with st.echo():
+            st.date_input(
+                "Fecha crítica",
+                key="fecha_critica",
+                on_change=aviso,
+                args=("Fecha modificada",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Input deshabilitado"):
+
+        with st.echo():
+            st.date_input(
+                "Fecha bloqueada",
+                value=date.today(),
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    st.subheader("Parámetro label_visibility")
+
+    with st.expander("Ocultar label"):
+
+        with st.echo():
+            st.date_input(
+                "Label oculto",
+                label_visibility="collapsed"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+
+        with st.echo():
+            st.date_input(
+                "Ancho completo",
+                width="stretch"
+            )
+
+    # =================================================
+    # QUÉ DEVUELVE
+    # =================================================
+    st.subheader("¿Qué devuelve st.date_input?")
+
+    with st.expander("Tipo de dato retornado"):
+
+        with st.echo():
+            valor = st.date_input(
+                "Fecha seleccionada",
+                value=date.today()
+            )
+
+            st.write(valor)
+            st.write(type(valor))
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Fecha de nacimiento"):
+        with st.echo():
+            nacimiento = st.date_input(
+                "Fecha de nacimiento",
+                min_value=date(1900, 1, 1),
+                max_value=date.today()
+            )
+            st.write("Nacimiento:", nacimiento)
+
+    with st.expander("2️⃣ Filtro por rango de fechas"):
+        with st.echo():
+            inicio, fin = st.date_input(
+                "Período",
+                value=(date(2024, 1, 1), date(2024, 12, 31))
+            )
+            st.write("Desde:", inicio)
+            st.write("Hasta:", fin)
+
+    with st.expander("3️⃣ Configuración de sistema"):
+        with st.echo():
+            vencimiento = st.date_input(
+                "Fecha de vencimiento",
+                min_value=date.today()
+            )
+            st.write("Vence el:", vencimiento)
+
+    with st.expander("4️⃣ Cálculos con fechas"):
+        with st.echo():
+            inicio = st.date_input("Inicio", value=date.today())
+            fin = st.date_input("Fin", value=date.today())
+
+            if fin >= inicio:
+                dias = (fin - inicio).days
+                st.success(f"Días entre fechas: {dias}")
+            else:
+                st.error("La fecha final debe ser mayor o igual a la inicial")
+
 def time_input():
-    pass
+    
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.time_input(label, value=None, step=None, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, *, '
+        'disabled=False, label_visibility="visible", width="content")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+
+        with st.echo():
+            hora = st.time_input("⏰ **Hora del evento**")
+            st.write("Hora:", hora)
+
+    # =================================================
+    # VALUE
+    # =================================================
+    st.subheader("Parámetro value")
+
+    with st.expander("Hora inicial por defecto"):
+
+        with st.echo():
+            hora = st.time_input(
+                "Hora actual",
+                value=time(9, 0)
+            )
+            st.write("Hora:", hora)
+
+    # =================================================
+    # STEP
+    # =================================================
+    st.subheader("Parámetro step")
+
+    with st.expander("Intervalos de minutos"):
+
+        with st.echo():
+            hora = st.time_input(
+                "Turnos cada 15 minutos",
+                step=900  # 15 min = 900 segundos
+            )
+            st.write("Hora:", hora)
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+
+        with st.echo():
+            st.time_input(
+                "Hora guardada",
+                key="hora_guardada"
+            )
+            st.write("Estado:", st.session_state.hora_guardada)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip informativo"):
+
+        with st.echo():
+            st.time_input(
+                "Hora límite",
+                help="Hora máxima permitida para la operación"
+            )
+
+    # =================================================
+    # ON_CHANGE + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_change, args y kwargs")
+
+    with st.expander("Ejecutar acción al cambiar"):
+
+        def aviso(mensaje):
+            st.toast(mensaje)
+
+        with st.echo():
+            st.time_input(
+                "Hora crítica",
+                key="hora_critica",
+                on_change=aviso,
+                args=("Hora modificada",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Input deshabilitado"):
+
+        with st.echo():
+            st.time_input(
+                "Hora bloqueada",
+                value=time(12, 0),
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    st.subheader("Parámetro label_visibility")
+
+    with st.expander("Ocultar label"):
+
+        with st.echo():
+            st.time_input(
+                "Label oculto",
+                label_visibility="collapsed"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+
+        with st.echo():
+            st.time_input(
+                "Ancho completo",
+                width="stretch"
+            )
+
+    # =================================================
+    # QUÉ DEVUELVE
+    # =================================================
+    st.subheader("¿Qué devuelve st.time_input?")
+
+    with st.expander("Tipo de dato retornado"):
+
+        with st.echo():
+            valor = st.time_input(
+                "Hora seleccionada",
+                value=time(8, 30)
+            )
+
+            st.write(valor)
+            st.write(type(valor))
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Horarios de trabajo"):
+        with st.echo():
+            inicio = st.time_input("Inicio", value=time(9, 0))
+            fin = st.time_input("Fin", value=time(18, 0))
+            st.write("Horario:", inicio, "-", fin)
+
+    with st.expander("2️⃣ Turnos / reservas"):
+        with st.echo():
+            turno = st.time_input(
+                "Turno disponible",
+                step=1800  # 30 minutos
+            )
+            st.success(f"Turno asignado: {turno}")
+
+    with st.expander("3️⃣ Configuración del sistema"):
+        with st.echo():
+            mantenimiento = st.time_input(
+                "Hora de mantenimiento",
+                value=time(2, 0)
+            )
+            st.write("Mantenimiento:", mantenimiento)
+
+    with st.expander("4️⃣ Validación de horarios"):
+        with st.echo():
+            apertura = st.time_input("Apertura", value=time(8, 0))
+            cierre = st.time_input("Cierre", value=time(17, 0))
+
+            if cierre > apertura:
+                st.success("Horario válido")
+            else:
+                st.error("La hora de cierre debe ser posterior a la apertura")
 
 
 # =========================
