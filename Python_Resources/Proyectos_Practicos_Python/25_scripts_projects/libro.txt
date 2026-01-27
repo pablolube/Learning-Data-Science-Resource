@@ -1,0 +1,1 @@
+Un archivo TXT es un archivo de texto plano que contiene únicamente texto sin formato, sin estilos como negrita, cursiva o imágenes. Es un formato simple y universal, compatible con la mayoría de los programas de procesamiento de texto. 
