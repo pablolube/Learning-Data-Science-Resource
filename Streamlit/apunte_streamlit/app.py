@@ -1,10 +1,10 @@
 import streamlit as st
+
 import Header_and_body as hb
 import Formated_text as ft
 import data_elements as de
 import Input_functions as inp
-
-
+import Media_Elements as stmedia 
 # =========================
 # PAGE CONFIG
 # =========================
@@ -24,6 +24,7 @@ tematicas = (
     "Formated Text",
     "Data Elements",
     "Input Elements",
+    "Media Elements Visualizer"
 )
 
 sidebar = st.sidebar.radio("Barra lateral", tematicas)
@@ -225,7 +226,6 @@ match sidebar:
 
             render_section([
                 ("st.chat_input", inp.chat_input),
-                ("st.link", inp.link),
                 ("st.text_area", inp.text_area),
                 ("st.text_input", inp.text_input),
             ])
@@ -241,8 +241,7 @@ match sidebar:
 
             render_section([
                 ("st.audio_input", inp.audio_input),
-                ("st.camera_input", inp.camera_input),
-                ("st.data_editor", inp.data_editor),
+                ("st.camera_input", inp.camera_input)
             ])
 
 
@@ -256,3 +255,21 @@ match sidebar:
 
             with st.expander("st.file_uploader"):
                 inp.file_uploader()
+
+    case "Media Elements Visualizer":
+
+        
+        with st.expander("Audio"):
+            stmedia.audio()
+
+        with st.expander("Image"):
+            stmedia.image()
+
+        with st.expander("Logo"):
+            stmedia.logo()
+
+        with st.expander("PDF"):
+            stmedia.pdf()
+
+        with st.expander("Video"):
+            stmedia.video()

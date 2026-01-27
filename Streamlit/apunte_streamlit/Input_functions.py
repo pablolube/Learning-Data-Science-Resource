@@ -1,9 +1,9 @@
 import streamlit as st
 import pandas as pd
 from pathlib import Path
-from datetime import date
-from datetime import time
-
+from datetime import date,time,timedelta
+import datetime
+from datetime import datetime
 
 
 # =========================
@@ -217,7 +217,6 @@ def button():
             st.button("Botón Secundario", type="secondary")
             st.button("Botón Terciario", type="tertiary")
 
-
 def download_button():
 
     st.code(
@@ -413,8 +412,6 @@ def download_button():
         if "mensaje" in st.session_state:
             st.success(st.session_state["mensaje"])
 
-
-
 def form_submit_button():
     st.code('st.form_submit_button(label="Submit", help=None, on_click=None, args=None, kwargs=None, *, key=None, type="secondary", icon=None, icon_position="left", disabled=False, use_container_width=None, width="content", shortcut=None)')
     st.subheader(" Parámetro label")
@@ -535,7 +532,6 @@ def link_button():
         disabled=True,
         type="primary"
     )
-
 
 def page_link():
     dash_path='/workspaces/Learning-Data-Science-Resource/Streamlit/pages/02_dashboard.py'
@@ -780,8 +776,6 @@ def page_link():
                 ]
             )
 
-
-
 # =========================
 # SELECTIONS
 # =========================
@@ -800,8 +794,6 @@ def selection_example():
     st.segmented_control("segmented_control",options=["Pequeño", "Mediano", "Grande"])
     st.select_slider("select_slider",options=list(range(18, 66)))
     st.toggle("Activar notificaciones")
-
-
 
 def checkbox():
 
@@ -3155,8 +3147,150 @@ def slider():
 # DATE AND TIME
 # =========================
 
+
 def datetime_input():
-    pass
+
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.code(
+        'st.datetime_input(label, value=None, min_value=None, max_value=None, '
+        'format="YYYY-MM-DD HH:mm:ss", key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, *, '
+        'disabled=False, label_visibility="visible", width="content")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    st.subheader("Parámetro label")
+
+    with st.expander("Label con Markdown"):
+        with st.echo():
+            fecha_hora = st.datetime_input("📅⏰ **Fecha y hora del evento**")
+            st.write("Valor:", fecha_hora)
+
+    # =================================================
+    # VALUE
+    # =================================================
+    st.subheader("Parámetro value")
+
+    with st.expander("Fecha y hora inicial"):
+        with st.echo():
+            ahora = st.datetime_input(
+                "Ahora",
+                value=datetime(2025, 11, 19, 16, 45)
+            )
+            st.write("Ahora:", ahora)
+
+    # =================================================
+    # MIN_VALUE / MAX_VALUE
+    # =================================================
+    st.subheader("Parámetros min_value y max_value")
+
+    with st.expander("Rango permitido"):
+        with st.echo():
+            fecha_hora = st.datetime_input(
+                "Ventana válida",
+                min_value=datetime(2024, 1, 1, 0, 0),
+                max_value=datetime(2026, 12, 31, 23, 59)
+            )
+            st.write("Seleccionado:", fecha_hora)
+
+    # =================================================
+    # FORMAT
+    # =================================================
+    st.subheader("Parámetro format")
+
+    with st.expander("Formato visual personalizado"):
+        with st.echo():
+            fecha_hora = st.datetime_input(
+                "Formato DD/MM/YYYY",
+                format="DD/MM/YYYY"
+            )
+            st.write("Valor real:", fecha_hora)
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+        with st.echo():
+            st.datetime_input(
+                "Fecha guardada",
+                key="fecha_hora_guardada"
+            )
+            st.write("Estado:", st.session_state.fecha_hora_guardada)
+
+    # =================================================
+    # HELP
+    # =================================================
+    st.subheader("Parámetro help")
+
+    with st.expander("Tooltip informativo"):
+        with st.echo():
+            st.datetime_input(
+                "Inicio del proceso",
+                help="Seleccioná fecha y hora de inicio"
+            )
+
+   
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Programación de tareas"):
+        with st.echo():
+            ejecucion = st.datetime_input(
+                "Ejecutar tarea en",
+                value=datetime.now() + timedelta(hours=1)
+            )
+            st.write("Programado para:", ejecucion)
+
+    with st.expander("2️⃣ Logs / auditoría"):
+        with st.echo():
+            evento = st.datetime_input(
+                "Fecha del evento",
+                value=datetime.now()
+            )
+            st.success(f"Evento registrado: {evento}")
+
+    with st.expander("3️⃣ Ventanas de mantenimiento"):
+        with st.echo():
+            inicio = st.datetime_input(
+                "Inicio",
+                value=datetime.now()
+            )
+            fin = st.datetime_input(
+                "Fin",
+                value=datetime.now() + timedelta(hours=2)
+            )
+
+            if fin > inicio:
+                duracion = fin - inicio
+                st.success(f"Duración: {duracion}")
+            else:
+                st.error("La fecha final debe ser posterior a la inicial")
+
+    with st.expander("4️⃣ Filtros temporales"):
+        with st.echo():
+            desde = st.datetime_input(
+                "Desde",
+                value=datetime.now() - timedelta(days=1)
+            )
+            hasta = st.datetime_input(
+                "Hasta",
+                value=datetime.now()
+            )
+
+            st.write("Filtrar entre:")
+            st.write(desde, "→", hasta)
+
+
 
 def date_input():
 
@@ -3323,22 +3457,6 @@ def date_input():
                 "Ancho completo",
                 width="stretch"
             )
-
-    # =================================================
-    # QUÉ DEVUELVE
-    # =================================================
-    st.subheader("¿Qué devuelve st.date_input?")
-
-    with st.expander("Tipo de dato retornado"):
-
-        with st.echo():
-            valor = st.date_input(
-                "Fecha seleccionada",
-                value=date.today()
-            )
-
-            st.write(valor)
-            st.write(type(valor))
 
     # =================================================
     # CASOS DE USO REALES
@@ -3577,16 +3695,675 @@ def time_input():
 # =========================
 
 def chat_input():
-    pass
+    st.code(
+        'st.chat_input(placeholder="Your message", *, key=None, '
+        'max_chars=None, max_upload_size=None, accept_file=False, '
+        'file_type=None, accept_audio=False, audio_sample_rate=16000, '
+        'disabled=False, on_submit=None, args=None, kwargs=None, '
+        'width="stretch")',
+        language="python")
 
-def link():
-    pass
+    # =================================================
+    # PLACEHOLDER
+    # =================================================
+    st.subheader("Parámetro placeholder")
+
+    with st.expander("Texto guía en el input"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                placeholder="Escribí tu mensaje acá 💬"
+            )
+            if mensaje:
+                st.write("Mensaje:", mensaje)
+
+    # =================================================
+    # KEY
+    # =================================================
+    st.subheader("Parámetro key")
+
+    with st.expander("Acceso por session_state"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                "Mensaje persistente",
+                key="chat_msg"
+            )
+
+            if mensaje:
+                st.write("Estado:", st.session_state.chat_msg)
+
+    # =================================================
+    # MAX_CHARS
+    # =================================================
+    st.subheader("Parámetro max_chars")
+
+    with st.expander("Límite de caracteres"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                "Mensaje corto",
+                max_chars=50
+            )
+            if mensaje:
+                st.write(f"{len(mensaje)} caracteres:", mensaje)
+
+    # =================================================
+    # ACCEPT_FILE
+    # =================================================
+    st.subheader("Parámetro accept_file")
+
+    with st.expander("Aceptar archivos en el chat"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                "Mensaje con archivo",
+                accept_file=True,
+                file_type=["png", "jpg", "pdf"]
+            )
+
+            if mensaje:
+                st.write("Texto:", mensaje.text)
+                st.write("Archivo:", mensaje.files)
+
+    # =================================================
+    # MAX_UPLOAD_SIZE
+    # =================================================
+    st.subheader("Parámetro max_upload_size")
+
+    with st.expander("Limitar tamaño del archivo"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                "Archivo chico",
+                accept_file=True,
+                max_upload_size=2 * 1024 * 1024  # 2 MB
+            )
+
+            if mensaje:
+                st.write("Archivo recibido")
+
+    # =================================================
+    # ACCEPT_AUDIO
+    # =================================================
+    st.subheader("Parámetro accept_audio")
+
+    with st.expander("Aceptar audio"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                "Mensaje de voz",
+                accept_audio=True
+            )
+
+            if mensaje:
+                st.write("Audio recibido")
+
+    # =================================================
+    # AUDIO_SAMPLE_RATE
+    # =================================================
+    st.subheader("Parámetro audio_sample_rate")
+
+    with st.expander("Frecuencia de muestreo"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                "Audio 8kHz",
+                accept_audio=True,
+                audio_sample_rate=8000
+            )
+
+            if mensaje:
+                st.write("Audio con sample rate 8kHz")
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    st.subheader("Parámetro disabled")
+
+    with st.expander("Chat deshabilitado"):
+
+        with st.echo():
+            st.chat_input(
+                "No disponible",
+                disabled=True
+            )
+
+    # =================================================
+    # ON_SUBMIT + ARGS / KWARGS
+    # =================================================
+    st.subheader("Parámetros on_submit, args y kwargs")
+
+    with st.expander("Ejecutar acción al enviar"):
+
+        def procesar(mensaje):
+            st.toast(f"Mensaje enviado: {mensaje}")
+
+        with st.echo():
+            st.chat_input(
+                "Enviar con acción",
+                on_submit=procesar,
+                args=("Mensaje enviado",)
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    st.subheader("Parámetro width")
+
+    with st.expander("Control del ancho"):
+
+        with st.echo():
+            st.chat_input(
+                "Ancho completo",
+                width="stretch"
+            )
+
+    # =================================================
+    # QUÉ DEVUELVE
+    # =================================================
+    st.subheader("¿Qué devuelve st.chat_input?")
+
+    with st.expander("Tipo de dato retornado"):
+
+        with st.echo():
+            mensaje = st.chat_input(
+                "Escribí algo"
+            )
+
+            if mensaje:
+                st.write(mensaje)
+                st.write(type(mensaje))
+
+    # =================================================
+    # CASOS DE USO REALES
+    # =================================================
+    st.subheader("Casos de uso prácticos")
+
+    with st.expander("1️⃣ Chat básico"):
+        with st.echo():
+            msg = st.chat_input("Decí hola")
+            if msg:
+                st.chat_message("user").write(msg)
+                st.chat_message("assistant").write("¡Hola! 👋")
+
+    with st.expander("2️⃣ Chat con historial"):
+        with st.echo():
+            if "historial" not in st.session_state:
+                st.session_state.historial = []
+
+            msg = st.chat_input("Mensaje con historial")
+            if msg:
+                st.session_state.historial.append(msg)
+
+            for m in st.session_state.historial:
+                st.chat_message("user").write(m)
+
+    with st.expander("3️⃣ Soporte / feedback"):
+        with st.echo():
+            feedback = st.chat_input(
+                "Dejanos tu feedback",
+                max_chars=200
+            )
+            if feedback:
+                st.success("Gracias por tu mensaje 🙌")
+
+    with st.expander("4️⃣ Input multimodal"):
+        with st.echo():
+            msg = st.chat_input(
+                "Texto + archivo + audio",
+                accept_file=True,
+                accept_audio=True
+            )
+
+            if msg:
+                st.write("Texto:", msg.text)
+                st.write("Archivos:", msg.files)
+                st.write("Audio:", msg.audio)
 
 def text_area():
-    pass
+    
+    # =================================================
+    # TÍTULO
+    # =================================================
+    st.title("st.text_area usando st.echo()")
+    st.divider()
+
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.subheader("Código del método")
+
+    st.code(
+        """st.text_area(
+        label,
+        value="",
+        height=None,
+        max_chars=None,
+        key=None,
+        help=None,
+        on_change=None,
+        args=None,
+        kwargs=None,
+        *,
+        placeholder=None,
+        disabled=False,
+        label_visibility="visible",
+        width="stretch"
+    )""",
+        language="python"
+    )
+
+    # =================================================
+    # PARÁMETRO label
+    # =================================================
+    with st.expander("Parámetro label"):
+        with st.echo():
+            st.text_area("📝 Escribí un comentario")
+
+    # =================================================
+    # PARÁMETRO value
+    # =================================================
+    with st.expander("Parámetro value"):
+        with st.echo():
+            st.text_area(
+                "Texto inicial",
+                value="Este texto aparece al renderizar el componente"
+            )
+
+    # =================================================
+    # PARÁMETRO height
+    # =================================================
+    with st.expander("Parámetro height"):
+        with st.echo():
+            st.text_area(
+                "Height por defecto (3 líneas)",
+                key="height_default"
+            )
+
+        with st.echo():
+            st.text_area(
+                "Height = 'content'",
+                height="content",
+                value="La altura se ajusta al contenido",
+                key="height_content"
+            )
+
+        with st.echo():
+            st.text_area(
+                "Height fijo (150px)",
+                height=150,
+                value="Si el contenido supera la altura, aparece scroll",
+                key="height_fixed"
+            )
+
+    # =================================================
+    # PARÁMETRO max_chars
+    # =================================================
+    with st.expander("Parámetro max_chars"):
+        with st.echo():
+            st.text_area(
+                "Máximo 50 caracteres",
+                max_chars=50,
+                placeholder="No podés escribir más de 50 caracteres"
+            )
+
+    # =================================================
+    # PARÁMETRO key
+    # =================================================
+    with st.expander("Parámetro key"):
+        with st.echo():
+            texto = st.text_area(
+                "Text area con key",
+                key="textarea_key"
+            )
+
+        st.write("Valor actual:", texto)
+
+    # =================================================
+    # PARÁMETRO help
+    # =================================================
+    with st.expander("Parámetro help"):
+        with st.echo():
+            st.text_area(
+                "Campo con ayuda",
+                help="Este texto explica qué debe ingresar el usuario"
+            )
+
+    # =================================================
+    # PARÁMETRO on_change
+    # =================================================
+    with st.expander("Parámetro on_change"):
+
+        def mostrar_mensaje(nombre):
+            st.success(f"Texto modificado por {nombre}")
+
+        with st.echo():
+            st.text_area(
+                "Dispara callback al cambiar",
+                on_change=mostrar_mensaje,
+                args=("Pablo",),
+                key="textarea_callback1"
+            )
+
+    # =================================================
+    # PARÁMETRO placeholder
+    # =================================================
+    with st.expander("Parámetro placeholder"):
+        with st.echo():
+            st.text_area(
+                "Campo vacío",
+                placeholder="Escribí acá tu mensaje..."
+            )
+
+    # =================================================
+    # PARÁMETRO width
+    # =================================================
+    with st.expander("Parámetro width"):
+        with st.echo():
+            st.text_area(
+                "Width stretch (default)",
+                width="stretch",
+                key="width_stretch"
+            )
+
+        with st.echo():
+            st.text_area(
+                "Width fijo 300px",
+                width=300,
+                key="width_fixed"
+            )
+
+   
+
+
+    # =================================================
+    # CASOS DE USO
+    # =================================================
+    st.divider()
+    st.title("📘 st.text_area — Casos de uso reales")
+
+    # -------------------------------------------------
+    # CASO 1
+    # -------------------------------------------------
+    with st.expander("1️⃣ Comentarios / Feedback"):
+        with st.echo():
+            st.text_area(
+                "Dejanos tu comentario",
+                placeholder="Escribí tu opinión acá..."
+            )
+
+    # -------------------------------------------------
+    # CASO 2
+    # -------------------------------------------------
+    with st.expander("2️⃣ Formularios con texto largo"):
+        with st.echo():
+            st.text_area(
+                "Descripción del problema",
+                height=150,
+                help="Explicá el problema con el mayor detalle posible"
+            )
+
+    # -------------------------------------------------
+    # CASO 3
+    # -------------------------------------------------
+    with st.expander("3️⃣ Ingreso de código (SQL / Python)"):
+        with st.echo():
+            codigo = st.text_area(
+                "Pegá tu código o consulta SQL",
+                height=150,
+                placeholder="SELECT * FROM usuarios;"
+            )
+
+            if codigo:
+                st.code(codigo, language="sql")
+
+    # -------------------------------------------------
+    # CASO 4
+    # -------------------------------------------------
+    with st.expander("4️⃣ Edición de texto existente"):
+        with st.echo():
+            st.text_area(
+                "Editar contenido",
+                value="Este texto fue cargado desde una base de datos o archivo."
+            )
+
+    # -------------------------------------------------
+    # CASO 5
+    # -------------------------------------------------
+    with st.expander("5️⃣ Logs / solo lectura"):
+        with st.echo():
+            st.text_area(
+                "Logs del sistema",
+                value=(
+                    "Proceso iniciado...\n"
+                    "Cargando datos...\n"
+                    "Proceso finalizado correctamente."
+                ),
+                height=180,
+                disabled=True
+            )
+
+    # -------------------------------------------------
+    # CASO 6
+    # -------------------------------------------------
+    with st.expander("6️⃣ Texto con límite de caracteres"):
+        with st.echo():
+            st.text_area(
+                "Resumen (máx. 200 caracteres)",
+                max_chars=200,
+                placeholder="Escribí un resumen corto..."
+            )
+
+    # -------------------------------------------------
+    # CASO 7
+    # -------------------------------------------------
+    with st.expander("7️⃣ Callback con on_change"):
+        with st.echo():
+            def aviso():
+                st.warning("⚠️ El texto fue modificado")
+
+            st.text_area(
+                "Texto monitoreado",
+                key="textarea_callback",
+                on_change=aviso
+            )
+
+    # -------------------------------------------------
+    # CASO 8
+    # -------------------------------------------------
+    with st.expander("8️⃣ UI limpia (label oculto)"):
+        with st.echo():
+            st.text_area(
+                "Mensaje",
+                label_visibility="collapsed",
+                placeholder="Escribí tu mensaje..."
+            )
+
+    # -------------------------------------------------
+    # CASO 9
+    # -------------------------------------------------
+    with st.expander("9️⃣ Control de altura"):
+        with st.echo():
+            st.text_area(
+                "Altura fija (120px)",
+                height=120,
+                value="Si el contenido supera la altura, aparece scroll."
+            )
+
+    # -------------------------------------------------
+    # CASO 10
+    # -------------------------------------------------
+    with st.expander("🔟 Control de ancho (usando columnas)"):
+        with st.echo():
+            col1, col2 = st.columns([1, 2])
+
+            with col1:
+                st.text_area("Columna angosta")
+
+            with col2:
+                st.text_area("Columna ancha")
 
 def text_input():
-    pass
+    st.divider()
+    st.title("📘 st.text_input() — Explicación de parámetros")
+
+    # =================================================
+    # PARÁMETRO: label
+    # =================================================
+    with st.expander("label (obligatorio)"):
+        with st.echo():
+            st.text_input(
+                label="Nombre de usuario"
+            )
+
+    # =================================================
+    # PARÁMETRO: value
+    # =================================================
+    with st.expander("value (valor inicial)"):
+        with st.echo():
+            st.text_input(
+                label="Usuario",
+                value="admin"
+            )
+
+    # =================================================
+    # PARÁMETRO: max_chars
+    # =================================================
+    with st.expander("max_chars (límite de caracteres)"):
+        with st.echo():
+            st.text_input(
+                label="Código",
+                max_chars=6,
+                placeholder="ABC123"
+            )
+
+    # =================================================
+    # PARÁMETRO: key
+    # =================================================
+    with st.expander("key (identificador único)"):
+        with st.echo():
+            st.text_input(
+                label="Campo con key",
+                key="input_unico"
+            )
+
+    # =================================================
+    # PARÁMETRO: type
+    # =================================================
+    with st.expander('type ("default" | "password")'):
+        with st.echo():
+            st.text_input(
+                label="Contraseña",
+                type="password"
+            )
+
+    # =================================================
+    # PARÁMETRO: help
+    # =================================================
+    with st.expander("help (texto de ayuda)"):
+        with st.echo():
+            st.text_input(
+                label="Email",
+                help="Usá un correo válido"
+            )
+
+    # =================================================
+    # PARÁMETRO: autocomplete
+    # =================================================
+    with st.expander("autocomplete (autocompletado del navegador)"):
+        with st.echo():
+            st.text_input(
+                label="País",
+                autocomplete="country-name"
+            )
+
+    # =================================================
+    # PARÁMETRO: on_change
+    # =================================================
+    with st.expander("on_change (callback al modificar)"):
+        with st.echo():
+            def aviso():
+                st.warning("⚠️ El valor fue modificado")
+
+            st.text_input(
+                label="Texto monitoreado",
+                key="callback_input",
+                on_change=aviso
+            )
+
+    # =================================================
+    # PARÁMETRO: args / kwargs
+    # =================================================
+    with st.expander("args / kwargs (argumentos para callback)"):
+        with st.echo():
+            def mostrar(valor):
+                st.info(f"Valor recibido: {valor}")
+
+            st.text_input(
+                label="Campo con argumentos",
+                key="input_args",
+                on_change=mostrar,
+                args=("Hola desde args",)
+            )
+
+    # =================================================
+    # PARÁMETRO: placeholder
+    # =================================================
+    with st.expander("placeholder (texto de ejemplo)"):
+        with st.echo():
+            st.text_input(
+                label="Buscar",
+                placeholder="Escribí para buscar..."
+            )
+
+    # =================================================
+    # PARÁMETRO: disabled
+    # =================================================
+    with st.expander("disabled (campo deshabilitado)"):
+        with st.echo():
+            st.text_input(
+                label="ID",
+                value="USR-001",
+                disabled=True
+            )
+
+    # =================================================
+    # PARÁMETRO: label_visibility
+    # =================================================
+    with st.expander('label_visibility ("visible" | "hidden" | "collapsed")'):
+        with st.echo():
+            st.text_input(
+                label="Mensaje",
+                label_visibility="collapsed",
+                placeholder="Campo sin label visible"
+            )
+
+    # =================================================
+    # PARÁMETRO: icon
+    # =================================================
+    with st.expander("icon (ícono decorativo)"):
+        with st.echo():
+            st.text_input(
+                label="Buscar",
+                icon="🔍",
+                placeholder="Buscar..."
+            )
+
+    # =================================================
+    # PARÁMETRO: width
+    # =================================================
+    with st.expander('width ("stretch" | número)'):
+        with st.echo():
+            st.text_input(
+                label="Ancho automático",
+                width="stretch"
+            )
+
+            st.text_input(
+                label="Ancho fijo",
+                width=300
+            )
 
 
 # =========================
@@ -3594,13 +4371,196 @@ def text_input():
 # =========================
 
 def audio_input():
-    pass
+    st.title("🎤 Apunte completo: st.audio_input")
+
+# =================================================
+# FIRMA DEL MÉTODO
+# =================================================
+    st.subheader("📌 Firma del método")
+
+    st.code(
+        'st.audio_input(label, *, sample_rate=16000, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, disabled=False, '
+        'label_visibility="visible", width="stretch")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    with st.expander("📝 Parámetro: label"):
+        with st.echo():
+            st.audio_input("Grabá tu audio")
+
+    # =================================================
+    # SAMPLE_RATE
+    # =================================================
+    with st.expander("🎚️ Parámetro: sample_rate"):
+        with st.echo():
+            st.audio_input(
+                "Audio con sample rate 44100",
+                sample_rate=44100
+            )
+
+    # =================================================
+    # KEY
+    # =================================================
+    with st.expander("🔑 Parámetro: key"):
+        with st.echo():
+            st.audio_input(
+                "Audio con key",
+                key="audio_unico"
+            )
+
+    # =================================================
+    # HELP
+    # =================================================
+    with st.expander("❓ Parámetro: help"):
+        with st.echo():
+            st.audio_input(
+                "Audio con ayuda",
+                help="Presioná grabar y hablá cerca del micrófono"
+            )
+
+    # =================================================
+    # ON_CHANGE
+    # =================================================
+    with st.expander("🔁 Parámetro: on_change"):
+        with st.echo():
+            def aviso_audio():
+                st.success("Audio grabado correctamente 🎉")
+
+            st.audio_input(
+                "Audio con evento",
+                on_change=aviso_audio
+            )
+
+    # =================================================
+    # ARGS
+    # =================================================
+    with st.expander("📦 Parámetro: args"):
+        with st.echo():
+            def mostrar_nombre(nombre):
+                st.info(f"Audio grabado por {nombre}")
+
+            st.audio_input(
+                "Audio con args",
+                on_change=mostrar_nombre,
+                args=("Pablo",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    with st.expander("🚫 Parámetro: disabled"):
+        with st.echo():
+            st.audio_input(
+                "Audio deshabilitado",
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    with st.expander("👁️ Parámetro: label_visibility"):
+        with st.echo():
+            st.audio_input(
+                "Audio sin label",
+                label_visibility="collapsed"
+            )
+
 
 def camera_input():
-    pass
+    st.title("📸 Apunte completo: st.camera_input")
 
-def data_editor():
-    pass
+    # =================================================
+    # FIRMA DEL MÉTODO
+    # =================================================
+    st.subheader("📌 Firma del método")
+
+    st.code(
+        'st.camera_input(label, *, key=None, help=None, '
+        'on_change=None, args=None, kwargs=None, '
+        'disabled=False, label_visibility="visible", width="stretch")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    with st.expander("📝 Parámetro: label"):
+        with st.echo():
+            st.camera_input("Tomar una foto")
+
+    # =================================================
+    # KEY
+    # =================================================
+    with st.expander("🔑 Parámetro: key"):
+        with st.echo():
+            st.camera_input(
+                "Foto con key",
+                key="camera_unica"
+            )
+
+    # =================================================
+    # HELP
+    # =================================================
+    with st.expander("❓ Parámetro: help"):
+        with st.echo():
+            st.camera_input(
+                "Foto con ayuda",
+                help="Asegurate de tener buena iluminación"
+            )
+
+    # =================================================
+    # ON_CHANGE
+    # =================================================
+    with st.expander("🔁 Parámetro: on_change"):
+        with st.echo():
+            def aviso_foto():
+                st.success("Foto capturada 📸")
+
+            st.camera_input(
+                "Foto con evento",
+                on_change=aviso_foto
+            )
+
+    # =================================================
+    # ARGS
+    # =================================================
+    with st.expander("📦 Parámetro: args"):
+        with st.echo():
+            def mostrar_usuario(nombre):
+                st.info(f"Foto tomada por {nombre}")
+
+            st.camera_input(
+                "Foto con args",
+                on_change=mostrar_usuario,
+                args=("Pablo",)
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    with st.expander("🚫 Parámetro: disabled"):
+        with st.echo():
+            st.camera_input(
+                "Cámara deshabilitada",
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    with st.expander("👁️ Parámetro: label_visibility"):
+        with st.echo():
+            st.camera_input(
+                "Foto sin label",
+                label_visibility="collapsed"
+            )
+
+
+
 
 
 # =========================
@@ -3608,5 +4568,270 @@ def data_editor():
 # =========================
 
 def file_uploader():
-    pass
+    st.title("📁 Apunte completo: st.file_uploader")
+
+    st.code(
+        'st.file_uploader(label, type=None, accept_multiple_files=False, '
+        'key=None, help=None, on_change=None, args=None, kwargs=None, *, '
+        'max_upload_size=None, disabled=False, '
+        'label_visibility="visible", width="stretch")',
+        language="python"
+    )
+
+    # =================================================
+    # LABEL
+    # =================================================
+    with st.expander("📝 Parámetro: label"):
+        with st.echo():
+            st.file_uploader("Subí un archivo")
+
+    # =================================================
+    # TYPE (string)
+    # =================================================
+    with st.expander("🧾 Parámetro: type (string)"):
+        with st.echo():
+            archivo = st.file_uploader(
+                "Solo archivos CSV",
+                type="csv"
+            )
+
+            if archivo:
+                st.success("CSV cargado correctamente")
+
+    # =================================================
+    # TYPE (lista)
+    # =================================================
+    with st.expander("🧾 Parámetro: type (lista de extensiones)"):
+        with st.echo():
+            imagen = st.file_uploader(
+                "Imágenes JPG / PNG",
+                type=["jpg", "jpeg", "png"]
+            )
+
+            if imagen:
+                st.image(imagen)
+
+    # =================================================
+    # ACCEPT_MULTIPLE_FILES = False
+    # =================================================
+    with st.expander("📄 Parámetro: accept_multiple_files=False"):
+        with st.echo():
+            archivo = st.file_uploader(
+                "Un solo archivo",
+                accept_multiple_files=False
+            )
+
+            if archivo:
+                st.write("Archivo:", archivo.name)
+
+    # =================================================
+    # ACCEPT_MULTIPLE_FILES = True
+    # =================================================
+    with st.expander("📚 Parámetro: accept_multiple_files=True"):
+        with st.echo():
+            archivos = st.file_uploader(
+                "Múltiples archivos",
+                accept_multiple_files=True
+            )
+
+            if archivos:
+                for a in archivos:
+                    st.write(a.name)
+
+    # =================================================
+    # ACCEPT_MULTIPLE_FILES = 'directory'
+    # =================================================
+    with st.expander("📂 Parámetro: accept_multiple_files='directory'"):
+        with st.echo():
+            carpeta = st.file_uploader(
+                "Subir carpeta completa",
+                accept_multiple_files="directory"
+            )
+
+            if carpeta:
+                st.write("Archivos en la carpeta:")
+                for a in carpeta:
+                    st.write("-", a.name)
+
+    # =================================================
+    # KEY
+    # =================================================
+    with st.expander("🔑 Parámetro: key"):
+        with st.echo():
+            st.file_uploader(
+                "Uploader con key",
+                key="uploader_unico"
+            )
+
+    # =================================================
+    # HELP
+    # =================================================
+    with st.expander("❓ Parámetro: help"):
+        with st.echo():
+            st.file_uploader(
+                "Archivo con ayuda",
+                help="Formatos permitidos según la consigna"
+            )
+
+    # =================================================
+    # ON_CHANGE
+    # =================================================
+    with st.expander("🔁 Parámetro: on_change"):
+        with st.echo():
+            def aviso():
+                st.success("Archivo subido 📥")
+
+            st.file_uploader(
+                "Uploader con evento",
+                on_change=aviso
+            )
+
+    # =================================================
+    # ARGS
+    # =================================================
+    with st.expander("📦 Parámetro: args"):
+        with st.echo():
+            def mostrar_usuario(nombre):
+                st.info(f"Archivo subido por {nombre}")
+
+            st.file_uploader(
+                "Uploader con args",
+                on_change=mostrar_usuario,
+                args=("Pablo",)
+            )
+
+    # =================================================
+    # KWARGS
+    # =================================================
+    with st.expander("🧩 Parámetro: kwargs"):
+        with st.echo():
+            def mostrar_info(nombre=None):
+                st.warning(f"Usuario: {nombre}")
+
+            st.file_uploader(
+                "Uploader con kwargs",
+                on_change=mostrar_info,
+                kwargs={"nombre": "Pablo"}
+            )
+
+    # =================================================
+    # MAX_UPLOAD_SIZE
+    # =================================================
+    with st.expander("📏 Parámetro: max_upload_size"):
+        with st.echo():
+            st.file_uploader(
+                "Máximo 1 MB",
+                max_upload_size=1
+            )
+
+    # =================================================
+    # DISABLED
+    # =================================================
+    with st.expander("🚫 Parámetro: disabled"):
+        with st.echo():
+            st.file_uploader(
+                "Uploader deshabilitado",
+                disabled=True
+            )
+
+    # =================================================
+    # LABEL_VISIBILITY
+    # =================================================
+    with st.expander("👁️ Parámetro: label_visibility"):
+        with st.echo():
+            st.file_uploader(
+                "Uploader sin label",
+                label_visibility="collapsed"
+            )
+
+    # =================================================
+    # WIDTH
+    # =================================================
+    with st.expander("📐 Parámetro: width"):
+        with st.echo():
+            st.file_uploader(
+                "Uploader ancho fijo (300px)",
+                width=300
+            )
+
+    # =================================================
+    # VALOR DEVUELTO
+    # =================================================
+    with st.expander("📦 Valor devuelto (UploadedFile)"):
+        with st.echo():
+            archivo = st.file_uploader("Inspeccionar archivo")
+
+            if archivo:
+                st.write("Nombre:", archivo.name)
+                st.write("Tipo MIME:", archivo.type)
+                st.write("Tamaño (bytes):", archivo.size)
+
+    # =================================================
+    # CASOS DE USO
+    # =================================================
+    st.subheader("🧠 Casos de uso comunes")
+
+    # -------------------------------------------------
+    # Caso 1: Leer CSV
+    # -------------------------------------------------
+    with st.expander("📊 Caso de uso: Cargar y leer un CSV"):
+        with st.echo():
+            import pandas as pd
+
+            csv = st.file_uploader("Subí un CSV", type="csv")
+
+            if csv:
+                df = pd.read_csv(csv)
+                st.dataframe(df)
+
+    # -------------------------------------------------
+    # Caso 2: Subir imágenes
+    # -------------------------------------------------
+    with st.expander("🖼️ Caso de uso: Subir imágenes"):
+        with st.echo():
+            imagen = st.file_uploader(
+                "Imagen",
+                type=["jpg", "jpeg", "png"]
+            )
+
+            if imagen:
+                st.image(imagen)
+
+    # -------------------------------------------------
+    # Caso 3: Subir varios archivos
+    # -------------------------------------------------
+    with st.expander("📚 Caso de uso: Subir múltiples archivos"):
+        with st.echo():
+            archivos = st.file_uploader(
+                "Varios archivos",
+                accept_multiple_files=True
+            )
+
+            if archivos:
+                st.write("Cantidad:", len(archivos))
+
+    # -------------------------------------------------
+    # Caso 4: Validar tamaño
+    # -------------------------------------------------
+    with st.expander("⚠️ Caso de uso: Limitar tamaño"):
+        with st.echo():
+            archivo = st.file_uploader(
+                "Máx 2 MB",
+                max_upload_size=2
+            )
+
+            if archivo:
+                st.success("Archivo aceptado")
+
+    # -------------------------------------------------
+    # Caso 5: Desactivar según lógica
+    # -------------------------------------------------
+    with st.expander("🔒 Caso de uso: Desactivar uploader"):
+        with st.echo():
+            habilitar = st.checkbox("Habilitar carga")
+
+            st.file_uploader(
+                "Uploader controlado",
+                disabled=not habilitar
+            )
 
