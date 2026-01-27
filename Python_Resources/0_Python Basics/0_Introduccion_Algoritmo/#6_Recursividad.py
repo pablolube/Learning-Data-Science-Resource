@@ -24,17 +24,22 @@ print("================================================")
 # ============================================================
 # 1) CONTAR HACIA ATRÁS (EJEMPLO BÁSICO)
 # ============================================================
+
+
 print("\n1) CONTAR HACIA ATRÁS")
 
-def contar(n):
-    if n == 0:                     # CASO BASE
-        print("Fin de la recursión")
+def contar_para_atras(start):
+    int(start)
+    print(start)
+    if start==0:
         return
-    print("Valor actual:", n)
-    contar(n - 1)                  # CASO RECURSIVO
-
-contar(5)
-
+        
+    else:
+        contar_para_atras(start-1)
+        
+start = int(input("Ingrese un número: "))
+print("Empieza  a contar")
+contar_para_atras(start)
 
 # ============================================================
 # 2) SUMA RECURSIVA
@@ -49,7 +54,36 @@ def suma(n):
 print("Resultado suma(5):", suma(5))
 
 
-# ============================================================
+
+###############################
+# 2 BIS  SUMATORIA LISTA 
+##################################
+
+lista = []
+while True:
+    entrada = input('Ingresa números para sumar, para terminar ingresa "F": ')
+    
+    if entrada.upper() == "F":  # Acepta "f" o "F"
+        break  # Sale del bucle
+    
+    try:
+        valor = int(entrada)
+        lista.append(valor)
+    except ValueError:
+        print("¡Eso no es un número válido!")
+        
+print("Lista final:", lista)
+print("Suma:", sum(lista))
+
+
+def suma_recursiva(lista):
+    if not lista:
+        return 0
+    else:
+        return lista[0]+suma_recursiva(lista[1:])
+    
+
+#  ============================================================
 # 3) FACTORIAL (PROBLEMA MATEMÁTICO)
 # ============================================================
 print("\n3) FACTORIAL")
